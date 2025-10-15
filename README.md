@@ -1,22 +1,14 @@
-# qTox
+# qTox - Ubuntu Edition
 
-This is the official fork of qTox, developed by the toxcore developer team. See
-the README on https://github.com/qTox/qTox for reasoning.
+**Version 2.0.0** - Modern, Ubuntu-focused secure messaging client
 
-As [sudden6](https://github.com/sudden6) did, I also want to take the time and thank all
-original qTox [contributors](https://github.com/qTox/qTox/graphs/contributors) and
-especially the long term contributors and founders:
+This is a modernized fork of qTox, optimized exclusively for Ubuntu Linux with a
+contemporary user interface and streamlined codebase.
 
-- [anthonybilinski](https://github.com/anthonybilinski)
-- [Diadlo](https://github.com/Diadlo)
-- [sudden6](https://github.com/sudden6)
-- [nurupo](https://github.com/nurupo)
-- [tux3](https://github.com/tux3)
-- [zetok](https://github.com/zetok)
+**Note:** This version (2.x) is Ubuntu-only. For Windows/macOS support, see the
+original qTox project at https://github.com/TokTok/qTox
 
-It was fun working with all of you and I learned a lot!
-
-`Let's meet in the restaurant at the end of the universe.` - [iphydf](https://github.com/iphydf)
+---
 
 <a name="qtox" />
 
@@ -40,35 +32,37 @@ It was fun working with all of you and I learned a lot!
 
 <p align="center"><b>
 qTox is a chat, voice, video, and file transfer instant messaging client using
-the encrypted peer-to-peer Tox protocol.
+the encrypted peer-to-peer Tox protocol, redesigned for modern Ubuntu systems.
 </b></p>
 
-**[User Manual] |**
-**[Install/Build] |**
-**[Roadmap] |**
-**[Report bugs] |**
-**[Mailing list] |**
-**IRC:** [#qtox@libera.chat]
+## 🚀 What's New in 2.0
 
-Come join us in the dev chat! We're running a GroupBot with Tox ID
-[648BF2EEE794E94444B848F8FC6AD3BA029C9BC2649BA761EF556DA17F549022A8D7596E7DBA](tox:648BF2EEE794E94444B848F8FC6AD3BA029C9BC2649BA761EF556DA17F549022A8D7596E7DBA).
-When you add it, it will invite you to the TokTok Dev conference, which is
-linked to the dev group chat with Chat ID
-360497DA684BCE2A500C1AF9B3A5CE949BBB9F6FB1F91589806FB04CA039E313.
+- ✨ **Ubuntu-Only Focus**: Removed cross-platform bloat for a leaner codebase
+- 🎨 **Modern UI**: Contemporary interface inspired by Signal and Telegram
+- 🐧 **Native Integration**: Deep Ubuntu theme and HiDPI support
+- ⚡ **Performance**: Optimized specifically for Linux/Ubuntu
+- 🧹 **Clean Architecture**: Improved code organization and maintainability
+
+## 📥 Installation
+
+### Ubuntu 22.04+ (Recommended)
+
+```bash
+# Install from Flatpak
+flatpak install qTox
+
+# Or build from source (see INSTALL.md)
+```
+
+**[Install/Build Instructions]** | **[User Manual]** | **[Report Bugs]**
 
 ---
 
-| Windows                                          | Linux                                                                              | macOS (Apple silicon)                                     | macOS (Intel)                                             | FreeBSD              |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | -------------------- |
-| **[64 bit release]**                             | **[Arch]**, **[Debian]**, **[Fedora]**, **[Gentoo]**, **[openSUSE]**, **[Ubuntu]** | **[Latest ARM64 release 12+]**                            | **[Latest Intel release 12+]**                            | **[Package & Port]** |
-| [32 bit release]                                 | **[Flatpak (64 bit)]**                                                             | [Building instructions]                                   | [Building instructions]                                   |
-| [64 bit][64nightly], [32 bit][32nightly] nightly | [From Source], [Flatpak nightly (64 bit)]                                          | [Latest ARM64 nightly 12+], [Latest ARM64 nightly 10.15+] | [Latest Intel nightly 12+], [Latest Intel nightly 10.15+] |
+## 📋 Requirements
 
-_**Bold** options are recommended._
-
-Builds other than installer/packages don't receive updates automatically, so
-make sure you get back to this site and regularly download the latest version of
-qTox.
+- **OS**: Ubuntu 22.04 LTS or newer
+- **Qt**: Qt 6.5+
+- **Display Server**: Wayland (X11 supported)
 
 ### Help us
 

@@ -1,0 +1,11 @@
+set(qml_import_scanner_imports_count 9)
+set(qml_import_scanner_import_0 "NAME;QtQuick;TYPE;module;")
+set(qml_import_scanner_import_1 "NAME;QtQuick.Controls;TYPE;module;")
+set(qml_import_scanner_import_2 "NAME;QtQuick.Layouts;TYPE;module;")
+set(qml_import_scanner_import_3 "NAME;QtQuick.Window;TYPE;module;")
+set(qml_import_scanner_import_4 "NAME;components;PATH;/home/racha/qTox/src/qml/main.qml/components;TYPE;directory;")
+set(qml_import_scanner_import_5 "NAME;pages;PATH;/home/racha/qTox/src/qml/main.qml/pages;TYPE;directory;")
+set(qml_import_scanner_import_6 "NAME;themes;PATH;/home/racha/qTox/src/qml/main.qml/themes;TYPE;directory;")
+set(qml_import_scanner_import_7 "NAME;../themes;PATH;/home/racha/qTox/src/qml/components/themes;TYPE;directory;")
+set(qml_import_scanner_import_8 "NAME;QtGraphicalEffects;TYPE;module;")
+

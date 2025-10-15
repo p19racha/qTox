@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil_library.a CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o CMakeFiles/util_library.dir/src/algorithm.cpp.o CMakeFiles/util_library.dir/src/display.cpp.o CMakeFiles/util_library.dir/src/network.cpp.o CMakeFiles/util_library.dir/src/ranges.cpp.o CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o
+/usr/bin/ranlib libutil_library.a

@@ -1,0 +1,140 @@
+{
+	"BUILD_DIR" : "/home/racha/qTox/build-test/util/util_library_autogen",
+	"CMAKE_BINARY_DIR" : "/home/racha/qTox/build-test",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/racha/qTox/build-test/util",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/racha/qTox/util",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/racha/qTox/util/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/racha/qTox",
+	"DEP_FILE" : "/home/racha/qTox/build-test/util/util_library_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "util_library_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/racha/qTox/util/include/util/algorithm.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_algorithm.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/display.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_display.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/interface.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_interface.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/network.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_network.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/ranges.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_ranges.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/strongtype.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_strongtype.cpp",
+			null
+		],
+		[
+			"/home/racha/qTox/util/include/util/toxcoreerrorparser.h",
+			"Mu",
+			"YCGQ5ZEDH3/moc_toxcoreerrorparser.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/racha/qTox/build-test/util/util_library_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/racha/qTox/build-test/util/util_library_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LOG_TO_FILE=1",
+		"QTOX_PLATFORM_EXT",
+		"QT_CORE_LIB",
+		"QT_MESSAGELOGCONTEXT=1",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_CONTEXTLESS_CONNECT",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_RESTRICTED_CAST_FROM_ASCII",
+		"UPDATE_CHECK_ENABLED=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/racha/qTox/build-test",
+		"/home/racha/qTox",
+		"/usr/include/sqlcipher",
+		"/usr/include/opus",
+		"/usr/include/AL",
+		"/home/racha/qTox/util/include",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtNetwork",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++20",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/racha/qTox/build-test/util/util_library_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 12,
+	"PARSE_CACHE_FILE" : "/home/racha/qTox/build-test/util/CMakeFiles/util_library_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 4,
+	"SETTINGS_FILE" : "/home/racha/qTox/build-test/util/CMakeFiles/util_library_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/racha/qTox/util/src/algorithm.cpp", "Mu", null ],
+		[ "/home/racha/qTox/util/src/display.cpp", "Mu", null ],
+		[ "/home/racha/qTox/util/src/network.cpp", "Mu", null ],
+		[ "/home/racha/qTox/util/src/ranges.cpp", "Mu", null ],
+		[ "/home/racha/qTox/util/src/toxcoreerrorparser.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

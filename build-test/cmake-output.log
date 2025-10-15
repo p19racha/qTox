@@ -1,0 +1,167 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using ccache
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found WrapOpenGL: TRUE  
+-- Could NOT find XKB (missing: XKB_LIBRARY XKB_INCLUDE_DIR) (Required is at least version "0.5.0")
+-- Found WrapVulkanHeaders: /usr/include  
+-- Qt6 found at /usr
+-- Using DBus for desktop notifications
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 60.31.102
+-- LIBAVCODEC LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBAVCODEC INCLUDE_DIRS: /usr/include/x86_64-linux-gnu
+-- LIBAVCODEC CFLAGS_OTHER: 
+-- LIBAVCODEC LIBRARIES:    avcodec
+-- LIBAVCODEC found
+-- Checking for module 'libavdevice'
+--   Found libavdevice, version 60.3.100
+-- LIBAVDEVICE LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBAVDEVICE INCLUDE_DIRS: /usr/include/x86_64-linux-gnu
+-- LIBAVDEVICE CFLAGS_OTHER: 
+-- LIBAVDEVICE LIBRARIES:    avdevice
+-- LIBAVDEVICE found
+-- Checking for module 'libavformat'
+--   Found libavformat, version 60.16.100
+-- LIBAVFORMAT LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBAVFORMAT INCLUDE_DIRS: /usr/include/x86_64-linux-gnu
+-- LIBAVFORMAT CFLAGS_OTHER: 
+-- LIBAVFORMAT LIBRARIES:    avformat
+-- LIBAVFORMAT found
+-- Checking for module 'libavutil'
+--   Found libavutil, version 58.29.100
+-- LIBAVUTIL LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBAVUTIL INCLUDE_DIRS: /usr/include/x86_64-linux-gnu
+-- LIBAVUTIL CFLAGS_OTHER: 
+-- LIBAVUTIL LIBRARIES:    avutil
+-- LIBAVUTIL found
+-- Checking for module 'libexif'
+--   Found libexif, version 0.6.24
+-- LIBEXIF LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBEXIF INCLUDE_DIRS: /usr/include
+-- LIBEXIF CFLAGS_OTHER: 
+-- LIBEXIF LIBRARIES:    exif
+-- LIBEXIF found
+-- Checking for module 'libqrencode'
+--   Found libqrencode, version 4.1.1
+-- LIBQRENCODE LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBQRENCODE INCLUDE_DIRS: /usr/include
+-- LIBQRENCODE CFLAGS_OTHER: 
+-- LIBQRENCODE LIBRARIES:    qrencode
+-- LIBQRENCODE found
+-- Checking for module 'libswscale'
+--   Found libswscale, version 7.5.100
+-- LIBSWSCALE LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBSWSCALE INCLUDE_DIRS: /usr/include/x86_64-linux-gnu
+-- LIBSWSCALE CFLAGS_OTHER: 
+-- LIBSWSCALE LIBRARIES:    swscale
+-- LIBSWSCALE found
+-- Checking for module 'sqlcipher'
+--   Found sqlcipher, version 4.5
+-- SQLCIPHER LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- SQLCIPHER INCLUDE_DIRS: /usr/include/sqlcipher
+-- SQLCIPHER CFLAGS_OTHER: 
+-- SQLCIPHER LIBRARIES:    sqlcipher
+-- SQLCIPHER found
+CMake Warning at cmake/Dependencies.cmake:145 (find_package):
+  By not providing "FindKF6Sonnet.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "KF6Sonnet", but CMake did not find one.
+
+  Could not find a package configuration file provided by "KF6Sonnet" with
+  any of the following names:
+
+    KF6SonnetConfig.cmake
+    kf6sonnet-config.cmake
+
+  Add the installation prefix of "KF6Sonnet" to CMAKE_PREFIX_PATH or set
+  "KF6Sonnet_DIR" to a directory containing one of the above files.  If
+  "KF6Sonnet" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:173 (include)
+
+
+CMake Warning at cmake/Dependencies.cmake:151 (message):
+  Sonnet not found.  Spell checking will be disabled.
+Call Stack (most recent call first):
+  CMakeLists.txt:173 (include)
+
+
+-- Checking for module 'toxcore'
+--   Found toxcore, version 0.2.18
+-- TOXCORE LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- TOXCORE INCLUDE_DIRS: /usr/include;/usr/include/opus
+-- TOXCORE CFLAGS_OTHER: 
+-- TOXCORE LIBRARIES:    toxcore
+-- TOXCORE found
+-- Checking for module 'toxav'
+--   Package 'toxav', required by 'virtual:world', not found
+-- TOXAV not found
+-- Checking for module 'toxencryptsave'
+--   Package 'toxencryptsave', required by 'virtual:world', not found
+-- TOXENCRYPTSAVE not found
+-- Checking for module 'libsodium'
+--   Found libsodium, version 1.0.18
+-- LIBSODIUM LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- LIBSODIUM INCLUDE_DIRS: /usr/include
+-- LIBSODIUM CFLAGS_OTHER: 
+-- LIBSODIUM LIBRARIES:    sodium
+-- LIBSODIUM found
+-- Checking for module 'opus'
+--   Found opus, version 1.4
+-- OPUS LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- OPUS INCLUDE_DIRS: /usr/include/opus
+-- OPUS CFLAGS_OTHER: 
+-- OPUS LIBRARIES:    opus
+-- OPUS found
+-- Checking for module 'vpx'
+--   Found vpx, version 1.14.0
+-- VPX LIBRARY_DIRS: /usr/lib
+-- VPX INCLUDE_DIRS: /usr/include
+-- VPX CFLAGS_OTHER: 
+-- VPX LIBRARIES:    vpx;m
+-- VPX found
+-- Checking for module 'openal'
+--   Found openal, version 1.23.1
+-- OPENAL LIBRARY_DIRS: /usr/lib/x86_64-linux-gnu
+-- OPENAL INCLUDE_DIRS: /usr/include;/usr/include/AL
+-- OPENAL CFLAGS_OTHER: 
+-- OPENAL LIBRARIES:    openal
+-- OPENAL found
+-- Checking for module 'v4l2'
+--   Package 'v4l2', required by 'virtual:world', not found
+-- V4L2 not found
+-- Checking for module 'libunwind'
+--   Package 'libunwind', required by 'virtual:world', not found
+-- LIBUNWIND not found
+-- Git version: 2bdce5d7a42155236c38173915f6e3d1e8d64bb6
+-- Git describe: v1.18.3-28-g2bdce5d7a
+-- Git describe exact: Nightly
+-- Using smiley packs Classic;EmojiOne;Universe
+-- Using update check
+-- CMAKE_CXX_FLAGS:  -fno-exceptions -fstack-protector-all
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test COMPILER_SUPPORTS_WARNING_WEAK_VTABLES
+-- Performing Test COMPILER_SUPPORTS_WARNING_WEAK_VTABLES - Failed
+-- Performing Test COMPILER_SUPPORTS_WDATE_TIME
+-- Performing Test COMPILER_SUPPORTS_WDATE_TIME - Success
+-- Configuring done (10.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/racha/qTox/build-test

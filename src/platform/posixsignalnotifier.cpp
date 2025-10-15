@@ -74,13 +74,8 @@ void installCrashHandler()
     struct sigaction action = {};
     sigemptyset(&action.sa_mask);
 
-#ifdef Q_OS_MACOS
-    /* for some reason backtrace() doesn't work on macOS
-       when we use an alternate stack */
-    action.sa_flags = SA_SIGINFO;
-#else
+    // Use alternate stack for signal handling on Linux
     action.sa_flags = SA_SIGINFO | SA_ONSTACK;
-#endif
 
     action.sa_handler = [](int sig) {
         // Uninstall the signal handler to avoid infinite recursion.

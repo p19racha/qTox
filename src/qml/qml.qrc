@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/qml">
+        <!-- Main Application -->
+        <file>main.qml</file>
+        
+        <!-- Theme System -->
+        <file>themes/Theme.qml</file>
+        <file>themes/qmldir</file>
+        
+        <!-- Components -->
+        <file>components/ModernButton.qml</file>
+        <file>components/MessageBubble.qml</file>
+        <file>components/ContactListItem.qml</file>
+        
+        <!-- Pages (to be added) -->
+        <!-- <file>pages/ChatPage.qml</file> -->
+        <!-- <file>pages/SettingsPage.qml</file> -->
+        
+        <!-- Dialogs (to be added) -->
+        <!-- <file>dialogs/AddFriendDialog.qml</file> -->
+    </qresource>
+</RCC>

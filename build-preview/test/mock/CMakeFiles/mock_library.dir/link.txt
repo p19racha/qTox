@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmock_library.a CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o
+/usr/bin/ranlib libmock_library.a

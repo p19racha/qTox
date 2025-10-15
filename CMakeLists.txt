@@ -17,8 +17,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 option(SMILEYS "Enable smileys support (will greatly increase the binary size)"
        ON)
-option(PLATFORM_EXTENSIONS
-       "Enable platform specific extensions, requires extra dependencies" ON)
+# Platform extensions always enabled for Linux
+add_definitions(-DQTOX_PLATFORM_EXT)
 option(UPDATE_CHECK "Enable automatic update check" ON)
 option(USE_CCACHE "Use ccache when available" ON)
 option(SPELL_CHECK "Enable spellcheck support" ON)
@@ -35,6 +35,8 @@ option(
   REPR_RCC
   "Set the version of the Qt resource file format to 1 to help with reproducible builds"
   OFF)
+option(BUILD_QML_PREVIEW
+       "Build standalone QML UI preview application for development" OFF)
 
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE
@@ -48,23 +50,9 @@ set(ENV{PKG_CONFIG_PATH}
     ${CMAKE_SOURCE_DIR}/libs/lib/pkgconfig:/opt/ffmpeg/lib/pkgconfig:$ENV{PKG_CONFIG_PATH}
 )
 
-# necessary to find openal-soft on mac os
-if(APPLE)
-  # The /opt version is needed on arm64, but it doesn't harm on x86_64. The
-  # /usr/local version is needed on x86_64, but it doesn't harm on arm64.
-  set(ENV{PKG_CONFIG_PATH}
-      $ENV{PKG_CONFIG_PATH}:/opt/homebrew/opt/openal-soft/lib/pkgconfig:/usr/local/opt/openal-soft/lib/pkgconfig
-  )
-endif()
-
-execute_process(
-  COMMAND brew --prefix qt@6
-  OUTPUT_VARIABLE QT_PREFIX_PATH
-  OUTPUT_STRIP_TRAILING_WHITESPACE)
-
 project(
   qTox
-  VERSION 1.18.3
+  VERSION 2.0.0
   LANGUAGES CXX)
 set(PROJECT_ORG "io.github.qtox")
 
@@ -145,23 +133,16 @@ endif()
 # Apply resource compilation options.
 set(CMAKE_AUTORCC_OPTIONS ${AUTORCC_OPTIONS})
 
-# Emscripten needs -fexceptions at link time.
-if(NOT EMSCRIPTEN)
-  # Disable exceptions (Qt doesn't use them, we don't need them).
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
-endif()
+# Disable exceptions (Qt doesn't use them, we don't need them).
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
 
 # Hardening flags (ASLR, warnings, etc)
 set(CMAKE_POSITION_INDEPENDENT_CODE True)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fstack-protector-all")
 
-if(NOT WIN32 AND NOT HAIKU)
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fstack-protector-all")
-endif()
-
-if(UNIX AND NOT APPLE)
-  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,now")
-  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,relro")
-endif()
+# Linux-specific linker flags for security
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,now")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,relro")
 
 add_definitions(-DQT_NO_CAST_FROM_BYTEARRAY)
 add_definitions(-DQT_NO_CAST_TO_ASCII)
@@ -219,7 +200,7 @@ qt6_wrap_ui(
   src/widget/form/settings/privacysettings.ui
   src/widget/form/settings/userinterfacesettings.ui)
 
-set(${BINARY_NAME}_RESOURCES res.qrc)
+set(${BINARY_NAME}_RESOURCES res.qrc src/qml/qml.qrc)
 
 if(SMILEYS)
   if(NOT SMILEY_PACKS)
@@ -438,17 +419,12 @@ set(${BINARY_NAME}_SOURCES
     src/persistence/smileypack.h
     src/persistence/toxsave.cpp
     src/persistence/toxsave.h
+    # Platform-specific code (Linux/Ubuntu only)
     src/platform/autorun.h
-    src/platform/autorun_osx.cpp
-    src/platform/autorun_win.cpp
     src/platform/autorun_xdg.cpp
-    src/platform/camera/directshow.cpp
-    src/platform/camera/directshow.h
     src/platform/camera/v4l2.cpp
     src/platform/camera/v4l2.h
     src/platform/capslock.h
-    src/platform/capslock_osx.cpp
-    src/platform/capslock_win.cpp
     src/platform/capslock_x11.cpp
     src/platform/desktop_notifications/desktopnotify.cpp
     src/platform/desktop_notifications/desktopnotify.h
@@ -463,8 +439,7 @@ set(${BINARY_NAME}_SOURCES
     src/platform/stacktrace.cpp
     src/platform/stacktrace.h
     src/platform/timer.h
-    src/platform/timer_osx.cpp
-    src/platform/timer_win.cpp
+    src/platform/timer_x11.cpp
     src/platform/timer_x11.cpp
     src/platform/x11_display.cpp
     src/video/cameradevice.cpp
@@ -634,35 +609,18 @@ set(${BINARY_NAME}_SOURCES
     src/widget/translator.cpp
     src/widget/translator.h
     src/widget/widget.cpp
-    src/widget/widget.h)
-
-if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-  set(${BINARY_NAME}_RESOURCES ${${BINARY_NAME}_RESOURCES}
-                               platform/windows/qtox.rc)
-endif()
+    src/widget/widget.h
+    # Modern UI controllers
+    src/ui/thememanager.cpp
+    src/ui/thememanager.h)
 
 add_definitions(-DQT_MESSAGELOGCONTEXT=1)
-
-if(AVFOUNDATION_FOUND)
-  set(${BINARY_NAME}_SOURCES
-      ${${BINARY_NAME}_SOURCES} src/platform/camera/avfoundation.mm
-      src/platform/camera/avfoundation.h)
-endif()
 
 if(${UPDATE_CHECK})
   add_definitions(-DUPDATE_CHECK_ENABLED=1)
   message(STATUS "Using update check")
 else()
   message(STATUS "NOT using update check")
-endif()
-
-if(MINGW)
-  string(TOLOWER "${CMAKE_BUILD_TYPE}" CMAKE_BUILD_TYPE_LOWER)
-  if(CMAKE_BUILD_TYPE_LOWER MATCHES debug)
-    # Allows wine to display source code file names and line numbers on crash in
-    # its backtrace
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -gdwarf-2")
-  endif()
 endif()
 
 # the compiler flags for compiling C++ sources
@@ -697,35 +655,15 @@ target_link_libraries(${BINARY_NAME}_static util_library)
 target_link_libraries(${BINARY_NAME}_static audio_library)
 target_link_libraries(${BINARY_NAME}_static translations_library)
 
-if(COMMAND qt_policy)
-  # set QTP0002 policy: target properties that specify Android-specific paths
-  # may contain generator expressions
-  qt_policy(SET QTP0002 NEW)
-endif()
-
-qt_add_executable(${BINARY_NAME} WIN32 MACOSX_BUNDLE
+# Create the main executable (Linux only, no WIN32/MACOSX_BUNDLE flags)
+qt_add_executable(${BINARY_NAME}
                   ${${BINARY_NAME}_RESOURCES} ${SMILEY_RESOURCES} src/main.cpp)
 target_link_libraries(
   ${BINARY_NAME} PRIVATE ${BINARY_NAME}_static ${CMAKE_REQUIRED_LIBRARIES}
                          ${ALL_LIBRARIES})
-set_target_properties(
-  ${BINARY_NAME}
-  PROPERTIES
-    QT_ANDROID_TARGET_SDK_VERSION 34
-    QT_ANDROID_MIN_SDK_VERSION 24
-    QT_ANDROID_PACKAGE_SOURCE_DIR
-    "${CMAKE_CURRENT_SOURCE_DIR}/platform/android/qt-${Qt6Core_VERSION}")
 
 if(FULLY_STATIC)
   target_link_options(${BINARY_NAME} PRIVATE -static-pie)
-endif()
-
-if(EMSCRIPTEN)
-  target_link_options(${BINARY_NAME} PRIVATE -sASYNCIFY -lidbfs.js)
-
-  # Turn off testing, because there's no offscreen plugin.
-  message(STATUS "Disabling testing for Emscripten")
-  set(BUILD_TESTING OFF)
 endif()
 
 if(BUILD_TESTING)
@@ -741,4 +679,40 @@ if(DEFINED ENV{IN_NIX_SHELL})
     TARGET ${BINARY_NAME}
     POST_BUILD
     COMMAND nix-shell --run "wrapQtApp ${BINARY_NAME}")
+endif()
+
+# ##############################################################################
+#
+# :: QML Preview Application (Optional)
+#
+# ##############################################################################
+
+if(BUILD_QML_PREVIEW)
+  message(STATUS "Building QML Preview application")
+  
+  qt_add_executable(qml_preview
+    qml_preview.cpp
+    src/ui/thememanager.cpp
+    src/ui/thememanager.h
+  )
+  
+  target_link_libraries(qml_preview PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickControls2
+  )
+  
+  # Add QML resources
+  target_sources(qml_preview PRIVATE
+    src/qml/qml.qrc
+  )
+  
+  set_target_properties(qml_preview PROPERTIES
+    AUTOMOC ON
+    AUTORCC ON
+  )
+  
+  message(STATUS "QML Preview target created. Run with: ./qml_preview")
 endif()

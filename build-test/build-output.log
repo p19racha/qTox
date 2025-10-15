@@ -1,0 +1,243 @@
+[  0%] Built target util_library_autogen_timestamp_deps
+[  0%] Generating be.qm
+[  0%] Generating ar.qm
+[  0%] Generating bg.qm
+[  0%] Generating ber.qm
+[  0%] Generating cs.qm
+[  1%] Generating bn.qm
+[  1%] Generating el.qm
+[  1%] Generating de.qm
+[  1%] Generating da.qm
+[  1%] Generating fa.qm
+[  1%] Generating eo.qm
+[  1%] Generating et.qm
+[  1%] Generating hr.qm
+Updating '/home/racha/qTox/build-test/translations/be.qm'...
+[  1%] Generating fr.qm
+[  1%] Generating gl.qm
+[  1%] Generating es.qm
+[  2%] Generating fi.qm
+[  3%] Generating en.qm
+[  3%] Generating he.qm
+Updating '/home/racha/qTox/build-test/translations/ar.qm'...
+    Generated 688 translation(s) (469 finished and 219 unfinished)
+    Ignored 2 untranslated source text(s)
+[  4%] Generating hu.qm
+[  4%] Generating it.qm
+[  4%] Generating is.qm
+Updating '/home/racha/qTox/build-test/translations/bg.qm'...
+[  4%] Generating ja.qm
+Updating '/home/racha/qTox/build-test/translations/cs.qm'...
+Updating '/home/racha/qTox/build-test/translations/da.qm'...
+    Generated 685 translation(s) (360 finished and 325 unfinished)
+    Ignored 5 untranslated source text(s)
+    Generated 690 translation(s) (690 finished and 0 unfinished)
+Updating '/home/racha/qTox/build-test/translations/en.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 6 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/el.qm'...
+    Generated 690 translation(s) (564 finished and 126 unfinished)
+Updating '/home/racha/qTox/build-test/translations/ber.qm'...
+    Generated 683 translation(s) (140 finished and 543 unfinished)
+    Ignored 7 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/de.qm'...
+Updating '/home/racha/qTox/build-test/translations/eo.qm'...
+Updating '/home/racha/qTox/build-test/translations/gl.qm'...
+Updating '/home/racha/qTox/build-test/translations/bn.qm'...
+Updating '/home/racha/qTox/build-test/translations/et.qm'...
+Updating '/home/racha/qTox/build-test/translations/fi.qm'...
+Updating '/home/racha/qTox/build-test/translations/fr.qm'...
+    Generated 690 translation(s) (661 finished and 29 unfinished)
+    Generated 684 translation(s) (169 finished and 515 unfinished)
+    Ignored 6 untranslated source text(s)
+    Generated 686 translation(s) (435 finished and 251 unfinished)
+    Ignored 4 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/fa.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 689 translation(s) (17 finished and 672 unfinished)
+    Ignored 1 untranslated source text(s)
+    Generated 688 translation(s) (477 finished and 211 unfinished)
+    Ignored 2 untranslated source text(s)
+[  5%] Automatic MOC for target util_library
+Updating '/home/racha/qTox/build-test/translations/it.qm'...
+    Generated 683 translation(s) (7 finished and 676 unfinished)
+    Ignored 7 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/es.qm'...
+    Generated 690 translation(s) (564 finished and 126 unfinished)
+    Generated 690 translation(s) (607 finished and 83 unfinished)
+[  6%] Generating kmr.qm
+    Generated 690 translation(s) (565 finished and 125 unfinished)
+Updating '/home/racha/qTox/build-test/translations/ja.qm'...
+    Generated 690 translation(s) (608 finished and 82 unfinished)
+Updating '/home/racha/qTox/build-test/translations/hu.qm'...
+Updating '/home/racha/qTox/build-test/translations/he.qm'...
+    Generated 690 translation(s) (477 finished and 213 unfinished)
+[  6%] Generating jbo.qm
+    Generated 690 translation(s) (666 finished and 24 unfinished)
+Updating '/home/racha/qTox/build-test/translations/is.qm'...
+    Generated 690 translation(s) (648 finished and 42 unfinished)
+    Generated 690 translation(s) (477 finished and 213 unfinished)
+Updating '/home/racha/qTox/build-test/translations/hr.qm'...
+[  6%] Generating ko.qm
+[  6%] Generating li.qm
+[  6%] Generating kn.qm
+    Generated 684 translation(s) (20 finished and 664 unfinished)
+    Ignored 6 untranslated source text(s)
+[  6%] Generating lv.qm
+    Generated 685 translation(s) (29 finished and 656 unfinished)
+    Ignored 5 untranslated source text(s)
+[  6%] Generating lt.qm
+    Generated 686 translation(s) (477 finished and 209 unfinished)
+    Ignored 4 untranslated source text(s)
+[  7%] Generating mk.qm
+[  7%] Generating pt.qm
+[  7%] Generating nl.qm
+[  7%] Generating nl_BE.qm
+Updating '/home/racha/qTox/build-test/translations/kmr.qm'...
+[  7%] Generating pl.qm
+[  8%] Generating pt_BR.qm
+[  8%] Generating pr.qm
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 325 translation(s) (0 finished and 325 unfinished)
+    Ignored 365 untranslated source text(s)
+[  8%] Generating ru.qm
+[  8%] Generating ro.qm
+Updating '/home/racha/qTox/build-test/translations/jbo.qm'...
+[  8%] Generating nb_NO.qm
+Updating '/home/racha/qTox/build-test/translations/li.qm'...
+[  9%] Generating sk.qm
+[  9%] Generating si.qm
+Updating '/home/racha/qTox/build-test/translations/nl_BE.qm'...
+[  9%] Generating sl.qm
+Updating '/home/racha/qTox/build-test/translations/ko.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 689 translation(s) (0 finished and 689 unfinished)
+    Ignored 1 untranslated source text(s)
+    Generated 689 translation(s) (11 finished and 678 unfinished)
+    Ignored 1 untranslated source text(s)
+[ 10%] Generating sr_Latn.qm
+[ 10%] Generating sq.qm
+Updating '/home/racha/qTox/build-test/translations/kn.qm'...
+Updating '/home/racha/qTox/build-test/translations/lv.qm'...
+Updating '/home/racha/qTox/build-test/translations/mk.qm'...
+Updating '/home/racha/qTox/build-test/translations/nl.qm'...
+    Generated 498 translation(s) (428 finished and 70 unfinished)
+    Ignored 192 untranslated source text(s)
+[ 10%] Generating sr.qm
+    Generated 689 translation(s) (132 finished and 557 unfinished)
+    Ignored 1 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/pl.qm'...
+Updating '/home/racha/qTox/build-test/translations/lt.qm'...
+Updating '/home/racha/qTox/build-test/translations/pt.qm'...
+Updating '/home/racha/qTox/build-test/translations/pt_BR.qm'...
+    Generated 683 translation(s) (11 finished and 672 unfinished)
+    Ignored 7 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/ro.qm'...
+    Generated 690 translation(s) (661 finished and 29 unfinished)
+    Generated 689 translation(s) (472 finished and 217 unfinished)
+    Ignored 1 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/pr.qm'...
+Updating '/home/racha/qTox/build-test/translations/nb_NO.qm'...
+    Generated 686 translation(s) (427 finished and 259 unfinished)
+    Ignored 4 untranslated source text(s)
+[ 10%] Generating sv.qm
+    Generated 690 translation(s) (613 finished and 77 unfinished)
+    Generated 690 translation(s) (631 finished and 59 unfinished)
+    Generated 690 translation(s) (564 finished and 126 unfinished)
+Updating '/home/racha/qTox/build-test/translations/sq.qm'...
+Updating '/home/racha/qTox/build-test/translations/sl.qm'...
+    Generated 690 translation(s) (607 finished and 83 unfinished)
+    Generated 690 translation(s) (533 finished and 157 unfinished)
+Updating '/home/racha/qTox/build-test/translations/ru.qm'...
+    Generated 690 translation(s) (616 finished and 74 unfinished)
+[ 10%] Generating sw.qm
+Updating '/home/racha/qTox/build-test/translations/si.qm'...
+    Generated 680 translation(s) (139 finished and 541 unfinished)
+    Ignored 10 untranslated source text(s)
+[ 10%] Generating tr.qm
+    Generated 683 translation(s) (7 finished and 676 unfinished)
+    Ignored 7 untranslated source text(s)
+    Generated 690 translation(s) (690 finished and 0 unfinished)
+Updating '/home/racha/qTox/build-test/translations/sr.qm'...
+Updating '/home/racha/qTox/build-test/translations/sk.qm'...
+    Generated 684 translation(s) (230 finished and 454 unfinished)
+    Ignored 6 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/sr_Latn.qm'...
+[ 10%] Generating ta.qm
+    Generated 683 translation(s) (2 finished and 681 unfinished)
+    Ignored 7 untranslated source text(s)
+[ 11%] Generating ug.qm
+[ 11%] Generating ur.qm
+    Generated 690 translation(s) (605 finished and 85 unfinished)
+    Generated 686 translation(s) (477 finished and 209 unfinished)
+    Ignored 4 untranslated source text(s)
+[ 11%] Generating uk.qm
+    Generated 493 translation(s) (408 finished and 85 unfinished)
+    Ignored 197 untranslated source text(s)
+[ 12%] Generating zh_CN.qm
+[ 12%] Generating vec.qm
+Updating '/home/racha/qTox/build-test/translations/sv.qm'...
+[ 12%] Generating vi.qm
+[ 12%] Generating zh_TW.qm
+Updating '/home/racha/qTox/build-test/translations/tr.qm'...
+Updating '/home/racha/qTox/build-test/translations/sw.qm'...
+    Generated 688 translation(s) (546 finished and 142 unfinished)
+    Ignored 2 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/ta.qm'...
+Updating '/home/racha/qTox/build-test/translations/ug.qm'...
+    Generated 683 translation(s) (0 finished and 683 unfinished)
+    Ignored 7 untranslated source text(s)
+Updating '/home/racha/qTox/build-test/translations/uk.qm'...
+Updating '/home/racha/qTox/build-test/translations/zh_CN.qm'...
+    Generated 690 translation(s) (607 finished and 83 unfinished)
+    Generated 690 translation(s) (690 finished and 0 unfinished)
+Updating '/home/racha/qTox/build-test/translations/ur.qm'...
+    Generated 686 translation(s) (426 finished and 260 unfinished)
+    Ignored 4 untranslated source text(s)
+    Generated 690 translation(s) (661 finished and 29 unfinished)
+    Generated 690 translation(s) (690 finished and 0 unfinished)
+Updating '/home/racha/qTox/build-test/translations/vec.qm'...
+Updating '/home/racha/qTox/build-test/translations/vi.qm'...
+Updating '/home/racha/qTox/build-test/translations/zh_TW.qm'...
+    Generated 683 translation(s) (26 finished and 657 unfinished)
+    Ignored 7 untranslated source text(s)
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 690 translation(s) (690 finished and 0 unfinished)
+    Generated 690 translation(s) (606 finished and 84 unfinished)
+[ 12%] Built target util_library_autogen
+    Generated 689 translation(s) (119 finished and 570 unfinished)
+    Ignored 1 untranslated source text(s)
+[ 12%] Built target translations_library_autogen_timestamp_deps
+[ 12%] Building CXX object util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o
+[ 12%] Building CXX object util/CMakeFiles/util_library.dir/src/algorithm.cpp.o
+[ 12%] Building CXX object util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o
+[ 12%] Building CXX object util/CMakeFiles/util_library.dir/src/network.cpp.o
+[ 13%] Building CXX object util/CMakeFiles/util_library.dir/src/display.cpp.o
+[ 13%] Building CXX object util/CMakeFiles/util_library.dir/src/ranges.cpp.o
+[ 14%] Automatic MOC for target translations_library
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:82: util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 14%] Built target translations_library_autogen
+[ 14%] Automatic RCC for translations.qrc
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:96: util/CMakeFiles/util_library.dir/src/algorithm.cpp.o] Error 1
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:138: util/CMakeFiles/util_library.dir/src/ranges.cpp.o] Error 1
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:110: util/CMakeFiles/util_library.dir/src/display.cpp.o] Error 1
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:152: util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o] Error 1
+cc1plus: error: to generate dependencies you must specify either ‘-M’ or ‘-MM’
+make[2]: *** [util/CMakeFiles/util_library.dir/build.make:124: util/CMakeFiles/util_library.dir/src/network.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2559: util/CMakeFiles/util_library.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 14%] Building CXX object translations/CMakeFiles/translations_library.dir/translations_library_autogen/mocs_compilation.cpp.o
+[ 14%] Building CXX object translations/CMakeFiles/translations_library.dir/translations_library_autogen/EJRQKI7XPS/qrc_translations.cpp.o
+[ 14%] Linking CXX static library libtranslations_library.a
+[ 26%] Built target translations_library
+make: *** [Makefile:166: all] Error 2

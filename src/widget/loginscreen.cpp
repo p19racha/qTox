@@ -123,17 +123,6 @@ void LoginScreen::onAutoLoginChanged(bool state)
 
 bool LoginScreen::event(QEvent* event)
 {
-    switch (event->type()) {
-#ifdef Q_OS_MAC
-    case QEvent::WindowActivate:
-    case QEvent::WindowStateChange:
-        emit windowStateChanged(windowState());
-        break;
-#endif
-    default:
-        break;
-    }
-
     return QWidget::event(event);
 }
 

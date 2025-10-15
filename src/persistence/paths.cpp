@@ -27,14 +27,8 @@ const QLatin1String avatarsFolder{"avatars"};
 const QLatin1String transfersFolder{"transfers"};
 const QLatin1String screenshotsFolder{"screenshots"};
 
-// NOTE(sudden6): currently unused, but reflects the TCS at 2018-11
-#ifdef Q_OS_WIN
-const QLatin1String TCSToxFileFolder{"%APPDATA%/tox/"};
-#elif defined(Q_OS_MACOS)
-const QLatin1String TCSToxFileFolder{"~/Library/Application Support/Tox"};
-#else
+// Ubuntu/Linux TCS path
 const QLatin1String TCSToxFileFolder{"~/.config/tox/"};
-#endif
 #endif // PATHS_VERSION_TCS_COMPLIANT
 } // namespace
 
@@ -194,26 +188,12 @@ QString Paths::getToxSaveDir() const
     // GenericDataLocation would be a better solution, but we keep this code for backward
     // compatibility
 
-// workaround for https://bugreports.qt-project.org/browse/QTBUG-38845
-#ifdef Q_OS_WIN
-    // TODO(sudden6): this doesn't really follow the Tox Client Standard and probably
-    // breaks when %APPDATA% is changed
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "AppData" + QDir::separator() + "Roaming"
-                           + QDir::separator() + "tox")
-           + QDir::separator();
-#elif defined(Q_OS_MACOS)
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "Library" + QDir::separator()
-                           + "Application Support" + QDir::separator() + "Tox")
-           + QDir::separator();
-#else
+    // Ubuntu/Linux: Use XDG config location
     // TODO(sudden6): This does not respect the XDG_* environment variables and also
     // stores user data in a config location
     return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation)
                            + QDir::separator() + "tox")
            + QDir::separator();
-#endif
 }
 
 /**
@@ -292,22 +272,10 @@ QString Paths::getSettingsDirPath() const
         return qApp->applicationDirPath() + QDir::separator();
     }
 
-// workaround for https://bugreports.qt-project.org/browse/QTBUG-38845
-#ifdef Q_OS_WIN
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "AppData" + QDir::separator() + "Roaming"
-                           + QDir::separator() + "tox")
-           + QDir::separator();
-#elif defined(Q_OS_MACOS)
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "Library" + QDir::separator()
-                           + "Application Support" + QDir::separator() + "Tox")
-           + QDir::separator();
-#else
+    // Ubuntu/Linux: Use XDG config location
     return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation)
                            + QDir::separator() + "tox")
            + QDir::separator();
-#endif
 }
 
 /**
@@ -347,21 +315,9 @@ QString Paths::getAppCacheDirPath() const
     if (portable)
         return qApp->applicationDirPath() + QDir::separator();
 
-// workaround for https://bugreports.qt-project.org/browse/QTBUG-38845
-#ifdef Q_OS_WIN
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "AppData" + QDir::separator() + "Roaming"
-                           + QDir::separator() + "tox")
-           + QDir::separator();
-#elif defined(Q_OS_MACOS)
-    return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)
-                           + QDir::separator() + "Library" + QDir::separator()
-                           + "Application Support" + QDir::separator() + "Tox")
-           + QDir::separator();
-#else
+    // Ubuntu/Linux: Use XDG cache location
     return QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::CacheLocation))
            + QDir::separator();
-#endif
 }
 
 QString Paths::getExampleNodesFilePath() const

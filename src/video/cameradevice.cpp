@@ -70,33 +70,6 @@ QDebug operator<<(QDebug dbg, const AVDictionary* const* dict)
     return dbg << options.join(", ").toUtf8().constData();
 }
 
-#ifdef Q_OS_MACOS
-constexpr int numDigits(uint32_t num)
-{
-    int digits = 0;
-    while (num != 0u) {
-        num /= 10;
-        ++digits;
-    }
-    return digits;
-}
-
-template <uint32_t Num>
-constexpr auto toCharArray()
-{
-    std::array<char, numDigits(Num) + 1> str{};
-    int cur = numDigits(Num);
-    for (uint32_t num = Num; num; num /= 10) {
-        str[--cur] = num % 10 + '0';
-    }
-    return str;
-}
-
-// Compile-time unit test for the above function.
-#if __cplusplus >= 202002L
-static_assert(toCharArray<12345>() == std::array<char, 6>{'1', '2', '3', '4', '5', '\0'});
-#endif
-#endif // Q_OS_MACOS
 } // namespace
 
 QHash<QString, CameraDevice*> CameraDevice::openDevices;

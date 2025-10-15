@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "/home/racha/qTox/build-preview/qtox_autogen",
+	"CMAKE_BINARY_DIR" : "/home/racha/qTox/build-preview",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/racha/qTox/build-preview",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/racha/qTox",
+	"CMAKE_SOURCE_DIR" : "/home/racha/qTox",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/racha/qTox/build-preview/qtox_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/racha/qTox/smileys/Classic/laugh_closed_eyes.png",
+		"/home/racha/qTox/smileys/Classic/uncertain.png",
+		"/home/racha/qTox/smileys/Classic/crying.png",
+		"/home/racha/qTox/smileys/Classic/tongue.png",
+		"/home/racha/qTox/smileys/Classic/cool.png",
+		"/home/racha/qTox/smileys/Classic/sad.png",
+		"/home/racha/qTox/smileys/Classic/scared.png",
+		"/home/racha/qTox/smileys/Classic/wink.png",
+		"/home/racha/qTox/smileys/Classic/happy.png",
+		"/home/racha/qTox/smileys/Classic/emoticons.xml",
+		"/home/racha/qTox/smileys/Classic/stunned.png",
+		"/home/racha/qTox/smileys/Classic/smile.png",
+		"/home/racha/qTox/smileys/Classic/angry.png",
+		"/home/racha/qTox/smileys/Classic/laugh.png",
+		"/home/racha/qTox/smileys/Classic/plain.png"
+	],
+	"LOCK_FILE" : "/home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-compress", "9", "-name", "emoticons_ZRZQEYRA6I" ],
+	"OUTPUT_CHECKSUM" : "ZRZQEYRA6I",
+	"OUTPUT_NAME" : "qrc_emoticons.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Used.txt",
+	"SOURCE" : "/home/racha/qTox/smileys/Classic/emoticons.qrc",
+	"VERBOSITY" : 0
+}

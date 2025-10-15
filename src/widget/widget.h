@@ -369,17 +369,6 @@ private:
     std::unique_ptr<NotificationGenerator> notificationGenerator;
     std::unique_ptr<DesktopNotify> notifier;
 
-#ifdef Q_OS_MAC
-    QAction* fileMenu;
-    QAction* editMenu;
-    QAction* contactMenu;
-    QMenu* changeStatusMenu;
-    QAction* editProfileAction;
-    QAction* logoutAction;
-    QAction* addContactAction;
-    QAction* nextConversationAction;
-    QAction* previousConversationAction;
-#endif
     std::unique_ptr<SmileyPack> smileyPack;
     std::unique_ptr<DocumentCache> documentCache;
     CameraSource& cameraSource;

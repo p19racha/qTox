@@ -23,15 +23,6 @@ class Style;
 class IMessageBoxManager;
 class IPC;
 
-#ifdef Q_OS_MAC
-class QMenuBar;
-class QMenu;
-class QAction;
-class QWindow;
-class QActionGroup;
-class QSignalMapper;
-#endif
-
 class Nexus : public QObject
 {
     Q_OBJECT
@@ -48,31 +39,6 @@ public:
 
     void screenshot();
 
-#ifdef Q_OS_MAC
-public:
-    QMenuBar* globalMenuBar;
-    QMenu* viewMenu;
-    QMenu* windowMenu;
-    QAction* minimizeAction;
-    QAction* fullScreenAction;
-    QAction* frontAction;
-    QMenu* dockMenu;
-
-public slots:
-    void retranslateUi() const;
-    void onWindowStateChanged(Qt::WindowStates state);
-    void updateWindows();
-    void updateWindowsClosed();
-    void updateWindowsStates() const;
-    void onOpenWindow(QObject* object);
-    void toggleFullScreen();
-    void bringAllToFront();
-
-private:
-    void updateWindowsArg(QWindow* closedWindow);
-
-    QActionGroup* windowActions = nullptr;
-#endif
 signals:
     void currentProfileChanged(Profile* Profile);
     void profileLoaded();

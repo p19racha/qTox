@@ -357,16 +357,7 @@ void CoreFile::onFileReceiveCallback(Tox* tox, uint32_t friendId, uint32_t fileI
         emit core->fileAvatarOfferReceived(friendId, fileId, avatarBytes, filesize);
         return;
     }
-#ifdef Q_OS_WIN
-    const auto cleanFileName = CoreFile::getCleanFileName(filename.getQString());
-    if (cleanFileName != filename.getQString()) {
-        qDebug() << "Cleaned filename";
-        filename = ToxString(cleanFileName);
-        emit coreFile->fileNameChanged(friendPk);
-    } else {
-        qDebug() << "filename already clean";
-    }
-#endif
+
     qDebug("Received file request %d:%d kind %d", friendId, fileId, kind);
 
     ToxFile file{fileId, friendId, filename.getQString(), "", filesize, ToxFile::RECEIVING};

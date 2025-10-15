@@ -19,10 +19,6 @@
 
 #include <cassert>
 #include <memory>
-#ifdef Q_OS_MAC
-#include <QMenuBar>
-#include <QSignalMapper>
-#endif
 
 #include "circlewidget.h"
 #include "conferencewidget.h"
@@ -386,83 +382,6 @@ void Widget::init()
     new QShortcut(Qt::CTRL | Qt::Key_PageDown, this, this, &Widget::nextChat);
     new QShortcut(Qt::Key_F11, this, this, &Widget::toggleFullScreen);
 
-#ifdef Q_OS_MAC
-    QMenuBar* globalMenu = nexus.globalMenuBar;
-    QAction* windowMenu = nexus.windowMenu->menuAction();
-    QAction* viewMenu = nexus.viewMenu->menuAction();
-    QAction* frontAction = nexus.frontAction;
-
-    fileMenu = globalMenu->insertMenu(viewMenu, new QMenu(this));
-
-    editProfileAction = fileMenu->menu()->addAction(QString());
-    connect(editProfileAction, &QAction::triggered, this, &Widget::showProfile);
-
-    changeStatusMenu = fileMenu->menu()->addMenu(QString());
-    fileMenu->menu()->addAction(changeStatusMenu->menuAction());
-    changeStatusMenu->addAction(statusOnline);
-    changeStatusMenu->addSeparator();
-    changeStatusMenu->addAction(statusAway);
-    changeStatusMenu->addAction(statusBusy);
-
-    fileMenu->menu()->addSeparator();
-    logoutAction = fileMenu->menu()->addAction(QString());
-    connect(logoutAction, &QAction::triggered, this, [this]() { nexus.showLogin(); });
-
-    editMenu = globalMenu->insertMenu(viewMenu, new QMenu(this));
-    editMenu->menu()->addSeparator();
-
-    viewMenu->menu()->insertMenu(nexus.fullScreenAction, filterMenu);
-    viewMenu->menu()->insertSeparator(nexus.fullScreenAction);
-
-    contactMenu = globalMenu->insertMenu(windowMenu, new QMenu(this));
-
-    addContactAction = contactMenu->menu()->addAction(QString());
-    connect(addContactAction, &QAction::triggered, this, &Widget::onAddClicked);
-
-    nextConversationAction = new QAction(this);
-    nexus.windowMenu->insertAction(frontAction, nextConversationAction);
-    nextConversationAction->setShortcut(QKeySequence::SelectNextPage);
-    connect(nextConversationAction, &QAction::triggered, this, [this]() {
-        if (contentDialogManager->current() == QApplication::activeWindow())
-            contentDialogManager->current()->cycleChats(true);
-        else if (QApplication::activeWindow() == this)
-            cycleChats(true);
-    });
-
-    previousConversationAction = new QAction(this);
-    nexus.windowMenu->insertAction(frontAction, previousConversationAction);
-    previousConversationAction->setShortcut(QKeySequence::SelectPreviousPage);
-    connect(previousConversationAction, &QAction::triggered, this, [this] {
-        if (contentDialogManager->current() == QApplication::activeWindow())
-            contentDialogManager->current()->cycleChats(false);
-        else if (QApplication::activeWindow() == this)
-            cycleChats(false);
-    });
-
-    windowMenu->menu()->insertSeparator(frontAction);
-
-    QAction* preferencesAction = viewMenu->menu()->addAction(QString());
-    preferencesAction->setMenuRole(QAction::PreferencesRole);
-    connect(preferencesAction, &QAction::triggered, this, &Widget::onShowSettings);
-
-    QAction* aboutAction = viewMenu->menu()->addAction(QString());
-    aboutAction->setMenuRole(QAction::AboutRole);
-    connect(aboutAction, &QAction::triggered, this, [this]() {
-        onShowSettings();
-        settingsWidget->showAbout();
-    });
-
-    auto* dockChangeStatusMenu = new QMenu(tr("Status"), this);
-    dockChangeStatusMenu->addAction(statusOnline);
-    statusOnline->setIconVisibleInMenu(true);
-    dockChangeStatusMenu->addSeparator();
-    dockChangeStatusMenu->addAction(statusAway);
-    dockChangeStatusMenu->addAction(statusBusy);
-    nexus.dockMenu->addAction(dockChangeStatusMenu->menuAction());
-
-    connect(this, &Widget::windowStateChanged, &nexus, &Nexus::onWindowStateChanged);
-#endif
-
     contentLayout = nullptr;
     onSeparateWindowChanged(settings.getSeparateWindow(), false);
 
@@ -513,10 +432,6 @@ void Widget::init()
     if (!settings.getShowSystemTray()) {
         show();
     }
-
-#ifdef Q_OS_MAC
-    nexus.updateWindows();
-#endif
 }
 
 bool Widget::eventFilter(QObject* obj, QEvent* event)
@@ -536,9 +451,6 @@ bool Widget::eventFilter(QObject* obj, QEvent* event)
             wasMaximized = ce->oldState().testFlag(Qt::WindowMaximized);
         }
 
-#ifdef Q_OS_MAC
-        emit windowStateChanged(windowState());
-#endif
         break;
     default:
         break;
@@ -1838,18 +1750,6 @@ void Widget::registerContentDialog(ContentDialog& contentDialog) const
     connect(&contentDialog, &ContentDialog::addFriendDialog, this, &Widget::addFriendDialog);
     connect(&contentDialog, &ContentDialog::addConferenceDialog, this, &Widget::addConferenceDialog);
     connect(&contentDialog, &ContentDialog::connectFriendWidget, this, &Widget::connectFriendWidget);
-
-#ifdef Q_OS_MAC
-    connect(&contentDialog, &ContentDialog::destroyed, &nexus, &Nexus::updateWindowsClosed);
-    connect(&contentDialog, &ContentDialog::windowStateChanged, &nexus, &Nexus::onWindowStateChanged);
-    QWindow* window = contentDialog.windowHandle();
-    if (window != nullptr) {
-        connect(window, &QWindow::windowTitleChanged, &nexus, &Nexus::updateWindows);
-    } else {
-        qWarning() << "Null window handle for ContentDialog";
-    }
-    nexus.updateWindows();
-#endif
 }
 
 ContentLayout* Widget::createContentDialog(DialogType type) const
@@ -1921,13 +1821,6 @@ ContentLayout* Widget::createContentDialog(DialogType type) const
     dialog->setMinimumSize(720, 400);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->show();
-
-#ifdef Q_OS_MAC
-    connect(dialog, &Dialog::destroyed, &nexus, &Nexus::updateWindowsClosed);
-    connect(dialog, &ActivateDialog::windowStateChanged, &nexus, &Nexus::updateWindowsStates);
-    connect(dialog->windowHandle(), &QWindow::windowTitleChanged, &nexus, &Nexus::updateWindows);
-    nexus.updateWindows();
-#endif
 
     return contentLayoutDialog;
 }
@@ -2242,12 +2135,6 @@ bool Widget::event(QEvent* e)
 
         focusChatInput();
 
-#ifdef Q_OS_MAC
-        emit windowStateChanged(windowState());
-
-    case QEvent::WindowStateChange:
-        nexus.updateWindowsStates();
-#endif
         break;
     default:
         break;
@@ -2313,9 +2200,6 @@ void Widget::onTryCreateTrayIcon()
                 show();
             }
 
-#ifdef Q_OS_MAC
-            nexus.dockMenu->setAsDockMenu();
-#endif
         } else if (!isVisible()) {
             show();
         }
@@ -2685,23 +2569,6 @@ void Widget::retranslateUi()
 
     friendRequestsUpdate();
     conferenceInvitesUpdate();
-
-
-#ifdef Q_OS_MAC
-    nexus.retranslateUi();
-
-    filterMenu->menuAction()->setText(tr("Filter..."));
-
-    fileMenu->setText(tr("File"));
-    editMenu->setText(tr("Edit"));
-    contactMenu->setText(tr("Contacts"));
-    changeStatusMenu->menuAction()->setText(tr("Change status"));
-    editProfileAction->setText(tr("Edit profile"));
-    logoutAction->setText(tr("Logout"));
-    addContactAction->setText(tr("Add contact..."));
-    nextConversationAction->setText(tr("Next conversation"));
-    previousConversationAction->setText(tr("Previous conversation"));
-#endif
 }
 
 void Widget::focusChatInput()

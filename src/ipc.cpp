@@ -13,23 +13,15 @@
 #include <cstdlib>
 #include <ctime>
 #include <random>
-#ifndef _MSC_VER
 #include <unistd.h>
-#endif
 
 namespace {
 #if QT_CONFIG(sharedmemory)
-#ifdef Q_OS_WIN
-const char* getCurUsername()
-{
-    return getenv("USERNAME");
-}
-#else
+// Ubuntu/Linux username retrieval
 const char* getCurUsername()
 {
     return getenv("USER");
 }
-#endif
 
 QString getIpcKey()
 {

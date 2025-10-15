@@ -12,9 +12,11 @@
         <file>components/MessageBubble.qml</file>
         <file>components/ContactListItem.qml</file>
         
-        <!-- Pages (to be added) -->
-        <!-- <file>pages/ChatPage.qml</file> -->
-        <!-- <file>pages/SettingsPage.qml</file> -->
+        <!-- Pages -->
+        <file>pages/SettingsPage.qml</file>
+        
+        <!-- Demo Applications -->
+        <file>settings_demo.qml</file>
         
         <!-- Dialogs (to be added) -->
         <!-- <file>dialogs/AddFriendDialog.qml</file> -->

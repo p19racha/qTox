@@ -715,4 +715,58 @@ if(BUILD_QML_PREVIEW)
   )
   
   message(STATUS "QML Preview target created. Run with: ./qml_preview")
+  
+  # Settings Preview Application
+  qt_add_executable(settings_preview
+    settings_preview.cpp
+    src/ui/thememanager.cpp
+    src/ui/thememanager.h
+  )
+  
+  target_link_libraries(settings_preview PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickControls2
+  )
+  
+  # Add QML resources
+  target_sources(settings_preview PRIVATE
+    src/qml/qml.qrc
+  )
+  
+  set_target_properties(settings_preview PROPERTIES
+    AUTOMOC ON
+    AUTORCC ON
+  )
+  
+  message(STATUS "Settings Preview target created. Run with: ./settings_preview")
+  
+  # Dialogs Preview Application
+  qt_add_executable(dialogs_preview
+    dialogs_preview.cpp
+    src/ui/thememanager.cpp
+    src/ui/thememanager.h
+  )
+  
+  target_link_libraries(dialogs_preview PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickControls2
+  )
+  
+  # Add QML resources
+  target_sources(dialogs_preview PRIVATE
+    src/qml/qml.qrc
+  )
+  
+  set_target_properties(dialogs_preview PROPERTIES
+    AUTOMOC ON
+    AUTORCC ON
+  )
+  
+  message(STATUS "Dialogs Preview target created. Run with: ./dialogs_preview")
 endif()

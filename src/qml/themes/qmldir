@@ -1,1 +1,4 @@
+module themes
 singleton Theme 1.0 Theme.qml
+singleton Theme 6.0 Theme.qml
+singleton Theme Theme.qml

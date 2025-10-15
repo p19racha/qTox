@@ -15,10 +15,15 @@
         <!-- Pages -->
         <file>pages/SettingsPage.qml</file>
         
+        <!-- Dialogs -->
+        <file>dialogs/ModernDialog.qml</file>
+        <file>dialogs/AddFriendDialog.qml</file>
+        <file>dialogs/FileTransferDialog.qml</file>
+        <file>dialogs/ConfirmDialog.qml</file>
+        
         <!-- Demo Applications -->
         <file>settings_demo.qml</file>
-        
-        <!-- Dialogs (to be added) -->
-        <!-- <file>dialogs/AddFriendDialog.qml</file> -->
+        <file>settings_test.qml</file>
+        <file>dialogs_demo.qml</file>
     </qresource>
 </RCC>

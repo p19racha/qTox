@@ -66,11 +66,11 @@ include CMakeFiles/qml_preview_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/qml_preview_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
-CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
 CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.4.2
+CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
+CMakeFiles/qml_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
 
 qml_preview_autogen_timestamp_deps: CMakeFiles/qml_preview_autogen_timestamp_deps
 qml_preview_autogen_timestamp_deps: CMakeFiles/qml_preview_autogen_timestamp_deps.dir/build.make

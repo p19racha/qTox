@@ -72,7 +72,7 @@ include audio/CMakeFiles/audio_library.dir/flags.make
 audio/audio_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 audio/audio_library_autogen/timestamp: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target audio_library"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutogenInfo.json Debug
+	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutogenInfo.json Release
 	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/audio/audio_library_autogen/timestamp
 
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio/resources/audio_res.qrc
@@ -83,7 +83,7 @@ audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio/resources/notification.s16le.pcm
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/audio_res.qrc"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Info.json Debug
+	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Info.json Release
 
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o: audio/CMakeFiles/audio_library.dir/flags.make
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o: audio/audio_library_autogen/mocs_compilation.cpp

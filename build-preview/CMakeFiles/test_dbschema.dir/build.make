@@ -72,7 +72,7 @@ include CMakeFiles/test_dbschema.dir/flags.make
 test_dbschema_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_dbschema_autogen/timestamp: CMakeFiles/test_dbschema.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_dbschema"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_dbschema_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_dbschema_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_dbschema_autogen/timestamp
 
 CMakeFiles/test_dbschema.dir/test_dbschema_autogen/mocs_compilation.cpp.o: CMakeFiles/test_dbschema.dir/flags.make

@@ -72,7 +72,7 @@ include CMakeFiles/settings_preview.dir/flags.make
 settings_preview_autogen/timestamp: /usr/lib/qt6/libexec/moc
 settings_preview_autogen/timestamp: CMakeFiles/settings_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target settings_preview"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/settings_preview_autogen/timestamp
 
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
@@ -81,8 +81,10 @@ settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settin
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
+settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/pages/SettingsPage.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/Theme.qml
+settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/PremiumTheme.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/qmldir
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ModernDialog.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml
@@ -91,9 +93,12 @@ settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialog
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
+settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml
+settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumButton.qml
 settings_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/qml/qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Release
 
 CMakeFiles/settings_preview.dir/settings_preview_autogen/mocs_compilation.cpp.o: CMakeFiles/settings_preview.dir/flags.make
 CMakeFiles/settings_preview.dir/settings_preview_autogen/mocs_compilation.cpp.o: settings_preview_autogen/mocs_compilation.cpp

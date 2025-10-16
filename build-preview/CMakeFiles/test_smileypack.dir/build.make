@@ -72,7 +72,7 @@ include CMakeFiles/test_smileypack.dir/flags.make
 test_smileypack_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_smileypack_autogen/timestamp: CMakeFiles/test_smileypack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_smileypack"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_smileypack_autogen/timestamp
 
 test_smileypack_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/Classic/emoticons.qrc
@@ -94,7 +94,7 @@ test_smileypack_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/C
 test_smileypack_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/Classic/plain.png
 test_smileypack_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for smileys/Classic/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Info.json Release
 
 test_smileypack_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/EmojiOne/emoticons.qrc
 test_smileypack_autogen/DJLLK6QPW4/qrc_emoticons.cpp: CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json
@@ -1934,7 +1934,7 @@ test_smileypack_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/E
 test_smileypack_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/EmojiOne/2602.svg
 test_smileypack_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for smileys/EmojiOne/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json Release
 
 test_smileypack_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/Universe/emoticons.qrc
 test_smileypack_autogen/J4LECMYR54/qrc_emoticons.cpp: CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json
@@ -2765,7 +2765,7 @@ test_smileypack_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/U
 test_smileypack_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/Universe/1f318.svg
 test_smileypack_autogen/J4LECMYR54/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Automatic RCC for smileys/Universe/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_smileypack_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json Release
 
 CMakeFiles/test_smileypack.dir/test_smileypack_autogen/mocs_compilation.cpp.o: CMakeFiles/test_smileypack.dir/flags.make
 CMakeFiles/test_smileypack.dir/test_smileypack_autogen/mocs_compilation.cpp.o: test_smileypack_autogen/mocs_compilation.cpp

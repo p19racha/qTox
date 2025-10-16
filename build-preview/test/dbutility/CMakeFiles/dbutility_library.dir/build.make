@@ -72,7 +72,7 @@ include test/dbutility/CMakeFiles/dbutility_library.dir/flags.make
 test/dbutility/dbutility_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test/dbutility/dbutility_library_autogen/timestamp: test/dbutility/CMakeFiles/dbutility_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target dbutility_library"
-	cd /home/racha/qTox/build-preview/test/dbutility && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/test/dbutility/CMakeFiles/dbutility_library_autogen.dir/AutogenInfo.json Debug
+	cd /home/racha/qTox/build-preview/test/dbutility && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/test/dbutility/CMakeFiles/dbutility_library_autogen.dir/AutogenInfo.json Release
 	cd /home/racha/qTox/build-preview/test/dbutility && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/test/dbutility/dbutility_library_autogen/timestamp
 
 test/dbutility/CMakeFiles/dbutility_library.dir/dbutility_library_autogen/mocs_compilation.cpp.o: test/dbutility/CMakeFiles/dbutility_library.dir/flags.make

@@ -72,7 +72,7 @@ include CMakeFiles/qtox.dir/flags.make
 qtox_autogen/timestamp: /usr/lib/qt6/libexec/moc
 qtox_autogen/timestamp: CMakeFiles/qtox.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target qtox"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/qtox_autogen/timestamp
 
 qtox_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res.qrc
@@ -256,7 +256,7 @@ qtox_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/nodes.json
 qtox_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/font/DejaVuSans.ttf
 qtox_autogen/EWIEGA46WW/qrc_res.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release
 
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: CMakeFiles/qtox_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json
@@ -264,8 +264,10 @@ qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/pages/SettingsPage.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/Theme.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/PremiumTheme.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/qmldir
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ModernDialog.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml
@@ -274,9 +276,12 @@ qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ConfirmDia
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumButton.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/qml/qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Release
 
 qtox_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/Classic/emoticons.qrc
 qtox_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Info.json
@@ -297,7 +302,7 @@ qtox_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/Classic/laug
 qtox_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /home/racha/qTox/smileys/Classic/plain.png
 qtox_autogen/ZRZQEYRA6I/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Automatic RCC for smileys/Classic/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_ZRZQEYRA6I_Info.json Release
 
 qtox_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/EmojiOne/emoticons.qrc
 qtox_autogen/DJLLK6QPW4/qrc_emoticons.cpp: CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json
@@ -2137,7 +2142,7 @@ qtox_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/EmojiOne/1f3
 qtox_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /home/racha/qTox/smileys/EmojiOne/2602.svg
 qtox_autogen/DJLLK6QPW4/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic RCC for smileys/EmojiOne/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_DJLLK6QPW4_Info.json Release
 
 qtox_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/Universe/emoticons.qrc
 qtox_autogen/J4LECMYR54/qrc_emoticons.cpp: CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json
@@ -2968,7 +2973,7 @@ qtox_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/Universe/1f4
 qtox_autogen/J4LECMYR54/qrc_emoticons.cpp: /home/racha/qTox/smileys/Universe/1f318.svg
 qtox_autogen/J4LECMYR54/qrc_emoticons.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Automatic RCC for smileys/Universe/emoticons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_emoticons_J4LECMYR54_Info.json Release
 
 CMakeFiles/qtox.dir/qtox_autogen/mocs_compilation.cpp.o: CMakeFiles/qtox.dir/flags.make
 CMakeFiles/qtox.dir/qtox_autogen/mocs_compilation.cpp.o: qtox_autogen/mocs_compilation.cpp

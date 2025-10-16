@@ -769,4 +769,31 @@ if(BUILD_QML_PREVIEW)
   )
   
   message(STATUS "Dialogs Preview target created. Run with: ./dialogs_preview")
+  
+  # Premium Preview - Modern WhatsApp/Telegram-style UI
+  qt_add_executable(premium_preview
+    premium_preview.cpp
+    src/ui/thememanager.cpp
+    src/ui/thememanager.h
+  )
+  
+  target_link_libraries(premium_preview PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickControls2
+  )
+  
+  # Add QML resources
+  target_sources(premium_preview PRIVATE
+    src/qml/qml.qrc
+  )
+  
+  set_target_properties(premium_preview PROPERTIES
+    AUTOMOC ON
+    AUTORCC ON
+  )
+  
+  message(STATUS "Premium Preview target created. Run with: ./premium_preview")
 endif()

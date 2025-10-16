@@ -71,7 +71,7 @@ CMakeFiles/test_core_autogen: test_core_autogen/timestamp
 test_core_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_core_autogen/timestamp: CMakeFiles/test_core_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_core"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_core_autogen/timestamp
 
 test_core_autogen: CMakeFiles/test_core_autogen

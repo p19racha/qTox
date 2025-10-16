@@ -2,15 +2,22 @@
     <qresource prefix="/qml">
         <!-- Main Application -->
         <file>main.qml</file>
+        <file>premium_chat.qml</file>
         
         <!-- Theme System -->
         <file>themes/Theme.qml</file>
+        <file>themes/PremiumTheme.qml</file>
         <file>themes/qmldir</file>
         
         <!-- Components -->
         <file>components/ModernButton.qml</file>
         <file>components/MessageBubble.qml</file>
         <file>components/ContactListItem.qml</file>
+        
+        <!-- Premium Components -->
+        <file>components/premium/PremiumButton.qml</file>
+        <file>components/premium/PremiumMessageBubble.qml</file>
+        <file>components/premium/PremiumContactCard.qml</file>
         
         <!-- Pages -->
         <file>pages/SettingsPage.qml</file>

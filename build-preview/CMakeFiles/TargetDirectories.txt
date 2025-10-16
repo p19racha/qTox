@@ -28,10 +28,12 @@
 /home/racha/qTox/build-preview/CMakeFiles/qml_preview.dir
 /home/racha/qTox/build-preview/CMakeFiles/settings_preview.dir
 /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview.dir
+/home/racha/qTox/build-preview/CMakeFiles/premium_preview.dir
 /home/racha/qTox/build-preview/CMakeFiles/qtox_qmlimportscan.dir
 /home/racha/qTox/build-preview/CMakeFiles/qml_preview_qmlimportscan.dir
 /home/racha/qTox/build-preview/CMakeFiles/settings_preview_qmlimportscan.dir
 /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_qmlimportscan.dir
+/home/racha/qTox/build-preview/CMakeFiles/premium_preview_qmlimportscan.dir
 /home/racha/qTox/build-preview/CMakeFiles/package.dir
 /home/racha/qTox/build-preview/CMakeFiles/package_source.dir
 /home/racha/qTox/build-preview/CMakeFiles/test.dir
@@ -101,6 +103,8 @@
 /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir
 /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen_timestamp_deps.dir
 /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir
+/home/racha/qTox/build-preview/CMakeFiles/premium_preview_autogen_timestamp_deps.dir
+/home/racha/qTox/build-preview/CMakeFiles/premium_preview_autogen.dir
 /home/racha/qTox/build-preview/util/CMakeFiles/util_library.dir
 /home/racha/qTox/build-preview/util/CMakeFiles/package.dir
 /home/racha/qTox/build-preview/util/CMakeFiles/package_source.dir

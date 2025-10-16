@@ -72,7 +72,7 @@ include translations/CMakeFiles/translations_library.dir/flags.make
 translations/translations_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 translations/translations_library_autogen/timestamp: translations/CMakeFiles/translations_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target translations_library"
-	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutogenInfo.json Debug
+	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutogenInfo.json Release
 	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/translations/translations_library_autogen/timestamp
 
 translations/translations_library_autogen/EJRQKI7XPS/qrc_translations.cpp: translations/translations.qrc
@@ -136,7 +136,7 @@ translations/translations_library_autogen/EJRQKI7XPS/qrc_translations.cpp: trans
 translations/translations_library_autogen/EJRQKI7XPS/qrc_translations.cpp: translations/da.qm
 translations/translations_library_autogen/EJRQKI7XPS/qrc_translations.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for translations.qrc"
-	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutoRcc_translations_EJRQKI7XPS_Info.json Debug
+	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutoRcc_translations_EJRQKI7XPS_Info.json Release
 
 translations/ar.qm: /home/racha/qTox/translations/ar.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ar.qm"

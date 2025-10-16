@@ -12,8 +12,10 @@
 		"/home/racha/qTox/src/qml/dialogs_demo.qml",
 		"/home/racha/qTox/src/qml/settings_demo.qml",
 		"/home/racha/qTox/src/qml/main.qml",
+		"/home/racha/qTox/src/qml/premium_chat.qml",
 		"/home/racha/qTox/src/qml/pages/SettingsPage.qml",
 		"/home/racha/qTox/src/qml/themes/Theme.qml",
+		"/home/racha/qTox/src/qml/themes/PremiumTheme.qml",
 		"/home/racha/qTox/src/qml/themes/qmldir",
 		"/home/racha/qTox/src/qml/dialogs/ModernDialog.qml",
 		"/home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml",
@@ -21,7 +23,10 @@
 		"/home/racha/qTox/src/qml/dialogs/ConfirmDialog.qml",
 		"/home/racha/qTox/src/qml/components/MessageBubble.qml",
 		"/home/racha/qTox/src/qml/components/ContactListItem.qml",
-		"/home/racha/qTox/src/qml/components/ModernButton.qml"
+		"/home/racha/qTox/src/qml/components/ModernButton.qml",
+		"/home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml",
+		"/home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml",
+		"/home/racha/qTox/src/qml/components/premium/PremiumButton.qml"
 	],
 	"LOCK_FILE" : "/home/racha/qTox/build-preview/CMakeFiles/qtox_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Lock.lock",
 	"MULTI_CONFIG" : false,

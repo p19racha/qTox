@@ -72,7 +72,7 @@ include CMakeFiles/test_core.dir/flags.make
 test_core_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_core_autogen/timestamp: CMakeFiles/test_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_core"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_core_autogen/timestamp
 
 test_core_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res.qrc
@@ -256,7 +256,7 @@ test_core_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/nodes.json
 test_core_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/font/DejaVuSans.ttf
 test_core_autogen/EWIEGA46WW/qrc_res.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release
 
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: CMakeFiles/test_core_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json
@@ -264,8 +264,10 @@ test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/pages/SettingsPage.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/Theme.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/PremiumTheme.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/themes/qmldir
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ModernDialog.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml
@@ -274,9 +276,12 @@ test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/Confi
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumButton.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/qml/qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Debug
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_core_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Release
 
 CMakeFiles/test_core.dir/test_core_autogen/mocs_compilation.cpp.o: CMakeFiles/test_core.dir/flags.make
 CMakeFiles/test_core.dir/test_core_autogen/mocs_compilation.cpp.o: test_core_autogen/mocs_compilation.cpp

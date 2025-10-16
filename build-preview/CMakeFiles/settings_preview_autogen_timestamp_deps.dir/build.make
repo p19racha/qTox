@@ -67,10 +67,10 @@ include CMakeFiles/settings_preview_autogen_timestamp_deps.dir/compiler_depend.m
 include CMakeFiles/settings_preview_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
+CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.4.2
 CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
-CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.4.2
+CMakeFiles/settings_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
 
 settings_preview_autogen_timestamp_deps: CMakeFiles/settings_preview_autogen_timestamp_deps
 settings_preview_autogen_timestamp_deps: CMakeFiles/settings_preview_autogen_timestamp_deps.dir/build.make

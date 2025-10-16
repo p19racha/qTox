@@ -37,8 +37,10 @@ int main(int argc, char *argv[])
             qDebug() << "✓ Premium UI loaded successfully!";
             qDebug() << "";
             qDebug() << "Controls:";
-            qDebug() << "  Ctrl+T  - Toggle theme";
+            qDebug() << "  Ctrl+,  - Open Settings";
             qDebug() << "  Ctrl+Q  - Quit";
+            qDebug() << "";
+            qDebug() << "Theme: Dark Mode (Always enabled)";
             qDebug() << "";
         }
     }, Qt::QueuedConnection);

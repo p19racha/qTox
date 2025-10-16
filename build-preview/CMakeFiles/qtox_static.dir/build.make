@@ -157,14 +157,14 @@ ui_userinterfacesettings.h: /usr/lib/qt6/libexec/uic
 qtox_static_autogen/timestamp: /usr/lib/qt6/libexec/moc
 qtox_static_autogen/timestamp: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Automatic MOC for target qtox_static"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/qtox_static_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/qtox_static_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/qtox_static_autogen/timestamp
 
 CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o: CMakeFiles/qtox_static.dir/flags.make
 CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o: qtox_static_autogen/mocs_compilation.cpp
 CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/qtox_static_autogen/mocs_compilation.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/qtox_static_autogen/mocs_compilation.cpp
 
 CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/qtox_static_autogen/mocs_compilation.cpp.i"
@@ -178,7 +178,7 @@ CMakeFiles/qtox_static.dir/src/version.cpp.o: CMakeFiles/qtox_static.dir/flags.m
 CMakeFiles/qtox_static.dir/src/version.cpp.o: src/version.cpp
 CMakeFiles/qtox_static.dir/src/version.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qtox_static.dir/src/version.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/version.cpp.o -MF CMakeFiles/qtox_static.dir/src/version.cpp.o.d -o CMakeFiles/qtox_static.dir/src/version.cpp.o -c /home/racha/qTox/build-preview/src/version.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/version.cpp.o -MF CMakeFiles/qtox_static.dir/src/version.cpp.o.d -o CMakeFiles/qtox_static.dir/src/version.cpp.o -c /home/racha/qTox/build-preview/src/version.cpp
 
 CMakeFiles/qtox_static.dir/src/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/version.cpp.i"
@@ -192,7 +192,7 @@ CMakeFiles/qtox_static.dir/src/appmanager.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/appmanager.cpp.o: /home/racha/qTox/src/appmanager.cpp
 CMakeFiles/qtox_static.dir/src/appmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/qtox_static.dir/src/appmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/appmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/appmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/appmanager.cpp.o -c /home/racha/qTox/src/appmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/appmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/appmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/appmanager.cpp.o -c /home/racha/qTox/src/appmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/appmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/appmanager.cpp.i"
@@ -206,7 +206,7 @@ CMakeFiles/qtox_static.dir/src/friendlist.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/friendlist.cpp.o: /home/racha/qTox/src/friendlist.cpp
 CMakeFiles/qtox_static.dir/src/friendlist.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/qtox_static.dir/src/friendlist.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/friendlist.cpp.o -MF CMakeFiles/qtox_static.dir/src/friendlist.cpp.o.d -o CMakeFiles/qtox_static.dir/src/friendlist.cpp.o -c /home/racha/qTox/src/friendlist.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/friendlist.cpp.o -MF CMakeFiles/qtox_static.dir/src/friendlist.cpp.o.d -o CMakeFiles/qtox_static.dir/src/friendlist.cpp.o -c /home/racha/qTox/src/friendlist.cpp
 
 CMakeFiles/qtox_static.dir/src/friendlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/friendlist.cpp.i"
@@ -220,7 +220,7 @@ CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o: CMakeFiles/qtox_static.dir/
 CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o: /home/racha/qTox/src/conferencelist.cpp
 CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o -MF CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o.d -o CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o -c /home/racha/qTox/src/conferencelist.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o -MF CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o.d -o CMakeFiles/qtox_static.dir/src/conferencelist.cpp.o -c /home/racha/qTox/src/conferencelist.cpp
 
 CMakeFiles/qtox_static.dir/src/conferencelist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/conferencelist.cpp.i"
@@ -234,7 +234,7 @@ CMakeFiles/qtox_static.dir/src/ipc.cpp.o: CMakeFiles/qtox_static.dir/flags.make
 CMakeFiles/qtox_static.dir/src/ipc.cpp.o: /home/racha/qTox/src/ipc.cpp
 CMakeFiles/qtox_static.dir/src/ipc.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/qtox_static.dir/src/ipc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/ipc.cpp.o -MF CMakeFiles/qtox_static.dir/src/ipc.cpp.o.d -o CMakeFiles/qtox_static.dir/src/ipc.cpp.o -c /home/racha/qTox/src/ipc.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/ipc.cpp.o -MF CMakeFiles/qtox_static.dir/src/ipc.cpp.o.d -o CMakeFiles/qtox_static.dir/src/ipc.cpp.o -c /home/racha/qTox/src/ipc.cpp
 
 CMakeFiles/qtox_static.dir/src/ipc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/ipc.cpp.i"
@@ -248,7 +248,7 @@ CMakeFiles/qtox_static.dir/src/nexus.cpp.o: CMakeFiles/qtox_static.dir/flags.mak
 CMakeFiles/qtox_static.dir/src/nexus.cpp.o: /home/racha/qTox/src/nexus.cpp
 CMakeFiles/qtox_static.dir/src/nexus.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/qtox_static.dir/src/nexus.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/nexus.cpp.o -MF CMakeFiles/qtox_static.dir/src/nexus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/nexus.cpp.o -c /home/racha/qTox/src/nexus.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/nexus.cpp.o -MF CMakeFiles/qtox_static.dir/src/nexus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/nexus.cpp.o -c /home/racha/qTox/src/nexus.cpp
 
 CMakeFiles/qtox_static.dir/src/nexus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/nexus.cpp.i"
@@ -262,7 +262,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o: /home/racha/qTox/src/chatlog/chatlinecontent.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o -c /home/racha/qTox/src/chatlog/chatlinecontent.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.o -c /home/racha/qTox/src/chatlog/chatlinecontent.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontent.cpp.i"
@@ -276,7 +276,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o: /home/racha/qTox/src/chatlog/chatlinecontentproxy.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o -c /home/racha/qTox/src/chatlog/chatlinecontentproxy.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.o -c /home/racha/qTox/src/chatlog/chatlinecontentproxy.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatlinecontentproxy.cpp.i"
@@ -290,7 +290,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o: CMakeFiles/qtox_static.di
 CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o: /home/racha/qTox/src/chatlog/chatline.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o -c /home/racha/qTox/src/chatlog/chatline.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.o -c /home/racha/qTox/src/chatlog/chatline.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatline.cpp.i"
@@ -304,7 +304,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o: /home/racha/qTox/src/chatlog/chatlinestorage.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o -c /home/racha/qTox/src/chatlog/chatlinestorage.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.o -c /home/racha/qTox/src/chatlog/chatlinestorage.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatlinestorage.cpp.i"
@@ -318,7 +318,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o: /home/racha/qTox/src/chatlog/chatwidget.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o -c /home/racha/qTox/src/chatlog/chatwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.o -c /home/racha/qTox/src/chatlog/chatwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatwidget.cpp.i"
@@ -332,7 +332,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o: /home/racha/qTox/src/chatlog/chatmessage.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o -c /home/racha/qTox/src/chatlog/chatmessage.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.o -c /home/racha/qTox/src/chatlog/chatmessage.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/chatmessage.cpp.i"
@@ -346,7 +346,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o: /home/racha/qTox/src/chatlog/content/filetransferwidget.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o -c /home/racha/qTox/src/chatlog/content/filetransferwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.o -c /home/racha/qTox/src/chatlog/content/filetransferwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/filetransferwidget.cpp.i"
@@ -360,7 +360,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o: /home/racha/qTox/src/chatlog/content/image.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o -c /home/racha/qTox/src/chatlog/content/image.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.o -c /home/racha/qTox/src/chatlog/content/image.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/image.cpp.i"
@@ -374,7 +374,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o: /home/racha/qTox/src/chatlog/content/notificationicon.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o -c /home/racha/qTox/src/chatlog/content/notificationicon.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.o -c /home/racha/qTox/src/chatlog/content/notificationicon.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/notificationicon.cpp.i"
@@ -388,7 +388,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o: /home/racha/qTox/src/chatlog/content/spinner.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o -c /home/racha/qTox/src/chatlog/content/spinner.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.o -c /home/racha/qTox/src/chatlog/content/spinner.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/spinner.cpp.i"
@@ -402,7 +402,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o: /home/racha/qTox/src/chatlog/content/text.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o -c /home/racha/qTox/src/chatlog/content/text.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.o -c /home/racha/qTox/src/chatlog/content/text.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/text.cpp.i"
@@ -416,7 +416,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o: /home/racha/qTox/src/chatlog/content/timestamp.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o -c /home/racha/qTox/src/chatlog/content/timestamp.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.o -c /home/racha/qTox/src/chatlog/content/timestamp.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/timestamp.cpp.i"
@@ -430,7 +430,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o: CMakeFiles/qtox_sta
 CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o: /home/racha/qTox/src/chatlog/content/broken.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o -c /home/racha/qTox/src/chatlog/content/broken.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.o -c /home/racha/qTox/src/chatlog/content/broken.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/content/broken.cpp.i"
@@ -444,7 +444,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o: /home/racha/qTox/src/chatlog/customtextdocument.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o -c /home/racha/qTox/src/chatlog/customtextdocument.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.o -c /home/racha/qTox/src/chatlog/customtextdocument.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/customtextdocument.cpp.i"
@@ -458,7 +458,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o: /home/racha/qTox/src/chatlog/documentcache.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o -c /home/racha/qTox/src/chatlog/documentcache.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.o -c /home/racha/qTox/src/chatlog/documentcache.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/documentcache.cpp.i"
@@ -472,7 +472,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o: /home/racha/qTox/src/chatlog/pixmapcache.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o -c /home/racha/qTox/src/chatlog/pixmapcache.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.o -c /home/racha/qTox/src/chatlog/pixmapcache.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/pixmapcache.cpp.i"
@@ -486,7 +486,7 @@ CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o: /home/racha/qTox/src/core/toxfileprogress.cpp
 CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o -c /home/racha/qTox/src/core/toxfileprogress.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.o -c /home/racha/qTox/src/core/toxfileprogress.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxfileprogress.cpp.i"
@@ -500,7 +500,7 @@ CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o: /home/racha/qTox/src/chatlog/textformatter.cpp
 CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o -c /home/racha/qTox/src/chatlog/textformatter.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o -MF CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.o -c /home/racha/qTox/src/chatlog/textformatter.cpp
 
 CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/chatlog/textformatter.cpp.i"
@@ -514,7 +514,7 @@ CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o: CMakeFiles/qtox_static.dir/fla
 CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o: /home/racha/qTox/src/core/coreav.cpp
 CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o -c /home/racha/qTox/src/core/coreav.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/coreav.cpp.o -c /home/racha/qTox/src/core/coreav.cpp
 
 CMakeFiles/qtox_static.dir/src/core/coreav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/coreav.cpp.i"
@@ -528,7 +528,7 @@ CMakeFiles/qtox_static.dir/src/core/core.cpp.o: CMakeFiles/qtox_static.dir/flags
 CMakeFiles/qtox_static.dir/src/core/core.cpp.o: /home/racha/qTox/src/core/core.cpp
 CMakeFiles/qtox_static.dir/src/core/core.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/qtox_static.dir/src/core/core.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/core.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/core.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/core.cpp.o -c /home/racha/qTox/src/core/core.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/core.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/core.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/core.cpp.o -c /home/racha/qTox/src/core/core.cpp
 
 CMakeFiles/qtox_static.dir/src/core/core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/core.cpp.i"
@@ -542,7 +542,7 @@ CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o: CMakeFiles/qtox_static.dir/f
 CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o: /home/racha/qTox/src/core/corefile.cpp
 CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o -c /home/racha/qTox/src/core/corefile.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/corefile.cpp.o -c /home/racha/qTox/src/core/corefile.cpp
 
 CMakeFiles/qtox_static.dir/src/core/corefile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/corefile.cpp.i"
@@ -556,7 +556,7 @@ CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o: CMakeFiles/qtox_static.dir/
 CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o: /home/racha/qTox/src/core/dhtserver.cpp
 CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o -c /home/racha/qTox/src/core/dhtserver.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.o -c /home/racha/qTox/src/core/dhtserver.cpp
 
 CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/dhtserver.cpp.i"
@@ -570,7 +570,7 @@ CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o: /home/racha/qTox/src/core/icoresettings.cpp
 CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o -c /home/racha/qTox/src/core/icoresettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.o -c /home/racha/qTox/src/core/icoresettings.cpp
 
 CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/icoresettings.cpp.i"
@@ -584,7 +584,7 @@ CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o: /home/racha/qTox/src/core/icorefriendmessagesender.cpp
 CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o -c /home/racha/qTox/src/core/icorefriendmessagesender.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.o -c /home/racha/qTox/src/core/icorefriendmessagesender.cpp
 
 CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/icorefriendmessagesender.cpp.i"
@@ -598,7 +598,7 @@ CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o: CMakeFil
 CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o: /home/racha/qTox/src/core/icoreconferencemessagesender.cpp
 CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o -c /home/racha/qTox/src/core/icoreconferencemessagesender.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.o -c /home/racha/qTox/src/core/icoreconferencemessagesender.cpp
 
 CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/icoreconferencemessagesender.cpp.i"
@@ -612,7 +612,7 @@ CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o: /home/racha/qTox/src/core/icoreconferencequery.cpp
 CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o -c /home/racha/qTox/src/core/icoreconferencequery.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.o -c /home/racha/qTox/src/core/icoreconferencequery.cpp
 
 CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/icoreconferencequery.cpp.i"
@@ -626,7 +626,7 @@ CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o: /home/racha/qTox/src/core/icoreidhandler.cpp
 CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o -c /home/racha/qTox/src/core/icoreidhandler.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.o -c /home/racha/qTox/src/core/icoreidhandler.cpp
 
 CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/icoreidhandler.cpp.i"
@@ -640,7 +640,7 @@ CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o: /home/racha/qTox/src/core/idebugsettings.cpp
 CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o -c /home/racha/qTox/src/core/idebugsettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.o -c /home/racha/qTox/src/core/idebugsettings.cpp
 
 CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/idebugsettings.cpp.i"
@@ -654,7 +654,7 @@ CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o: /home/racha/qTox/src/core/toxcall.cpp
 CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o -c /home/racha/qTox/src/core/toxcall.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.o -c /home/racha/qTox/src/core/toxcall.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxcall.cpp.i"
@@ -668,7 +668,7 @@ CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o: /home/racha/qTox/src/core/toxencrypt.cpp
 CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o -c /home/racha/qTox/src/core/toxencrypt.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.o -c /home/racha/qTox/src/core/toxencrypt.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxencrypt.cpp.i"
@@ -682,7 +682,7 @@ CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o: /home/racha/qTox/src/core/toxfile.cpp
 CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o -c /home/racha/qTox/src/core/toxfile.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.o -c /home/racha/qTox/src/core/toxfile.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxfile.cpp.i"
@@ -696,7 +696,7 @@ CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o: /home/racha/qTox/src/core/toxid.cpp
 CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o -c /home/racha/qTox/src/core/toxid.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxid.cpp.o -c /home/racha/qTox/src/core/toxid.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxid.cpp.i"
@@ -710,7 +710,7 @@ CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o: /home/racha/qTox/src/core/conferenceid.cpp
 CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o -c /home/racha/qTox/src/core/conferenceid.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.o -c /home/racha/qTox/src/core/conferenceid.cpp
 
 CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/conferenceid.cpp.i"
@@ -724,7 +724,7 @@ CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o: CMakeFiles/qtox_static.dir/
 CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o: /home/racha/qTox/src/core/toxlogger.cpp
 CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o -c /home/racha/qTox/src/core/toxlogger.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.o -c /home/racha/qTox/src/core/toxlogger.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxlogger.cpp.i"
@@ -738,7 +738,7 @@ CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o: /home/racha/qTox/src/core/toxoptions.cpp
 CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o -c /home/racha/qTox/src/core/toxoptions.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.o -c /home/racha/qTox/src/core/toxoptions.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxoptions.cpp.i"
@@ -752,7 +752,7 @@ CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o: /home/racha/qTox/src/core/toxpk.cpp
 CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o -c /home/racha/qTox/src/core/toxpk.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.o -c /home/racha/qTox/src/core/toxpk.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxpk.cpp.i"
@@ -766,7 +766,7 @@ CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o: CMakeFiles/qtox_static.dir/fla
 CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o: /home/racha/qTox/src/core/chatid.cpp
 CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o -c /home/racha/qTox/src/core/chatid.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/chatid.cpp.o -c /home/racha/qTox/src/core/chatid.cpp
 
 CMakeFiles/qtox_static.dir/src/core/chatid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/chatid.cpp.i"
@@ -780,7 +780,7 @@ CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o: CMakeFiles/qtox_static.dir/
 CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o: /home/racha/qTox/src/core/toxstring.cpp
 CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o -c /home/racha/qTox/src/core/toxstring.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o -MF CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o.d -o CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.o -c /home/racha/qTox/src/core/toxstring.cpp
 
 CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/core/toxstring.cpp.i"
@@ -794,7 +794,7 @@ CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o: /home/racha/qTox/src/model/about/aboutfriend.cpp
 CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o -c /home/racha/qTox/src/model/about/aboutfriend.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.o -c /home/racha/qTox/src/model/about/aboutfriend.cpp
 
 CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/about/aboutfriend.cpp.i"
@@ -808,7 +808,7 @@ CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o: /home/racha/qTox/src/model/about/iaboutfriend.cpp
 CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o -c /home/racha/qTox/src/model/about/iaboutfriend.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.o -c /home/racha/qTox/src/model/about/iaboutfriend.cpp
 
 CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/about/iaboutfriend.cpp.i"
@@ -822,7 +822,7 @@ CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o: /home/racha/qTox/src/model/chathistory.cpp
 CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o -c /home/racha/qTox/src/model/chathistory.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.o -c /home/racha/qTox/src/model/chathistory.cpp
 
 CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/chathistory.cpp.i"
@@ -836,7 +836,7 @@ CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o: /home/racha/qTox/src/model/chatlogitem.cpp
 CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o -c /home/racha/qTox/src/model/chatlogitem.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.o -c /home/racha/qTox/src/model/chatlogitem.cpp
 
 CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/chatlogitem.cpp.i"
@@ -850,7 +850,7 @@ CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o: /home/racha/qTox/src/model/chatroom/friendchatroom.cpp
 CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o -c /home/racha/qTox/src/model/chatroom/friendchatroom.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.o -c /home/racha/qTox/src/model/chatroom/friendchatroom.cpp
 
 CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/chatroom/friendchatroom.cpp.i"
@@ -864,7 +864,7 @@ CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o: /home/racha/qTox/src/model/chatroom/conferenceroom.cpp
 CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o -c /home/racha/qTox/src/model/chatroom/conferenceroom.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.o -c /home/racha/qTox/src/model/chatroom/conferenceroom.cpp
 
 CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/chatroom/conferenceroom.cpp.i"
@@ -878,7 +878,7 @@ CMakeFiles/qtox_static.dir/src/model/chat.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/model/chat.cpp.o: /home/racha/qTox/src/model/chat.cpp
 CMakeFiles/qtox_static.dir/src/model/chat.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/qtox_static.dir/src/model/chat.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chat.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chat.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chat.cpp.o -c /home/racha/qTox/src/model/chat.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/chat.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/chat.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/chat.cpp.o -c /home/racha/qTox/src/model/chat.cpp
 
 CMakeFiles/qtox_static.dir/src/model/chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/chat.cpp.i"
@@ -892,7 +892,7 @@ CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o: /home/racha/qTox/src/model/debug/debuglogmodel.cpp
 CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o -c /home/racha/qTox/src/model/debug/debuglogmodel.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.o -c /home/racha/qTox/src/model/debug/debuglogmodel.cpp
 
 CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/debug/debuglogmodel.cpp.i"
@@ -906,7 +906,7 @@ CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o: /home/racha/qTox/src/model/debug/debugobjecttreemodel.cpp
 CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o -c /home/racha/qTox/src/model/debug/debugobjecttreemodel.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.o -c /home/racha/qTox/src/model/debug/debugobjecttreemodel.cpp
 
 CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/debug/debugobjecttreemodel.cpp.i"
@@ -920,7 +920,7 @@ CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o: CMakeFiles/qtox_sta
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o: /home/racha/qTox/src/model/dialogs/idialogs.cpp
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o -c /home/racha/qTox/src/model/dialogs/idialogs.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.o -c /home/racha/qTox/src/model/dialogs/idialogs.cpp
 
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/dialogs/idialogs.cpp.i"
@@ -934,7 +934,7 @@ CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o: /home/racha/qTox/src/model/dialogs/idialogsmanager.cpp
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o -c /home/racha/qTox/src/model/dialogs/idialogsmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.o -c /home/racha/qTox/src/model/dialogs/idialogsmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/dialogs/idialogsmanager.cpp.i"
@@ -948,7 +948,7 @@ CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o: /home/racha/qTox/src/model/exiftransform.cpp
 CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o -c /home/racha/qTox/src/model/exiftransform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.o -c /home/racha/qTox/src/model/exiftransform.cpp
 
 CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/exiftransform.cpp.i"
@@ -962,7 +962,7 @@ CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o: /home/racha/qTox/src/model/friendlist/friendlistmanager.cpp
 CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o -c /home/racha/qTox/src/model/friendlist/friendlistmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.o -c /home/racha/qTox/src/model/friendlist/friendlistmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/friendlist/friendlistmanager.cpp.i"
@@ -976,7 +976,7 @@ CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o: /home/racha/qTox/src/model/friendlist/ifriendlistitem.cpp
 CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o -c /home/racha/qTox/src/model/friendlist/ifriendlistitem.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.o -c /home/racha/qTox/src/model/friendlist/ifriendlistitem.cpp
 
 CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/friendlist/ifriendlistitem.cpp.i"
@@ -990,7 +990,7 @@ CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o: /home/racha/qTox/src/model/friendmessagedispatcher.cpp
 CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o -c /home/racha/qTox/src/model/friendmessagedispatcher.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.o -c /home/racha/qTox/src/model/friendmessagedispatcher.cpp
 
 CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/friendmessagedispatcher.cpp.i"
@@ -1004,7 +1004,7 @@ CMakeFiles/qtox_static.dir/src/model/friend.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/model/friend.cpp.o: /home/racha/qTox/src/model/friend.cpp
 CMakeFiles/qtox_static.dir/src/model/friend.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/qtox_static.dir/src/model/friend.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friend.cpp.o -c /home/racha/qTox/src/model/friend.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/friend.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/friend.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/friend.cpp.o -c /home/racha/qTox/src/model/friend.cpp
 
 CMakeFiles/qtox_static.dir/src/model/friend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/friend.cpp.i"
@@ -1018,7 +1018,7 @@ CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o: CMakeFiles/qtox_sta
 CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o: /home/racha/qTox/src/model/conferenceinvite.cpp
 CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o -c /home/racha/qTox/src/model/conferenceinvite.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.o -c /home/racha/qTox/src/model/conferenceinvite.cpp
 
 CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/conferenceinvite.cpp.i"
@@ -1032,7 +1032,7 @@ CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o: CMakeFil
 CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o: /home/racha/qTox/src/model/conferencemessagedispatcher.cpp
 CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o -c /home/racha/qTox/src/model/conferencemessagedispatcher.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.o -c /home/racha/qTox/src/model/conferencemessagedispatcher.cpp
 
 CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/conferencemessagedispatcher.cpp.i"
@@ -1046,7 +1046,7 @@ CMakeFiles/qtox_static.dir/src/model/conference.cpp.o: CMakeFiles/qtox_static.di
 CMakeFiles/qtox_static.dir/src/model/conference.cpp.o: /home/racha/qTox/src/model/conference.cpp
 CMakeFiles/qtox_static.dir/src/model/conference.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/qtox_static.dir/src/model/conference.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conference.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conference.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conference.cpp.o -c /home/racha/qTox/src/model/conference.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/conference.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/conference.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/conference.cpp.o -c /home/racha/qTox/src/model/conference.cpp
 
 CMakeFiles/qtox_static.dir/src/model/conference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/conference.cpp.i"
@@ -1060,7 +1060,7 @@ CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o: /home/racha/qTox/src/model/ibootstraplistgenerator.cpp
 CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o -c /home/racha/qTox/src/model/ibootstraplistgenerator.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.o -c /home/racha/qTox/src/model/ibootstraplistgenerator.cpp
 
 CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/ibootstraplistgenerator.cpp.i"
@@ -1074,7 +1074,7 @@ CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o: /home/racha/qTox/src/model/imessagedispatcher.cpp
 CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o -c /home/racha/qTox/src/model/imessagedispatcher.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.o -c /home/racha/qTox/src/model/imessagedispatcher.cpp
 
 CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/imessagedispatcher.cpp.i"
@@ -1088,7 +1088,7 @@ CMakeFiles/qtox_static.dir/src/model/message.cpp.o: CMakeFiles/qtox_static.dir/f
 CMakeFiles/qtox_static.dir/src/model/message.cpp.o: /home/racha/qTox/src/model/message.cpp
 CMakeFiles/qtox_static.dir/src/model/message.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/qtox_static.dir/src/model/message.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/message.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/message.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/message.cpp.o -c /home/racha/qTox/src/model/message.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/message.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/message.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/message.cpp.o -c /home/racha/qTox/src/model/message.cpp
 
 CMakeFiles/qtox_static.dir/src/model/message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/message.cpp.i"
@@ -1102,7 +1102,7 @@ CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o: /home/racha/qTox/src/model/notificationgenerator.cpp
 CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o -c /home/racha/qTox/src/model/notificationgenerator.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.o -c /home/racha/qTox/src/model/notificationgenerator.cpp
 
 CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/notificationgenerator.cpp.i"
@@ -1116,7 +1116,7 @@ CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o: /home/racha/qTox/src/model/profile/iprofileinfo.cpp
 CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o -c /home/racha/qTox/src/model/profile/iprofileinfo.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.o -c /home/racha/qTox/src/model/profile/iprofileinfo.cpp
 
 CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/profile/iprofileinfo.cpp.i"
@@ -1130,7 +1130,7 @@ CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o: /home/racha/qTox/src/model/profile/profileinfo.cpp
 CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o -c /home/racha/qTox/src/model/profile/profileinfo.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.o -c /home/racha/qTox/src/model/profile/profileinfo.cpp
 
 CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/profile/profileinfo.cpp.i"
@@ -1144,7 +1144,7 @@ CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o: /home/racha/qTox/src/model/sessionchatlog.cpp
 CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o -c /home/racha/qTox/src/model/sessionchatlog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.o -c /home/racha/qTox/src/model/sessionchatlog.cpp
 
 CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/sessionchatlog.cpp.i"
@@ -1158,7 +1158,7 @@ CMakeFiles/qtox_static.dir/src/model/status.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/model/status.cpp.o: /home/racha/qTox/src/model/status.cpp
 CMakeFiles/qtox_static.dir/src/model/status.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/qtox_static.dir/src/model/status.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/status.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/status.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/status.cpp.o -c /home/racha/qTox/src/model/status.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/model/status.cpp.o -MF CMakeFiles/qtox_static.dir/src/model/status.cpp.o.d -o CMakeFiles/qtox_static.dir/src/model/status.cpp.o -c /home/racha/qTox/src/model/status.cpp
 
 CMakeFiles/qtox_static.dir/src/model/status.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/model/status.cpp.i"
@@ -1172,7 +1172,7 @@ CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o: /home/racha/qTox/src/net/bootstrapnodeupdater.cpp
 CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o -c /home/racha/qTox/src/net/bootstrapnodeupdater.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.o -c /home/racha/qTox/src/net/bootstrapnodeupdater.cpp
 
 CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/net/bootstrapnodeupdater.cpp.i"
@@ -1186,7 +1186,7 @@ CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o: /home/racha/qTox/src/net/avatarbroadcaster.cpp
 CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o -c /home/racha/qTox/src/net/avatarbroadcaster.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.o -c /home/racha/qTox/src/net/avatarbroadcaster.cpp
 
 CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/net/avatarbroadcaster.cpp.i"
@@ -1200,7 +1200,7 @@ CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o: CMakeFiles/qtox_static.dir/flag
 CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o: /home/racha/qTox/src/net/toxuri.cpp
 CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o -c /home/racha/qTox/src/net/toxuri.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.o -c /home/racha/qTox/src/net/toxuri.cpp
 
 CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/net/toxuri.cpp.i"
@@ -1214,7 +1214,7 @@ CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o: /home/racha/qTox/src/net/updatecheck.cpp
 CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o -c /home/racha/qTox/src/net/updatecheck.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o -MF CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o.d -o CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.o -c /home/racha/qTox/src/net/updatecheck.cpp
 
 CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/net/updatecheck.cpp.i"
@@ -1228,7 +1228,7 @@ CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o: /home/racha/qTox/src/persistence/db/rawdatabase.cpp
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o -c /home/racha/qTox/src/persistence/db/rawdatabase.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.o -c /home/racha/qTox/src/persistence/db/rawdatabase.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabase.cpp.i"
@@ -1242,7 +1242,7 @@ CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o: /home/racha/qTox/src/persistence/db/rawdatabaseimpl.cpp
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o -c /home/racha/qTox/src/persistence/db/rawdatabaseimpl.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.o -c /home/racha/qTox/src/persistence/db/rawdatabaseimpl.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/db/rawdatabaseimpl.cpp.i"
@@ -1256,7 +1256,7 @@ CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o: /home/racha/qTox/src/persistence/db/upgrades/dbupgrader.cpp
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o -c /home/racha/qTox/src/persistence/db/upgrades/dbupgrader.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.o -c /home/racha/qTox/src/persistence/db/upgrades/dbupgrader.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbupgrader.cpp.i"
@@ -1270,7 +1270,7 @@ CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o: /home/racha/qTox/src/persistence/db/upgrades/dbto11.cpp
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o -c /home/racha/qTox/src/persistence/db/upgrades/dbto11.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.o -c /home/racha/qTox/src/persistence/db/upgrades/dbto11.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/db/upgrades/dbto11.cpp.i"
@@ -1284,7 +1284,7 @@ CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o: /home/racha/qTox/src/persistence/history.cpp
 CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o -c /home/racha/qTox/src/persistence/history.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/history.cpp.o -c /home/racha/qTox/src/persistence/history.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/history.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/history.cpp.i"
@@ -1298,7 +1298,7 @@ CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o: /home/racha/qTox/src/persistence/ifriendsettings.cpp
 CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o -c /home/racha/qTox/src/persistence/ifriendsettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.o -c /home/racha/qTox/src/persistence/ifriendsettings.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/ifriendsettings.cpp.i"
@@ -1312,7 +1312,7 @@ CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o: CMakeFiles
 CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o: /home/racha/qTox/src/persistence/iconferencesettings.cpp
 CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o -c /home/racha/qTox/src/persistence/iconferencesettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.o -c /home/racha/qTox/src/persistence/iconferencesettings.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/iconferencesettings.cpp.i"
@@ -1326,7 +1326,7 @@ CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o: CMakeFil
 CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o: /home/racha/qTox/src/persistence/inotificationsettings.cpp
 CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o -c /home/racha/qTox/src/persistence/inotificationsettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.o -c /home/racha/qTox/src/persistence/inotificationsettings.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/inotificationsettings.cpp.i"
@@ -1340,7 +1340,7 @@ CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o: /home/racha/qTox/src/persistence/ismileysettings.cpp
 CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o -c /home/racha/qTox/src/persistence/ismileysettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.o -c /home/racha/qTox/src/persistence/ismileysettings.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/ismileysettings.cpp.i"
@@ -1354,7 +1354,7 @@ CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o: /home/racha/qTox/src/persistence/offlinemsgengine.cpp
 CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o -c /home/racha/qTox/src/persistence/offlinemsgengine.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.o -c /home/racha/qTox/src/persistence/offlinemsgengine.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/offlinemsgengine.cpp.i"
@@ -1368,7 +1368,7 @@ CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o: /home/racha/qTox/src/persistence/paths.cpp
 CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o -c /home/racha/qTox/src/persistence/paths.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.o -c /home/racha/qTox/src/persistence/paths.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/paths.cpp.i"
@@ -1382,7 +1382,7 @@ CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o: /home/racha/qTox/src/persistence/profile.cpp
 CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o -c /home/racha/qTox/src/persistence/profile.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.o -c /home/racha/qTox/src/persistence/profile.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/profile.cpp.i"
@@ -1396,7 +1396,7 @@ CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o: /home/racha/qTox/src/persistence/profilelocker.cpp
 CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o -c /home/racha/qTox/src/persistence/profilelocker.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.o -c /home/racha/qTox/src/persistence/profilelocker.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/profilelocker.cpp.i"
@@ -1410,7 +1410,7 @@ CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o: /home/racha/qTox/src/persistence/serialize.cpp
 CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o -c /home/racha/qTox/src/persistence/serialize.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.o -c /home/racha/qTox/src/persistence/serialize.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/serialize.cpp.i"
@@ -1424,7 +1424,7 @@ CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o: /home/racha/qTox/src/persistence/settings.cpp
 CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o -c /home/racha/qTox/src/persistence/settings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.o -c /home/racha/qTox/src/persistence/settings.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/settings.cpp.i"
@@ -1438,7 +1438,7 @@ CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o: /home/racha/qTox/src/persistence/settingsserializer.cpp
 CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o -c /home/racha/qTox/src/persistence/settingsserializer.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.o -c /home/racha/qTox/src/persistence/settingsserializer.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/settingsserializer.cpp.i"
@@ -1452,7 +1452,7 @@ CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o: /home/racha/qTox/src/persistence/globalsettingsupgrader.cpp
 CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o -c /home/racha/qTox/src/persistence/globalsettingsupgrader.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.o -c /home/racha/qTox/src/persistence/globalsettingsupgrader.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/globalsettingsupgrader.cpp.i"
@@ -1466,7 +1466,7 @@ CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o: CMake
 CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o: /home/racha/qTox/src/persistence/personalsettingsupgrader.cpp
 CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o -c /home/racha/qTox/src/persistence/personalsettingsupgrader.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.o -c /home/racha/qTox/src/persistence/personalsettingsupgrader.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/personalsettingsupgrader.cpp.i"
@@ -1480,7 +1480,7 @@ CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o: CMakeFiles/qtox_sta
 CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o: /home/racha/qTox/src/persistence/smileypack.cpp
 CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o -c /home/racha/qTox/src/persistence/smileypack.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.o -c /home/racha/qTox/src/persistence/smileypack.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/smileypack.cpp.i"
@@ -1494,7 +1494,7 @@ CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o: /home/racha/qTox/src/persistence/toxsave.cpp
 CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o -c /home/racha/qTox/src/persistence/toxsave.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o -MF CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o.d -o CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.o -c /home/racha/qTox/src/persistence/toxsave.cpp
 
 CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/persistence/toxsave.cpp.i"
@@ -1508,7 +1508,7 @@ CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o: /home/racha/qTox/src/platform/autorun_xdg.cpp
 CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o -c /home/racha/qTox/src/platform/autorun_xdg.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.o -c /home/racha/qTox/src/platform/autorun_xdg.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/autorun_xdg.cpp.i"
@@ -1522,7 +1522,7 @@ CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o: /home/racha/qTox/src/platform/camera/v4l2.cpp
 CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o -c /home/racha/qTox/src/platform/camera/v4l2.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.o -c /home/racha/qTox/src/platform/camera/v4l2.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/camera/v4l2.cpp.i"
@@ -1536,7 +1536,7 @@ CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o: /home/racha/qTox/src/platform/capslock_x11.cpp
 CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o -c /home/racha/qTox/src/platform/capslock_x11.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.o -c /home/racha/qTox/src/platform/capslock_x11.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/capslock_x11.cpp.i"
@@ -1550,7 +1550,7 @@ CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o: /home/racha/qTox/src/platform/desktop_notifications/desktopnotify.cpp
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotify.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotify.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotify.cpp.i"
@@ -1564,7 +1564,7 @@ CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybacke
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o: /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_dbus.cpp.i"
@@ -1578,7 +1578,7 @@ CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybacke
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o: /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.o -c /home/racha/qTox/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/desktop_notifications/desktopnotifybackend_noop.cpp.i"
@@ -1592,7 +1592,7 @@ CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o: /home/racha/qTox/src/platform/posixsignalnotifier.cpp
 CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o -c /home/racha/qTox/src/platform/posixsignalnotifier.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.o -c /home/racha/qTox/src/platform/posixsignalnotifier.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/posixsignalnotifier.cpp.i"
@@ -1606,7 +1606,7 @@ CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o: /home/racha/qTox/src/platform/screenshot_dbus.cpp
 CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o -c /home/racha/qTox/src/platform/screenshot_dbus.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.o -c /home/racha/qTox/src/platform/screenshot_dbus.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/screenshot_dbus.cpp.i"
@@ -1620,7 +1620,7 @@ CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o: /home/racha/qTox/src/platform/screenshot.cpp
 CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o -c /home/racha/qTox/src/platform/screenshot.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.o -c /home/racha/qTox/src/platform/screenshot.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/screenshot.cpp.i"
@@ -1634,7 +1634,7 @@ CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o: /home/racha/qTox/src/platform/stacktrace.cpp
 CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o -c /home/racha/qTox/src/platform/stacktrace.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.o -c /home/racha/qTox/src/platform/stacktrace.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/stacktrace.cpp.i"
@@ -1648,7 +1648,7 @@ CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o: /home/racha/qTox/src/platform/timer_x11.cpp
 CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o -c /home/racha/qTox/src/platform/timer_x11.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.o -c /home/racha/qTox/src/platform/timer_x11.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/timer_x11.cpp.i"
@@ -1662,7 +1662,7 @@ CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o: /home/racha/qTox/src/platform/x11_display.cpp
 CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o -c /home/racha/qTox/src/platform/x11_display.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o -MF CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o.d -o CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.o -c /home/racha/qTox/src/platform/x11_display.cpp
 
 CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/platform/x11_display.cpp.i"
@@ -1676,7 +1676,7 @@ CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o: /home/racha/qTox/src/video/cameradevice.cpp
 CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o -c /home/racha/qTox/src/video/cameradevice.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.o -c /home/racha/qTox/src/video/cameradevice.cpp
 
 CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/cameradevice.cpp.i"
@@ -1690,7 +1690,7 @@ CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o: /home/racha/qTox/src/video/camerasource.cpp
 CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o -c /home/racha/qTox/src/video/camerasource.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.o -c /home/racha/qTox/src/video/camerasource.cpp
 
 CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/camerasource.cpp.i"
@@ -1704,7 +1704,7 @@ CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o: /home/racha/qTox/src/video/corevideosource.cpp
 CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o -c /home/racha/qTox/src/video/corevideosource.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.o -c /home/racha/qTox/src/video/corevideosource.cpp
 
 CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/corevideosource.cpp.i"
@@ -1718,7 +1718,7 @@ CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o: /home/racha/qTox/src/video/ivideosettings.cpp
 CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o -c /home/racha/qTox/src/video/ivideosettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.o -c /home/racha/qTox/src/video/ivideosettings.cpp
 
 CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/ivideosettings.cpp.i"
@@ -1732,7 +1732,7 @@ CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o: CMakeFiles/qtox_static.di
 CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o: /home/racha/qTox/src/video/netcamview.cpp
 CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o -c /home/racha/qTox/src/video/netcamview.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.o -c /home/racha/qTox/src/video/netcamview.cpp
 
 CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/netcamview.cpp.i"
@@ -1746,7 +1746,7 @@ CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o: /home/racha/qTox/src/video/scopedavdictionary.cpp
 CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o -c /home/racha/qTox/src/video/scopedavdictionary.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.o -c /home/racha/qTox/src/video/scopedavdictionary.cpp
 
 CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/scopedavdictionary.cpp.i"
@@ -1760,7 +1760,7 @@ CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o: CMakeFiles/qtox_static.di
 CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o: /home/racha/qTox/src/video/videoframe.cpp
 CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o -c /home/racha/qTox/src/video/videoframe.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.o -c /home/racha/qTox/src/video/videoframe.cpp
 
 CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/videoframe.cpp.i"
@@ -1774,7 +1774,7 @@ CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o: /home/racha/qTox/src/video/videomode.cpp
 CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o -c /home/racha/qTox/src/video/videomode.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videomode.cpp.o -c /home/racha/qTox/src/video/videomode.cpp
 
 CMakeFiles/qtox_static.dir/src/video/videomode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/videomode.cpp.i"
@@ -1788,7 +1788,7 @@ CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o: /home/racha/qTox/src/video/videosource.cpp
 CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o -c /home/racha/qTox/src/video/videosource.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videosource.cpp.o -c /home/racha/qTox/src/video/videosource.cpp
 
 CMakeFiles/qtox_static.dir/src/video/videosource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/videosource.cpp.i"
@@ -1802,7 +1802,7 @@ CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o: /home/racha/qTox/src/video/videosurface.cpp
 CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o -c /home/racha/qTox/src/video/videosurface.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o -MF CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o.d -o CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.o -c /home/racha/qTox/src/video/videosurface.cpp
 
 CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/video/videosurface.cpp.i"
@@ -1816,7 +1816,7 @@ CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o: /home/racha/qTox/src/widget/about/aboutfriendform.cpp
 CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o -c /home/racha/qTox/src/widget/about/aboutfriendform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.o -c /home/racha/qTox/src/widget/about/aboutfriendform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/about/aboutfriendform.cpp.i"
@@ -1830,7 +1830,7 @@ CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o: /home/racha/qTox/src/widget/categorywidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o -c /home/racha/qTox/src/widget/categorywidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.o -c /home/racha/qTox/src/widget/categorywidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/categorywidget.cpp.i"
@@ -1844,7 +1844,7 @@ CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o: /home/racha/qTox/src/widget/chatformheader.cpp
 CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o -c /home/racha/qTox/src/widget/chatformheader.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.o -c /home/racha/qTox/src/widget/chatformheader.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/chatformheader.cpp.i"
@@ -1858,7 +1858,7 @@ CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o: /home/racha/qTox/src/widget/circlewidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o -c /home/racha/qTox/src/widget/circlewidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.o -c /home/racha/qTox/src/widget/circlewidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/circlewidget.cpp.i"
@@ -1872,7 +1872,7 @@ CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o: /home/racha/qTox/src/widget/commondialogs.cpp
 CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o -c /home/racha/qTox/src/widget/commondialogs.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.o -c /home/racha/qTox/src/widget/commondialogs.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/commondialogs.cpp.i"
@@ -1886,7 +1886,7 @@ CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o: /home/racha/qTox/src/widget/contentdialog.cpp
 CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o -c /home/racha/qTox/src/widget/contentdialog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.o -c /home/racha/qTox/src/widget/contentdialog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/contentdialog.cpp.i"
@@ -1900,7 +1900,7 @@ CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o: /home/racha/qTox/src/widget/contentdialogmanager.cpp
 CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o -c /home/racha/qTox/src/widget/contentdialogmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.o -c /home/racha/qTox/src/widget/contentdialogmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/contentdialogmanager.cpp.i"
@@ -1914,7 +1914,7 @@ CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o: /home/racha/qTox/src/widget/contentlayout.cpp
 CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o -c /home/racha/qTox/src/widget/contentlayout.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.o -c /home/racha/qTox/src/widget/contentlayout.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/contentlayout.cpp.i"
@@ -1928,7 +1928,7 @@ CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o: CMakeFiles/qtox_sta
 CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o: /home/racha/qTox/src/widget/emoticonswidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o -c /home/racha/qTox/src/widget/emoticonswidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.o -c /home/racha/qTox/src/widget/emoticonswidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/emoticonswidget.cpp.i"
@@ -1942,7 +1942,7 @@ CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o: /home/racha/qTox/src/widget/flowlayout.cpp
 CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o -c /home/racha/qTox/src/widget/flowlayout.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.o -c /home/racha/qTox/src/widget/flowlayout.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/flowlayout.cpp.i"
@@ -1956,7 +1956,7 @@ CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o: /home/racha/qTox/src/widget/imagepreviewwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o -c /home/racha/qTox/src/widget/imagepreviewwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.o -c /home/racha/qTox/src/widget/imagepreviewwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/imagepreviewwidget.cpp.i"
@@ -1970,7 +1970,7 @@ CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o: /home/racha/qTox/src/widget/searchform.cpp
 CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o -c /home/racha/qTox/src/widget/searchform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.o -c /home/racha/qTox/src/widget/searchform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/searchform.cpp.i"
@@ -1984,7 +1984,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o: /home/racha/qTox/src/widget/form/addfriendform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o -c /home/racha/qTox/src/widget/form/addfriendform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.o -c /home/racha/qTox/src/widget/form/addfriendform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/addfriendform.cpp.i"
@@ -1998,7 +1998,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o: CMakeFiles/qtox_stati
 CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o: /home/racha/qTox/src/widget/form/chatform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o -c /home/racha/qTox/src/widget/form/chatform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.o -c /home/racha/qTox/src/widget/form/chatform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/chatform.cpp.i"
@@ -2012,7 +2012,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o: /home/racha/qTox/src/widget/form/debug/debuglog.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o -c /home/racha/qTox/src/widget/form/debug/debuglog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.o -c /home/racha/qTox/src/widget/form/debug/debuglog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/debug/debuglog.cpp.i"
@@ -2026,7 +2026,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o: CMakeFil
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o: /home/racha/qTox/src/widget/form/debug/debugobjecttree.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o -c /home/racha/qTox/src/widget/form/debug/debugobjecttree.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.o -c /home/racha/qTox/src/widget/form/debug/debugobjecttree.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/debug/debugobjecttree.cpp.i"
@@ -2040,7 +2040,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o: /home/racha/qTox/src/widget/form/debugwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o -c /home/racha/qTox/src/widget/form/debugwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.o -c /home/racha/qTox/src/widget/form/debugwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/debugwidget.cpp.i"
@@ -2054,7 +2054,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o: /home/racha/qTox/src/widget/form/filesform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o -c /home/racha/qTox/src/widget/form/filesform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.o -c /home/racha/qTox/src/widget/form/filesform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/filesform.cpp.i"
@@ -2068,7 +2068,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o: /home/racha/qTox/src/widget/form/genericchatform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o -c /home/racha/qTox/src/widget/form/genericchatform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.o -c /home/racha/qTox/src/widget/form/genericchatform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/genericchatform.cpp.i"
@@ -2082,7 +2082,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o: /home/racha/qTox/src/widget/form/conferenceform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o -c /home/racha/qTox/src/widget/form/conferenceform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.o -c /home/racha/qTox/src/widget/form/conferenceform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/conferenceform.cpp.i"
@@ -2096,7 +2096,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o: /home/racha/qTox/src/widget/form/conferenceinviteform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o -c /home/racha/qTox/src/widget/form/conferenceinviteform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.o -c /home/racha/qTox/src/widget/form/conferenceinviteform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/conferenceinviteform.cpp.i"
@@ -2110,7 +2110,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o: /home/racha/qTox/src/widget/form/conferenceinvitewidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o -c /home/racha/qTox/src/widget/form/conferenceinvitewidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.o -c /home/racha/qTox/src/widget/form/conferenceinvitewidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/conferenceinvitewidget.cpp.i"
@@ -2124,7 +2124,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o: /home/racha/qTox/src/widget/form/loadhistorydialog.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o -c /home/racha/qTox/src/widget/form/loadhistorydialog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.o -c /home/racha/qTox/src/widget/form/loadhistorydialog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/loadhistorydialog.cpp.i"
@@ -2138,7 +2138,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o: /home/racha/qTox/src/widget/form/profileform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o -c /home/racha/qTox/src/widget/form/profileform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.o -c /home/racha/qTox/src/widget/form/profileform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/profileform.cpp.i"
@@ -2152,7 +2152,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o: /home/racha/qTox/src/widget/form/searchsettingsform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o -c /home/racha/qTox/src/widget/form/searchsettingsform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.o -c /home/racha/qTox/src/widget/form/searchsettingsform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/searchsettingsform.cpp.i"
@@ -2166,7 +2166,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o: /home/racha/qTox/src/widget/form/setpassworddialog.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o -c /home/racha/qTox/src/widget/form/setpassworddialog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.o -c /home/racha/qTox/src/widget/form/setpassworddialog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/setpassworddialog.cpp.i"
@@ -2180,7 +2180,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o: /home/racha/qTox/src/widget/form/settings/aboutform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o -c /home/racha/qTox/src/widget/form/settings/aboutform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.o -c /home/racha/qTox/src/widget/form/settings/aboutform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/aboutform.cpp.i"
@@ -2194,7 +2194,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o: CMakeFil
 CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o: /home/racha/qTox/src/widget/form/settings/advancedform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o -c /home/racha/qTox/src/widget/form/settings/advancedform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.o -c /home/racha/qTox/src/widget/form/settings/advancedform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/advancedform.cpp.i"
@@ -2208,7 +2208,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o: /home/racha/qTox/src/widget/form/settings/avform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o -c /home/racha/qTox/src/widget/form/settings/avform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.o -c /home/racha/qTox/src/widget/form/settings/avform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/avform.cpp.i"
@@ -2222,7 +2222,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o: /home/racha/qTox/src/widget/form/settings/generalform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o -c /home/racha/qTox/src/widget/form/settings/generalform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.o -c /home/racha/qTox/src/widget/form/settings/generalform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/generalform.cpp.i"
@@ -2236,7 +2236,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o: CMake
 CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o: /home/racha/qTox/src/widget/form/settings/genericsettings.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o -c /home/racha/qTox/src/widget/form/settings/genericsettings.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.o -c /home/racha/qTox/src/widget/form/settings/genericsettings.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/genericsettings.cpp.i"
@@ -2250,7 +2250,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o: /home/racha/qTox/src/widget/form/settings/privacyform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o -c /home/racha/qTox/src/widget/form/settings/privacyform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.o -c /home/racha/qTox/src/widget/form/settings/privacyform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/privacyform.cpp.i"
@@ -2264,7 +2264,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o: CMakeFile
 CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o: /home/racha/qTox/src/widget/form/settings/textcompose.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o -c /home/racha/qTox/src/widget/form/settings/textcompose.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.o -c /home/racha/qTox/src/widget/form/settings/textcompose.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/textcompose.cpp.i"
@@ -2278,7 +2278,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o: CMa
 CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o: /home/racha/qTox/src/widget/form/settings/userinterfaceform.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o -c /home/racha/qTox/src/widget/form/settings/userinterfaceform.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.o -c /home/racha/qTox/src/widget/form/settings/userinterfaceform.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/userinterfaceform.cpp.i"
@@ -2292,7 +2292,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o: 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o: /home/racha/qTox/src/widget/form/settings/verticalonlyscroller.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o -c /home/racha/qTox/src/widget/form/settings/verticalonlyscroller.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.o -c /home/racha/qTox/src/widget/form/settings/verticalonlyscroller.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settings/verticalonlyscroller.cpp.i"
@@ -2306,7 +2306,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o: /home/racha/qTox/src/widget/form/settingswidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o -c /home/racha/qTox/src/widget/form/settingswidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.o -c /home/racha/qTox/src/widget/form/settingswidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/settingswidget.cpp.i"
@@ -2320,7 +2320,7 @@ CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o: /home/racha/qTox/src/widget/form/tabcompleter.cpp
 CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o -c /home/racha/qTox/src/widget/form/tabcompleter.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.o -c /home/racha/qTox/src/widget/form/tabcompleter.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/form/tabcompleter.cpp.i"
@@ -2334,7 +2334,7 @@ CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o: /home/racha/qTox/src/widget/friendlistlayout.cpp
 CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o -c /home/racha/qTox/src/widget/friendlistlayout.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.o -c /home/racha/qTox/src/widget/friendlistlayout.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/friendlistlayout.cpp.i"
@@ -2348,7 +2348,7 @@ CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o: /home/racha/qTox/src/widget/friendlistwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o -c /home/racha/qTox/src/widget/friendlistwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.o -c /home/racha/qTox/src/widget/friendlistwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/friendlistwidget.cpp.i"
@@ -2362,7 +2362,7 @@ CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o: /home/racha/qTox/src/widget/friendwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o -c /home/racha/qTox/src/widget/friendwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.o -c /home/racha/qTox/src/widget/friendwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/friendwidget.cpp.i"
@@ -2376,7 +2376,7 @@ CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o: /home/racha/qTox/src/widget/genericchatitemlayout.cpp
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o -c /home/racha/qTox/src/widget/genericchatitemlayout.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.o -c /home/racha/qTox/src/widget/genericchatitemlayout.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/genericchatitemlayout.cpp.i"
@@ -2390,7 +2390,7 @@ CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o: /home/racha/qTox/src/widget/genericchatitemwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o -c /home/racha/qTox/src/widget/genericchatitemwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.o -c /home/racha/qTox/src/widget/genericchatitemwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/genericchatitemwidget.cpp.i"
@@ -2404,7 +2404,7 @@ CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o: /home/racha/qTox/src/widget/genericchatroomwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o -c /home/racha/qTox/src/widget/genericchatroomwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.o -c /home/racha/qTox/src/widget/genericchatroomwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/genericchatroomwidget.cpp.i"
@@ -2418,7 +2418,7 @@ CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o: /home/racha/qTox/src/widget/conferencewidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o -c /home/racha/qTox/src/widget/conferencewidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.o -c /home/racha/qTox/src/widget/conferencewidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/conferencewidget.cpp.i"
@@ -2432,7 +2432,7 @@ CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o: CMakeFiles/qtox_static.
 CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o: /home/racha/qTox/src/widget/loginscreen.cpp
 CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o -c /home/racha/qTox/src/widget/loginscreen.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.o -c /home/racha/qTox/src/widget/loginscreen.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/loginscreen.cpp.i"
@@ -2446,7 +2446,7 @@ CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o: /home/racha/qTox/src/widget/maskablepixmapwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o -c /home/racha/qTox/src/widget/maskablepixmapwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.o -c /home/racha/qTox/src/widget/maskablepixmapwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/maskablepixmapwidget.cpp.i"
@@ -2460,7 +2460,7 @@ CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o: /home/racha/qTox/src/widget/notificationedgewidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o -c /home/racha/qTox/src/widget/notificationedgewidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.o -c /home/racha/qTox/src/widget/notificationedgewidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/notificationedgewidget.cpp.i"
@@ -2474,7 +2474,7 @@ CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o: /home/racha/qTox/src/widget/notificationscrollarea.cpp
 CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o -c /home/racha/qTox/src/widget/notificationscrollarea.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.o -c /home/racha/qTox/src/widget/notificationscrollarea.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/notificationscrollarea.cpp.i"
@@ -2488,7 +2488,7 @@ CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o: CMakeFiles/qtox_static
 CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o: /home/racha/qTox/src/widget/passwordedit.cpp
 CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o -c /home/racha/qTox/src/widget/passwordedit.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.o -c /home/racha/qTox/src/widget/passwordedit.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/passwordedit.cpp.i"
@@ -2502,7 +2502,7 @@ CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o: /home/racha/qTox/src/widget/popup.cpp
 CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o -c /home/racha/qTox/src/widget/popup.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/popup.cpp.o -c /home/racha/qTox/src/widget/popup.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/popup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/popup.cpp.i"
@@ -2516,7 +2516,7 @@ CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o: /home/racha/qTox/src/widget/qrwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o -c /home/racha/qTox/src/widget/qrwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.o -c /home/racha/qTox/src/widget/qrwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/qrwidget.cpp.i"
@@ -2530,7 +2530,7 @@ CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o: CMakeFiles/qtox_st
 CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o: /home/racha/qTox/src/widget/splitterrestorer.cpp
 CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o -c /home/racha/qTox/src/widget/splitterrestorer.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.o -c /home/racha/qTox/src/widget/splitterrestorer.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/splitterrestorer.cpp.i"
@@ -2544,7 +2544,7 @@ CMakeFiles/qtox_static.dir/src/widget/style.cpp.o: CMakeFiles/qtox_static.dir/fl
 CMakeFiles/qtox_static.dir/src/widget/style.cpp.o: /home/racha/qTox/src/widget/style.cpp
 CMakeFiles/qtox_static.dir/src/widget/style.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/style.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/style.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/style.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/style.cpp.o -c /home/racha/qTox/src/widget/style.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/style.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/style.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/style.cpp.o -c /home/racha/qTox/src/widget/style.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/style.cpp.i"
@@ -2558,7 +2558,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o: CMak
 CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o: /home/racha/qTox/src/widget/tool/abstractscreenshotgrabber.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o -c /home/racha/qTox/src/widget/tool/abstractscreenshotgrabber.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.o -c /home/racha/qTox/src/widget/tool/abstractscreenshotgrabber.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/abstractscreenshotgrabber.cpp.i"
@@ -2572,7 +2572,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o: CMakeFiles/qtox
 CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o: /home/racha/qTox/src/widget/tool/activatedialog.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o -c /home/racha/qTox/src/widget/tool/activatedialog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.o -c /home/racha/qTox/src/widget/tool/activatedialog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/activatedialog.cpp.i"
@@ -2586,7 +2586,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o: CMakeFiles
 CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o: /home/racha/qTox/src/widget/tool/adjustingscrollarea.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o -c /home/racha/qTox/src/widget/tool/adjustingscrollarea.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.o -c /home/racha/qTox/src/widget/tool/adjustingscrollarea.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/adjustingscrollarea.cpp.i"
@@ -2600,7 +2600,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o: CMakeFiles/
 CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o: /home/racha/qTox/src/widget/tool/imessageboxmanager.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o -c /home/racha/qTox/src/widget/tool/imessageboxmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.o -c /home/racha/qTox/src/widget/tool/imessageboxmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/imessageboxmanager.cpp.i"
@@ -2614,7 +2614,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o: /home/racha/qTox/src/widget/tool/messageboxmanager.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o -c /home/racha/qTox/src/widget/tool/messageboxmanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.o -c /home/racha/qTox/src/widget/tool/messageboxmanager.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/messageboxmanager.cpp.i"
@@ -2628,7 +2628,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o: /home/racha/qTox/src/widget/tool/callconfirmwidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o -c /home/racha/qTox/src/widget/tool/callconfirmwidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.o -c /home/racha/qTox/src/widget/tool/callconfirmwidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/callconfirmwidget.cpp.i"
@@ -2642,7 +2642,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o: CMakeFiles/qtox_s
 CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o: /home/racha/qTox/src/widget/tool/chattextedit.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o -c /home/racha/qTox/src/widget/tool/chattextedit.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.o -c /home/racha/qTox/src/widget/tool/chattextedit.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/chattextedit.cpp.i"
@@ -2656,7 +2656,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o: /home/racha/qTox/src/widget/tool/croppinglabel.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o -c /home/racha/qTox/src/widget/tool/croppinglabel.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.o -c /home/racha/qTox/src/widget/tool/croppinglabel.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/croppinglabel.cpp.i"
@@ -2670,7 +2670,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o: CMakeFiles
 CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o: /home/racha/qTox/src/widget/tool/flyoutoverlaywidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o -c /home/racha/qTox/src/widget/tool/flyoutoverlaywidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.o -c /home/racha/qTox/src/widget/tool/flyoutoverlaywidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/flyoutoverlaywidget.cpp.i"
@@ -2684,7 +2684,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o: CMakeFiles/qtox_stat
 CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o: /home/racha/qTox/src/widget/tool/identicon.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o -c /home/racha/qTox/src/widget/tool/identicon.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.o -c /home/racha/qTox/src/widget/tool/identicon.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/identicon.cpp.i"
@@ -2698,7 +2698,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o: CMakeFiles/qtox_
 CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o: /home/racha/qTox/src/widget/tool/movablewidget.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o -c /home/racha/qTox/src/widget/tool/movablewidget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.o -c /home/racha/qTox/src/widget/tool/movablewidget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/movablewidget.cpp.i"
@@ -2712,7 +2712,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o: CMakeFiles/qto
 CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o: /home/racha/qTox/src/widget/tool/profileimporter.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o -c /home/racha/qTox/src/widget/tool/profileimporter.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.o -c /home/racha/qTox/src/widget/tool/profileimporter.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/profileimporter.cpp.i"
@@ -2726,7 +2726,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o: CMakeFi
 CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o: /home/racha/qTox/src/widget/tool/recursivesignalblocker.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o -c /home/racha/qTox/src/widget/tool/recursivesignalblocker.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.o -c /home/racha/qTox/src/widget/tool/recursivesignalblocker.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/recursivesignalblocker.cpp.i"
@@ -2740,7 +2740,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o: CMakeFiles/qt
 CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o: /home/racha/qTox/src/widget/tool/removechatdialog.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o -c /home/racha/qTox/src/widget/tool/removechatdialog.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.o -c /home/racha/qTox/src/widget/tool/removechatdialog.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/removechatdialog.cpp.i"
@@ -2754,7 +2754,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o: C
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o: /home/racha/qTox/src/widget/tool/screengrabberchooserrectitem.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o -c /home/racha/qTox/src/widget/tool/screengrabberchooserrectitem.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.o -c /home/racha/qTox/src/widget/tool/screengrabberchooserrectitem.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberchooserrectitem.cpp.i"
@@ -2768,7 +2768,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o: CMake
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o: /home/racha/qTox/src/widget/tool/screengrabberoverlayitem.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o -c /home/racha/qTox/src/widget/tool/screengrabberoverlayitem.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.o -c /home/racha/qTox/src/widget/tool/screengrabberoverlayitem.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/screengrabberoverlayitem.cpp.i"
@@ -2782,7 +2782,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o: CMakeFiles/q
 CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o: /home/racha/qTox/src/widget/tool/screenshotgrabber.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o -c /home/racha/qTox/src/widget/tool/screenshotgrabber.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.o -c /home/racha/qTox/src/widget/tool/screenshotgrabber.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/screenshotgrabber.cpp.i"
@@ -2796,7 +2796,7 @@ CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o: CMakeFiles
 CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o: /home/racha/qTox/src/widget/tool/toolboxgraphicsitem.cpp
 CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o -c /home/racha/qTox/src/widget/tool/toolboxgraphicsitem.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.o -c /home/racha/qTox/src/widget/tool/toolboxgraphicsitem.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/tool/toolboxgraphicsitem.cpp.i"
@@ -2810,7 +2810,7 @@ CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o: CMakeFiles/qtox_static.d
 CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o: /home/racha/qTox/src/widget/translator.cpp
 CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o -c /home/racha/qTox/src/widget/translator.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/translator.cpp.o -c /home/racha/qTox/src/widget/translator.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/translator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/translator.cpp.i"
@@ -2824,7 +2824,7 @@ CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o: CMakeFiles/qtox_static.dir/f
 CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o: /home/racha/qTox/src/widget/widget.cpp
 CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o -c /home/racha/qTox/src/widget/widget.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o -MF CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o.d -o CMakeFiles/qtox_static.dir/src/widget/widget.cpp.o -c /home/racha/qTox/src/widget/widget.cpp
 
 CMakeFiles/qtox_static.dir/src/widget/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/widget/widget.cpp.i"
@@ -2838,7 +2838,7 @@ CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o: CMakeFiles/qtox_static.dir
 CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o: /home/racha/qTox/src/ui/thememanager.cpp
 CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o: CMakeFiles/qtox_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o -c /home/racha/qTox/src/ui/thememanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o -MF CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o.d -o CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.o -c /home/racha/qTox/src/ui/thememanager.cpp
 
 CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtox_static.dir/src/ui/thememanager.cpp.i"

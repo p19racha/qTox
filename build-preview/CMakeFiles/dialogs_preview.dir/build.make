@@ -72,13 +72,14 @@ include CMakeFiles/dialogs_preview.dir/flags.make
 dialogs_preview_autogen/timestamp: /usr/lib/qt6/libexec/moc
 dialogs_preview_autogen/timestamp: CMakeFiles/dialogs_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target dialogs_preview"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/dialogs_preview_autogen/timestamp
 
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: CMakeFiles/dialogs_preview_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
@@ -90,21 +91,27 @@ dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/FileTransferDialog.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ConfirmDialog.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumSettings.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumProfile.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumGroups.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumAddFriend.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumRequests.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumShadow.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumButton.qml
 dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/qml/qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Release
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Debug
 
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o: CMakeFiles/dialogs_preview.dir/flags.make
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o: dialogs_preview_autogen/mocs_compilation.cpp
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o: CMakeFiles/dialogs_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/dialogs_preview_autogen/mocs_compilation.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/dialogs_preview_autogen/mocs_compilation.cpp
 
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/mocs_compilation.cpp.i"
@@ -118,7 +125,7 @@ CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o: CMakeFiles/dialogs_preview
 CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o: /home/racha/qTox/dialogs_preview.cpp
 CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o: CMakeFiles/dialogs_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o -c /home/racha/qTox/dialogs_preview.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.o -c /home/racha/qTox/dialogs_preview.cpp
 
 CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dialogs_preview.dir/dialogs_preview.cpp.i"
@@ -132,7 +139,7 @@ CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o: CMakeFiles/dialogs_pre
 CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o: /home/racha/qTox/src/ui/thememanager.cpp
 CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o: CMakeFiles/dialogs_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o -MF CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o.d -o CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o -c /home/racha/qTox/src/ui/thememanager.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o -MF CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o.d -o CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.o -c /home/racha/qTox/src/ui/thememanager.cpp
 
 CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dialogs_preview.dir/src/ui/thememanager.cpp.i"
@@ -146,7 +153,7 @@ CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o:
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o: dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o: CMakeFiles/dialogs_preview.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o -c /home/racha/qTox/build-preview/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o -MF CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o.d -o CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.o -c /home/racha/qTox/build-preview/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp
 
 CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dialogs_preview.dir/dialogs_preview_autogen/VLDSMZLXNG/qrc_qml.cpp.i"

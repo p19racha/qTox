@@ -8,55 +8,55 @@ QtObject {
     id: theme
     
     // ═══════════════════════════════════════════════════════════════
-    // DESIGN PHILOSOPHY: WhatsApp/Telegram Premium Aesthetic
-    // - Glassmorphism effects
-    // - Smooth gradients and shadows
-    // - Perfect rounded corners (16px+)
+    // DESIGN PHILOSOPHY: Telegram Premium Dark Theme
+    // - Dark mode only for consistency and eye comfort
+    // - Clean, minimal design
+    // - Smooth animations
+    // - Perfect rounded corners (12px+)
     // - 60 FPS animations
-    // - Micro-interactions
+    // - Telegram blue as primary color
     // ═══════════════════════════════════════════════════════════════
     
-    property bool isDark: false
-    
     // ═══════════════════════════════════════════════════════════════
-    // PREMIUM COLORS - WhatsApp/Telegram Inspired
+    // PREMIUM COLORS - Telegram Dark Theme
     // ═══════════════════════════════════════════════════════════════
     
-    // Brand Colors (WhatsApp green inspiration)
-    readonly property color primary: isDark ? "#00a884" : "#25d366"
-    readonly property color primaryHover: isDark ? "#00c69a" : "#1fbd5a"
-    readonly property color primaryPressed: isDark ? "#008f6f" : "#1ea952"
-    readonly property color primaryLight: isDark ? "#1a3e33" : "#dfffef"
+    // Brand Colors (Telegram blue primary)
+    readonly property color primary: "#5288c1"
+    readonly property color primaryHover: "#6ba1db"
+    readonly property color primaryPressed: "#4376a8"
+    readonly property color primaryLight: "#2a4a6b"
     
     // Accent Colors (Telegram blue inspiration)
-    readonly property color accent: isDark ? "#3390ec" : "#2481cc"
-    readonly property color accentHover: isDark ? "#4ea4f6" : "#1f7bc0"
-    readonly property color accentPressed: isDark ? "#2b7ed1" : "#1a6aa8"
+    readonly property color accent: "#3390ec"
+    readonly property color accentHover: "#4ea4f6"
+    readonly property color accentPressed: "#2b7ed1"
     
-    // Background - Glossy gradients
-    readonly property color backgroundPrimary: isDark ? "#0b141a" : "#ffffff"
-    readonly property color backgroundSecondary: isDark ? "#111b21" : "#f0f2f5"
-    readonly property color backgroundTertiary: isDark ? "#1f2c33" : "#ffffff"
-    readonly property color backgroundChat: isDark ? "#0b141a" : "#efeae2"
+    // Background - Clean Telegram dark style
+    readonly property color backgroundPrimary: "#0e1621"
+    readonly property color backgroundSecondary: "#17212b"
+    readonly property color backgroundTertiary: "#1d2733"
+    readonly property color backgroundChat: "#0e1621"
     
-    // Surface colors with glassmorphism
-    readonly property color surfaceElevated: isDark ? "rgba(31, 44, 51, 0.95)" : "rgba(255, 255, 255, 0.95)"
-    readonly property color surfaceGlass: isDark ? "rgba(31, 44, 51, 0.8)" : "rgba(255, 255, 255, 0.8)"
-    readonly property color surfaceOverlay: isDark ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.4)"
+    // Surface colors
+    readonly property color surfaceElevated: "#17212b"
+    readonly property color surfaceGlass: Qt.rgba(23/255, 33/255, 43/255, 0.8)
+    readonly property color surfaceOverlay: Qt.rgba(0, 0, 0, 0.7)
     
-    // Message bubbles - Premium design
-    readonly property color messageSent: isDark ? "#005c4b" : "#d9fdd3"
-    readonly property color messageSentHover: isDark ? "#006854" : "#c8f7c5"
-    readonly property color messageReceived: isDark ? "#1f2c33" : "#ffffff"
-    readonly property color messageReceivedHover: isDark ? "#2a3942" : "#f5f5f5"
+    // Message bubbles - Telegram design
+    readonly property color messageSent: "#2b5278"
+    readonly property color messageSentHover: "#376190"
+    readonly property color messageReceived: "#182533"
+    readonly property color messageReceivedHover: "#1f2e3f"
     
     // Text colors - High contrast
-    readonly property color textPrimary: isDark ? "#e9edef" : "#111b21"
-    readonly property color textSecondary: isDark ? "#8696a0" : "#667781"
-    readonly property color textTertiary: isDark ? "#667781" : "#8696a0"
-    readonly property color textInverse: isDark ? "#111b21" : "#ffffff"
+    readonly property color textPrimary: "#e9edef"
+    readonly property color textSecondary: "#8696a0"
+    readonly property color textTertiary: "#667781"
+    readonly property color textInverse: "#000000"
     readonly property color textOnPrimary: "#ffffff"
     readonly property color textOnAccent: "#ffffff"
+    readonly property color textOnSent: "#ffffff"
     
     // Status colors
     readonly property color online: "#00d856"
@@ -65,14 +65,19 @@ QtObject {
     readonly property color offline: "#8696a0"
     
     // Notification colors
-    readonly property color unreadBadge: isDark ? "#00a884" : "#25d366"
+    readonly property color unreadBadge: "#5288c1"
     readonly property color mention: "#ff4444"
-    readonly property color typing: primary
+    readonly property color typing: "#5288c1"
     
     // Border colors
-    readonly property color border: isDark ? "rgba(134, 150, 160, 0.15)" : "rgba(0, 0, 0, 0.08)"
-    readonly property color borderStrong: isDark ? "rgba(134, 150, 160, 0.3)" : "rgba(0, 0, 0, 0.15)"
-    readonly property color divider: isDark ? "#2a3942" : "#e9edef"
+    readonly property color border: Qt.rgba(134/255, 150/255, 160/255, 0.15)
+    readonly property color borderStrong: Qt.rgba(134/255, 150/255, 160/255, 0.3)
+    readonly property color divider: "#2a3942"
+    
+    // Hover and interaction colors
+    readonly property color hoverOverlay: Qt.rgba(1, 1, 1, 0.08)
+    readonly property color pressedOverlay: Qt.rgba(1, 1, 1, 0.12)
+    readonly property color selectedOverlay: Qt.rgba(82/255, 136/255, 193/255, 0.2)
     
     // ═══════════════════════════════════════════════════════════════
     // PREMIUM SHADOWS - Multi-layer depth
@@ -83,22 +88,23 @@ QtObject {
     readonly property int shadowLarge: 16
     readonly property int shadowXLarge: 24
     
-    readonly property color shadowColor: isDark ? "rgba(0, 0, 0, 0.6)" : "rgba(0, 0, 0, 0.12)"
-    readonly property color shadowColorStrong: isDark ? "rgba(0, 0, 0, 0.8)" : "rgba(0, 0, 0, 0.2)"
+    readonly property color shadowColor: Qt.rgba(0, 0, 0, 0.6)
+    readonly property color shadowColorStrong: Qt.rgba(0, 0, 0, 0.8)
+    readonly property color messageShadow: Qt.rgba(0, 0, 0, 0.4)
     
     // ═══════════════════════════════════════════════════════════════
-    // PERFECT BORDER RADIUS - WhatsApp/Telegram style
+    // PERFECT BORDER RADIUS - Telegram style
     // ═══════════════════════════════════════════════════════════════
     
-    readonly property int radiusSmall: 8
-    readonly property int radiusMedium: 12
-    readonly property int radiusLarge: 16
-    readonly property int radiusXLarge: 20
+    readonly property int radiusSmall: 6
+    readonly property int radiusMedium: 10
+    readonly property int radiusLarge: 12
+    readonly property int radiusXLarge: 16
     readonly property int radiusFull: 999
     
     // Message bubble specific
-    readonly property int radiusMessageSent: 8
-    readonly property int radiusMessageReceived: 8
+    readonly property int radiusMessageSent: 12
+    readonly property int radiusMessageReceived: 12
     
     // ═══════════════════════════════════════════════════════════════
     // PREMIUM SPACING - 4px grid system
@@ -193,8 +199,8 @@ QtObject {
     // ═══════════════════════════════════════════════════════════════
     
     readonly property real glassBlur: 20.0
-    readonly property real glassOpacity: isDark ? 0.8 : 0.95
-    readonly property color glassTint: isDark ? "#1f2c33" : "#ffffff"
+    readonly property real glassOpacity: 0.8
+    readonly property color glassTint: "#1f2c33"
     
     // ═══════════════════════════════════════════════════════════════
     // GRADIENT DEFINITIONS
@@ -205,8 +211,8 @@ QtObject {
             start: Qt.point(0, 0),
             end: Qt.point(1, 1),
             stops: [
-                { position: 0.0, color: isDark ? "#00a884" : "#25d366" },
-                { position: 1.0, color: isDark ? "#00c69a" : "#1fbd5a" }
+                { position: 0.0, color: "#00a884" },
+                { position: 1.0, color: "#00c69a" }
             ]
         }
     }
@@ -216,8 +222,8 @@ QtObject {
             start: Qt.point(0, 0),
             end: Qt.point(1, 1),
             stops: [
-                { position: 0.0, color: isDark ? "#3390ec" : "#2481cc" },
-                { position: 1.0, color: isDark ? "#4ea4f6" : "#1f7bc0" }
+                { position: 0.0, color: "#3390ec" },
+                { position: 1.0, color: "#4ea4f6" }
             ]
         }
     }
@@ -226,25 +232,10 @@ QtObject {
         return {
             start: Qt.point(0, 0),
             end: Qt.point(0, 1),
-            stops: isDark ? [
+            stops: [
                 { position: 0.0, color: "#0b141a" },
                 { position: 1.0, color: "#111b21" }
-            ] : [
-                { position: 0.0, color: "#efeae2" },
-                { position: 1.0, color: "#e5ddd5" }
             ]
         }
-    }
-    
-    // ═══════════════════════════════════════════════════════════════
-    // THEME SWITCHING
-    // ═══════════════════════════════════════════════════════════════
-    
-    function toggleTheme() {
-        isDark = !isDark
-    }
-    
-    function setDarkTheme(dark) {
-        isDark = dark
     }
 }

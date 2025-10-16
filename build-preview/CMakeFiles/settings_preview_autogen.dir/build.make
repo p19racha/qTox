@@ -71,7 +71,7 @@ CMakeFiles/settings_preview_autogen: settings_preview_autogen/timestamp
 settings_preview_autogen/timestamp: /usr/lib/qt6/libexec/moc
 settings_preview_autogen/timestamp: CMakeFiles/settings_preview_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target settings_preview"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/settings_preview_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/settings_preview_autogen/timestamp
 
 settings_preview_autogen: CMakeFiles/settings_preview_autogen

@@ -16,6 +16,135 @@ ApplicationWindow {
     title: "qTox - Premium Messenger"
     color: PremiumTheme.backgroundPrimary
     
+    // Settings popup
+    Popup {
+        id: settingsPopup
+        width: 320
+        height: 300
+        x: (parent.width - width) / 2
+        y: (parent.height - height) / 2
+        modal: true
+        focus: true
+        closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutside
+        
+        background: Rectangle {
+            color: PremiumTheme.backgroundPrimary
+            radius: PremiumTheme.radiusLarge
+            border.width: 1
+            border.color: PremiumTheme.border
+            
+            // Shadow effect
+            layer.enabled: true
+            layer.effect: DropShadow {
+                horizontalOffset: 0
+                verticalOffset: 8
+                radius: 16
+                samples: 32
+                color: PremiumTheme.shadowColorStrong
+            }
+        }
+        
+        Column {
+            anchors.fill: parent
+            anchors.margins: PremiumTheme.spacingLg
+            spacing: PremiumTheme.spacingLg
+            
+            // Header
+            Text {
+                text: "Settings"
+                font.family: PremiumTheme.fontFamily
+                font.pixelSize: PremiumTheme.fontSize2xl
+                font.weight: PremiumTheme.fontWeightBold
+                color: PremiumTheme.textPrimary
+            }
+            
+            Rectangle {
+                width: parent.width
+                height: 1
+                color: PremiumTheme.divider
+            }
+            
+            // Dark theme info
+            Rectangle {
+                width: parent.width
+                height: 60
+                color: "transparent"
+                
+                Row {
+                    anchors.fill: parent
+                    spacing: PremiumTheme.spacingMd
+                    
+                    Text {
+                        text: "🌙"
+                        font.pixelSize: 32
+                        anchors.verticalCenter: parent.verticalCenter
+                    }
+                    
+                    Column {
+                        width: parent.width - 60
+                        anchors.verticalCenter: parent.verticalCenter
+                        spacing: 4
+                        
+                        Text {
+                            text: "Dark Theme"
+                            font.family: PremiumTheme.fontFamily
+                            font.pixelSize: PremiumTheme.fontSizeMd
+                            font.weight: PremiumTheme.fontWeightMedium
+                            color: PremiumTheme.textPrimary
+                        }
+                        
+                        Text {
+                            text: "Always enabled for eye comfort"
+                            font.family: PremiumTheme.fontFamily
+                            font.pixelSize: PremiumTheme.fontSizeSm
+                            color: PremiumTheme.textSecondary
+                        }
+                    }
+                }
+            }
+            
+            Rectangle {
+                width: parent.width
+                height: 1
+                color: PremiumTheme.divider
+            }
+            
+            // Placeholder for more settings
+            Text {
+                text: "More settings coming soon..."
+                font.family: PremiumTheme.fontFamily
+                font.pixelSize: PremiumTheme.fontSizeSm
+                color: PremiumTheme.textTertiary
+                font.italic: true
+            }
+            
+            Item { height: 20 }
+            
+            // Close button
+            Rectangle {
+                width: parent.width
+                height: 44
+                radius: PremiumTheme.radiusLarge
+                color: PremiumTheme.primary
+                
+                Text {
+                    text: "Close"
+                    anchors.centerIn: parent
+                    font.family: PremiumTheme.fontFamily
+                    font.pixelSize: PremiumTheme.fontSizeMd
+                    font.weight: PremiumTheme.fontWeightMedium
+                    color: "white"
+                }
+                
+                MouseArea {
+                    anchors.fill: parent
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: settingsPopup.close()
+                }
+            }
+        }
+    }
+    
     // ═══════════════════════════════════════════════════════════════
     // MAIN LAYOUT - WhatsApp/Telegram style two-panel
     // ═══════════════════════════════════════════════════════════════
@@ -55,15 +184,6 @@ ApplicationWindow {
                     height: 64
                     color: PremiumTheme.backgroundPrimary
                     
-                    // Glossy overlay
-                    Rectangle {
-                        anchors.fill: parent
-                        gradient: Gradient {
-                            GradientStop { position: 0.0; color: "rgba(255, 255, 255, 0.02)" }
-                            GradientStop { position: 1.0; color: "rgba(0, 0, 0, 0.02)" }
-                        }
-                    }
-                    
                     Row {
                         anchors.fill: parent
                         anchors.leftMargin: PremiumTheme.spacingLg
@@ -82,32 +202,26 @@ ApplicationWindow {
                         
                         Item { Layout.fillWidth: true; width: parent.width - 200 }
                         
-                        // Theme toggle button
+                        // Settings button
                         Rectangle {
                             width: 40
                             height: 40
                             radius: PremiumTheme.radiusFull
-                            color: PremiumTheme.surfaceElevated
+                            color: "#1f2c33"
                             anchors.verticalCenter: parent.verticalCenter
                             
                             Text {
-                                text: PremiumTheme.isDark ? "☀️" : "🌙"
+                                text: "⚙️"
                                 font.pixelSize: 20
                                 anchors.centerIn: parent
                             }
                             
-                            MouseArea {
-                                anchors.fill: parent
-                                cursorShape: Qt.PointingHandCursor
-                                onClicked: PremiumTheme.toggleTheme()
-                            }
-                            
-                            // Hover effect
+                            // Hover overlay
                             Rectangle {
                                 anchors.fill: parent
                                 radius: parent.radius
-                                color: PremiumTheme.isDark ? "rgba(255, 255, 255, 0.05)" : "rgba(0, 0, 0, 0.05)"
-                                opacity: themeHover.containsMouse ? 1 : 0
+                                color: PremiumTheme.hoverOverlay
+                                opacity: settingsHover.containsMouse ? 1 : 0
                                 
                                 Behavior on opacity {
                                     NumberAnimation { duration: PremiumTheme.durationFast }
@@ -115,11 +229,11 @@ ApplicationWindow {
                             }
                             
                             MouseArea {
-                                id: themeHover
+                                id: settingsHover
                                 anchors.fill: parent
                                 hoverEnabled: true
                                 cursorShape: Qt.PointingHandCursor
-                                onClicked: PremiumTheme.toggleTheme()
+                                onClicked: settingsPopup.open()
                             }
                         }
                     }
@@ -140,15 +254,15 @@ ApplicationWindow {
                 Rectangle {
                     width: parent.width
                     height: 60
-                    color: PremiumTheme.backgroundSecondary
+                    color: PremiumTheme.backgroundPrimary
                     
                     Rectangle {
                         width: parent.width - PremiumTheme.spacingLg * 2
                         height: 40
                         radius: PremiumTheme.radiusLarge
-                        color: PremiumTheme.backgroundPrimary
-                        border.width: 2
-                        border.color: searchFocus.activeFocus ? PremiumTheme.primary : PremiumTheme.border
+                        color: PremiumTheme.backgroundSecondary
+                        border.width: 1
+                        border.color: searchFocus.activeFocus ? PremiumTheme.primary : "transparent"
                         anchors.centerIn: parent
                         
                         Behavior on border.color {
@@ -208,7 +322,7 @@ ApplicationWindow {
                             contactMessage: "Hey! Are you free tomorrow?"
                             contactTime: "12:45"
                             contactAvatar: "AJ"
-                            contactColor: "#00a884"
+                            contactColor: "#3390ec"
                             contactOnline: true
                             contactUnread: 3
                             contactTyping: false
@@ -285,16 +399,10 @@ ApplicationWindow {
             width: parent.width - contactsPanel.width
             height: parent.height
             
-            // Chat background with subtle pattern
+            // Chat background - Telegram clean style
             Rectangle {
                 anchors.fill: parent
                 color: PremiumTheme.backgroundChat
-                
-                // Subtle gradient
-                gradient: Gradient {
-                    GradientStop { position: 0.0; color: Qt.lighter(PremiumTheme.backgroundChat, 1.02) }
-                    GradientStop { position: 1.0; color: Qt.darker(PremiumTheme.backgroundChat, 1.02) }
-                }
             }
             
             Column {
@@ -310,13 +418,8 @@ ApplicationWindow {
                     height: 64
                     color: PremiumTheme.surfaceElevated
                     
-                    // Glossy effect
-                    Rectangle {
-                        anchors.fill: parent
-                        gradient: Gradient {
-                            GradientStop { position: 0.0; color: "rgba(255, 255, 255, 0.03)" }
-                            GradientStop { position: 1.0; color: "rgba(0, 0, 0, 0.03)" }
-                        }
+                    Behavior on color {
+                        ColorAnimation { duration: PremiumTheme.durationNormal }
                     }
                     
                     Row {
@@ -329,7 +432,7 @@ ApplicationWindow {
                             width: PremiumTheme.avatarSizeMedium
                             height: PremiumTheme.avatarSizeMedium
                             radius: width / 2
-                            color: "#00a884"
+                            color: "#3390ec"
                             anchors.verticalCenter: parent.verticalCenter
                             
                             Text {
@@ -341,7 +444,7 @@ ApplicationWindow {
                                 color: "white"
                             }
                             
-                            // Online indicator
+                            // Online indicator with glow
                             Rectangle {
                                 width: 12
                                 height: 12
@@ -351,6 +454,10 @@ ApplicationWindow {
                                 anchors.right: parent.right
                                 border.width: 2
                                 border.color: PremiumTheme.surfaceElevated
+                                
+                                Behavior on border.color {
+                                    ColorAnimation { duration: PremiumTheme.durationNormal }
+                                }
                             }
                         }
                         
@@ -448,16 +555,24 @@ ApplicationWindow {
                     height: 64
                     color: PremiumTheme.surfaceElevated
                     
+                    Behavior on color {
+                        ColorAnimation { duration: PremiumTheme.durationNormal }
+                    }
+                    
                     Rectangle {
                         width: parent.width - PremiumTheme.spacingLg * 2
                         height: 44
                         radius: PremiumTheme.radiusXLarge
                         color: PremiumTheme.backgroundPrimary
-                        border.width: 2
+                        border.width: 1
                         border.color: messageInput.activeFocus ? PremiumTheme.primary : PremiumTheme.border
                         anchors.centerIn: parent
                         
                         Behavior on border.color {
+                            ColorAnimation { duration: PremiumTheme.durationNormal }
+                        }
+                        
+                        Behavior on color {
                             ColorAnimation { duration: PremiumTheme.durationNormal }
                         }
                         
@@ -489,11 +604,15 @@ ApplicationWindow {
                                 width: 36
                                 height: 36
                                 radius: PremiumTheme.radiusFull
-                                color: messageInput.text.length > 0 ? PremiumTheme.primary : PremiumTheme.surfaceElevated
+                                color: messageInput.text.length > 0 ? PremiumTheme.primary : PremiumTheme.border
                                 anchors.verticalCenter: parent.verticalCenter
                                 
                                 Behavior on color {
                                     ColorAnimation { duration: PremiumTheme.durationNormal }
+                                }
+                                
+                                Behavior on scale {
+                                    NumberAnimation { duration: PremiumTheme.durationFast; easing.type: PremiumTheme.easingSpring }
                                 }
                                 
                                 Text {
@@ -505,9 +624,15 @@ ApplicationWindow {
                                 }
                                 
                                 MouseArea {
+                                    id: sendButton
                                     anchors.fill: parent
+                                    hoverEnabled: true
                                     cursorShape: Qt.PointingHandCursor
                                     enabled: messageInput.text.length > 0
+                                    
+                                    onPressed: parent.scale = 0.9
+                                    onReleased: parent.scale = 1.0
+                                    
                                     onClicked: {
                                         if (messageInput.text.length > 0) {
                                             messageInput.text = ""
@@ -522,10 +647,10 @@ ApplicationWindow {
         }
     }
     
-    // Global keyboard shortcut for theme toggle
+    // Global keyboard shortcuts
     Shortcut {
-        sequence: "Ctrl+T"
-        onActivated: PremiumTheme.toggleTheme()
+        sequence: "Ctrl+,"
+        onActivated: settingsPopup.open()
     }
     
     Shortcut {

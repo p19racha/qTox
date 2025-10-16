@@ -71,7 +71,7 @@ translations/CMakeFiles/translations_library_autogen: translations/translations_
 translations/translations_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 translations/translations_library_autogen/timestamp: translations/CMakeFiles/translations_library_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target translations_library"
-	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutogenInfo.json Release
+	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/translations/CMakeFiles/translations_library_autogen.dir/AutogenInfo.json Debug
 	cd /home/racha/qTox/build-preview/translations && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/translations/translations_library_autogen/timestamp
 
 translations_library_autogen: translations/CMakeFiles/translations_library_autogen

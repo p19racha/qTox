@@ -72,14 +72,14 @@ include test/mock/CMakeFiles/mock_library.dir/flags.make
 test/mock/mock_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test/mock/mock_library_autogen/timestamp: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target mock_library"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/test/mock/CMakeFiles/mock_library_autogen.dir/AutogenInfo.json Release
+	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/test/mock/CMakeFiles/mock_library_autogen.dir/AutogenInfo.json Debug
 	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/test/mock/mock_library_autogen/timestamp
 
 test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o: test/mock/CMakeFiles/mock_library.dir/flags.make
 test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o: test/mock/mock_library_autogen/mocs_compilation.cpp
 test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test/mock/mock_library_autogen/mocs_compilation.cpp
+	cd /home/racha/qTox/build-preview/test/mock && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test/mock/mock_library_autogen/mocs_compilation.cpp
 
 test/mock/CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mock_library.dir/mock_library_autogen/mocs_compilation.cpp.i"
@@ -93,7 +93,7 @@ test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o: test/mock/CMa
 test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o: /home/racha/qTox/test/mock/src/mockcoreidhandler.cpp
 test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o -MF CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o -c /home/racha/qTox/test/mock/src/mockcoreidhandler.cpp
+	cd /home/racha/qTox/build-preview/test/mock && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o -MF CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.o -c /home/racha/qTox/test/mock/src/mockcoreidhandler.cpp
 
 test/mock/CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mock_library.dir/src/mockcoreidhandler.cpp.i"
@@ -107,7 +107,7 @@ test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o: test/mock/C
 test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o: /home/racha/qTox/test/mock/src/mockconferencequery.cpp
 test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o -MF CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o -c /home/racha/qTox/test/mock/src/mockconferencequery.cpp
+	cd /home/racha/qTox/build-preview/test/mock && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o -MF CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.o -c /home/racha/qTox/test/mock/src/mockconferencequery.cpp
 
 test/mock/CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mock_library.dir/src/mockconferencequery.cpp.i"
@@ -121,7 +121,7 @@ test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o: test/mock/CMak
 test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o: /home/racha/qTox/test/mock/src/mockcoresettings.cpp
 test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o -MF CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o -c /home/racha/qTox/test/mock/src/mockcoresettings.cpp
+	cd /home/racha/qTox/build-preview/test/mock && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o -MF CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.o -c /home/racha/qTox/test/mock/src/mockcoresettings.cpp
 
 test/mock/CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mock_library.dir/src/mockcoresettings.cpp.i"
@@ -135,7 +135,7 @@ test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o: test
 test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o: /home/racha/qTox/test/mock/src/mockbootstraplistgenerator.cpp
 test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o: test/mock/CMakeFiles/mock_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o"
-	cd /home/racha/qTox/build-preview/test/mock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o -MF CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o -c /home/racha/qTox/test/mock/src/mockbootstraplistgenerator.cpp
+	cd /home/racha/qTox/build-preview/test/mock && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o -MF CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o.d -o CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.o -c /home/racha/qTox/test/mock/src/mockbootstraplistgenerator.cpp
 
 test/mock/CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mock_library.dir/src/mockbootstraplistgenerator.cpp.i"

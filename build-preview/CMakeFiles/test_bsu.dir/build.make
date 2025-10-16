@@ -72,7 +72,7 @@ include CMakeFiles/test_bsu.dir/flags.make
 test_bsu_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_bsu_autogen/timestamp: CMakeFiles/test_bsu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_bsu"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_bsu_autogen/timestamp
 
 test_bsu_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res.qrc
@@ -256,12 +256,13 @@ test_bsu_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/nodes.json
 test_bsu_autogen/EWIEGA46WW/qrc_res.cpp: /home/racha/qTox/res/font/DejaVuSans.ttf
 test_bsu_autogen/EWIEGA46WW/qrc_res.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug
 
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: CMakeFiles/test_bsu_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
@@ -273,21 +274,27 @@ test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/Modern
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/AddFriendDialog.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/FileTransferDialog.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs/ConfirmDialog.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumSettings.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumProfile.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumGroups.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumAddFriend.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumRequests.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumShadow.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumButton.qml
 test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/qml/qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Release
+	/usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/CMakeFiles/test_bsu_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json Debug
 
 CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o: CMakeFiles/test_bsu.dir/flags.make
 CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o: test_bsu_autogen/mocs_compilation.cpp
 CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o: CMakeFiles/test_bsu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/mocs_compilation.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/mocs_compilation.cpp
 
 CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_bsu.dir/test_bsu_autogen/mocs_compilation.cpp.i"
@@ -301,7 +308,7 @@ CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o: CMakeFiles/test_bsu.dir/flags.m
 CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o: /home/racha/qTox/test/net/bsu_test.cpp
 CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o: CMakeFiles/test_bsu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o -MF CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o.d -o CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o -c /home/racha/qTox/test/net/bsu_test.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o -MF CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o.d -o CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.o -c /home/racha/qTox/test/net/bsu_test.cpp
 
 CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_bsu.dir/test/net/bsu_test.cpp.i"
@@ -315,7 +322,7 @@ CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o: CMakeFiles/te
 CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o: test_bsu_autogen/EWIEGA46WW/qrc_res.cpp
 CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o: CMakeFiles/test_bsu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp
 
 CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_bsu.dir/test_bsu_autogen/EWIEGA46WW/qrc_res.cpp.i"
@@ -329,7 +336,7 @@ CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o: CMakeFiles/te
 CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o: test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp
 CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o: CMakeFiles/test_bsu.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o -MF CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o.d -o CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.o -c /home/racha/qTox/build-preview/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp
 
 CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_bsu.dir/test_bsu_autogen/VLDSMZLXNG/qrc_qml.cpp.i"

@@ -6,8 +6,8 @@
 
 #include <QString>
 
-#define GIT_DESCRIBE "v1.18.3-33-g7229a8b96"
-#define GIT_VERSION "7229a8b96666a11d0615311185d1c9ed63c5b280"
+#define GIT_DESCRIBE "v1.18.3-34-g4070cbcab"
+#define GIT_VERSION "4070cbcabb4568cfa4bf7b7ec5b3d9c99ff93387"
 #define GIT_DESCRIBE_EXACT "Nightly"
 
 namespace VersionInfo {

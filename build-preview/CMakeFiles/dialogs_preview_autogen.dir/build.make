@@ -71,7 +71,7 @@ CMakeFiles/dialogs_preview_autogen: dialogs_preview_autogen/timestamp
 dialogs_preview_autogen/timestamp: /usr/lib/qt6/libexec/moc
 dialogs_preview_autogen/timestamp: CMakeFiles/dialogs_preview_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target dialogs_preview"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/dialogs_preview_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/dialogs_preview_autogen/timestamp
 
 dialogs_preview_autogen: CMakeFiles/dialogs_preview_autogen

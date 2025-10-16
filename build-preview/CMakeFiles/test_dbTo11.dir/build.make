@@ -72,14 +72,14 @@ include CMakeFiles/test_dbTo11.dir/flags.make
 test_dbTo11_autogen/timestamp: /usr/lib/qt6/libexec/moc
 test_dbTo11_autogen/timestamp: CMakeFiles/test_dbTo11.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test_dbTo11"
-	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_dbTo11_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/CMakeFiles/test_dbTo11_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/racha/qTox/build-preview/test_dbTo11_autogen/timestamp
 
 CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o: CMakeFiles/test_dbTo11.dir/flags.make
 CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o: test_dbTo11_autogen/mocs_compilation.cpp
 CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o: CMakeFiles/test_dbTo11.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test_dbTo11_autogen/mocs_compilation.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o -MF CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/test_dbTo11_autogen/mocs_compilation.cpp
 
 CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_dbTo11.dir/test_dbTo11_autogen/mocs_compilation.cpp.i"
@@ -93,7 +93,7 @@ CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o: CMakeFi
 CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o: /home/racha/qTox/test/persistence/dbupgrade/dbTo11_test.cpp
 CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o: CMakeFiles/test_dbTo11.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o -MF CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o.d -o CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o -c /home/racha/qTox/test/persistence/dbupgrade/dbTo11_test.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o -MF CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o.d -o CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.o -c /home/racha/qTox/test/persistence/dbupgrade/dbTo11_test.cpp
 
 CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_dbTo11.dir/test/persistence/dbupgrade/dbTo11_test.cpp.i"

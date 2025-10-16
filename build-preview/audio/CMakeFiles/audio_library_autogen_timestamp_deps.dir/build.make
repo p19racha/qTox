@@ -66,8 +66,8 @@ include audio/CMakeFiles/audio_library_autogen_timestamp_deps.dir/compiler_depen
 # Include the progress variables for this target.
 include audio/CMakeFiles/audio_library_autogen_timestamp_deps.dir/progress.make
 
-audio/CMakeFiles/audio_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 audio/CMakeFiles/audio_library_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+audio/CMakeFiles/audio_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 audio/CMakeFiles/audio_library_autogen_timestamp_deps: util/libutil_library.a
 
 audio_library_autogen_timestamp_deps: audio/CMakeFiles/audio_library_autogen_timestamp_deps

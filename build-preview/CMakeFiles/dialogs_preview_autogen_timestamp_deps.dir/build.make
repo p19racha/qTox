@@ -67,10 +67,10 @@ include CMakeFiles/dialogs_preview_autogen_timestamp_deps.dir/compiler_depend.ma
 include CMakeFiles/dialogs_preview_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
+CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.4.2
 CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
-CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.4.2
+CMakeFiles/dialogs_preview_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
 
 dialogs_preview_autogen_timestamp_deps: CMakeFiles/dialogs_preview_autogen_timestamp_deps
 dialogs_preview_autogen_timestamp_deps: CMakeFiles/dialogs_preview_autogen_timestamp_deps.dir/build.make

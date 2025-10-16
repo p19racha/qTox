@@ -72,14 +72,14 @@ include util/CMakeFiles/util_library.dir/flags.make
 util/util_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 util/util_library_autogen/timestamp: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target util_library"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/util/CMakeFiles/util_library_autogen.dir/AutogenInfo.json Release
+	cd /home/racha/qTox/build-preview/util && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/util/CMakeFiles/util_library_autogen.dir/AutogenInfo.json Debug
 	cd /home/racha/qTox/build-preview/util && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/util/util_library_autogen/timestamp
 
 util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o: util/CMakeFiles/util_library.dir/flags.make
 util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o: util/util_library_autogen/mocs_compilation.cpp
 util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/util/util_library_autogen/mocs_compilation.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/util/util_library_autogen/mocs_compilation.cpp
 
 util/CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/util_library_autogen/mocs_compilation.cpp.i"
@@ -93,7 +93,7 @@ util/CMakeFiles/util_library.dir/src/algorithm.cpp.o: util/CMakeFiles/util_libra
 util/CMakeFiles/util_library.dir/src/algorithm.cpp.o: /home/racha/qTox/util/src/algorithm.cpp
 util/CMakeFiles/util_library.dir/src/algorithm.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object util/CMakeFiles/util_library.dir/src/algorithm.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/algorithm.cpp.o -MF CMakeFiles/util_library.dir/src/algorithm.cpp.o.d -o CMakeFiles/util_library.dir/src/algorithm.cpp.o -c /home/racha/qTox/util/src/algorithm.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/algorithm.cpp.o -MF CMakeFiles/util_library.dir/src/algorithm.cpp.o.d -o CMakeFiles/util_library.dir/src/algorithm.cpp.o -c /home/racha/qTox/util/src/algorithm.cpp
 
 util/CMakeFiles/util_library.dir/src/algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/src/algorithm.cpp.i"
@@ -107,7 +107,7 @@ util/CMakeFiles/util_library.dir/src/display.cpp.o: util/CMakeFiles/util_library
 util/CMakeFiles/util_library.dir/src/display.cpp.o: /home/racha/qTox/util/src/display.cpp
 util/CMakeFiles/util_library.dir/src/display.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object util/CMakeFiles/util_library.dir/src/display.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/display.cpp.o -MF CMakeFiles/util_library.dir/src/display.cpp.o.d -o CMakeFiles/util_library.dir/src/display.cpp.o -c /home/racha/qTox/util/src/display.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/display.cpp.o -MF CMakeFiles/util_library.dir/src/display.cpp.o.d -o CMakeFiles/util_library.dir/src/display.cpp.o -c /home/racha/qTox/util/src/display.cpp
 
 util/CMakeFiles/util_library.dir/src/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/src/display.cpp.i"
@@ -121,7 +121,7 @@ util/CMakeFiles/util_library.dir/src/network.cpp.o: util/CMakeFiles/util_library
 util/CMakeFiles/util_library.dir/src/network.cpp.o: /home/racha/qTox/util/src/network.cpp
 util/CMakeFiles/util_library.dir/src/network.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object util/CMakeFiles/util_library.dir/src/network.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/network.cpp.o -MF CMakeFiles/util_library.dir/src/network.cpp.o.d -o CMakeFiles/util_library.dir/src/network.cpp.o -c /home/racha/qTox/util/src/network.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/network.cpp.o -MF CMakeFiles/util_library.dir/src/network.cpp.o.d -o CMakeFiles/util_library.dir/src/network.cpp.o -c /home/racha/qTox/util/src/network.cpp
 
 util/CMakeFiles/util_library.dir/src/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/src/network.cpp.i"
@@ -135,7 +135,7 @@ util/CMakeFiles/util_library.dir/src/ranges.cpp.o: util/CMakeFiles/util_library.
 util/CMakeFiles/util_library.dir/src/ranges.cpp.o: /home/racha/qTox/util/src/ranges.cpp
 util/CMakeFiles/util_library.dir/src/ranges.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object util/CMakeFiles/util_library.dir/src/ranges.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/ranges.cpp.o -MF CMakeFiles/util_library.dir/src/ranges.cpp.o.d -o CMakeFiles/util_library.dir/src/ranges.cpp.o -c /home/racha/qTox/util/src/ranges.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/ranges.cpp.o -MF CMakeFiles/util_library.dir/src/ranges.cpp.o.d -o CMakeFiles/util_library.dir/src/ranges.cpp.o -c /home/racha/qTox/util/src/ranges.cpp
 
 util/CMakeFiles/util_library.dir/src/ranges.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/src/ranges.cpp.i"
@@ -149,7 +149,7 @@ util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o: util/CMakeFiles/u
 util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o: /home/racha/qTox/util/src/toxcoreerrorparser.cpp
 util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o: util/CMakeFiles/util_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o"
-	cd /home/racha/qTox/build-preview/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o -MF CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o.d -o CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o -c /home/racha/qTox/util/src/toxcoreerrorparser.cpp
+	cd /home/racha/qTox/build-preview/util && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o -MF CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o.d -o CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.o -c /home/racha/qTox/util/src/toxcoreerrorparser.cpp
 
 util/CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util_library.dir/src/toxcoreerrorparser.cpp.i"

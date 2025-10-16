@@ -2,7 +2,15 @@
     <qresource prefix="/qml">
         <!-- Main Application -->
         <file>main.qml</file>
+        <file>PremiumMainWindow.qml</file>
         <file>premium_chat.qml</file>
+        
+        <!-- Screens -->
+        <file>screens/PremiumAddFriend.qml</file>
+        <file>screens/PremiumProfile.qml</file>
+        <file>screens/PremiumSettings.qml</file>
+        <file>screens/PremiumRequests.qml</file>
+        <file>screens/PremiumGroups.qml</file>
         
         <!-- Theme System -->
         <file>themes/Theme.qml</file>
@@ -18,6 +26,7 @@
         <file>components/premium/PremiumButton.qml</file>
         <file>components/premium/PremiumMessageBubble.qml</file>
         <file>components/premium/PremiumContactCard.qml</file>
+        <file>components/premium/PremiumShadow.qml</file>
         
         <!-- Pages -->
         <file>pages/SettingsPage.qml</file>

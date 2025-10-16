@@ -72,7 +72,7 @@ include audio/CMakeFiles/audio_library.dir/flags.make
 audio/audio_library_autogen/timestamp: /usr/lib/qt6/libexec/moc
 audio/audio_library_autogen/timestamp: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target audio_library"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutogenInfo.json Release
+	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autogen /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutogenInfo.json Debug
 	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E touch /home/racha/qTox/build-preview/audio/audio_library_autogen/timestamp
 
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio/resources/audio_res.qrc
@@ -83,13 +83,13 @@ audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /home/racha/qTox/audio/resources/notification.s16le.pcm
 audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/audio_res.qrc"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Info.json Release
+	cd /home/racha/qTox/build-preview/audio && /usr/bin/cmake -E cmake_autorcc /home/racha/qTox/build-preview/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Info.json Debug
 
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o: audio/CMakeFiles/audio_library.dir/flags.make
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o: audio/audio_library_autogen/mocs_compilation.cpp
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/audio/audio_library_autogen/mocs_compilation.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o -MF CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o -c /home/racha/qTox/build-preview/audio/audio_library_autogen/mocs_compilation.cpp
 
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.i"
@@ -103,7 +103,7 @@ audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o: audio/CMakeFiles/au
 audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o: /home/racha/qTox/audio/src/iaudiosettings.cpp
 audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o -MF CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o.d -o CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o -c /home/racha/qTox/audio/src/iaudiosettings.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o -MF CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o.d -o CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o -c /home/racha/qTox/audio/src/iaudiosettings.cpp
 
 audio/CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.i"
@@ -117,7 +117,7 @@ audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o: audio/CMakeFiles/audio_
 audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o: /home/racha/qTox/audio/src/iaudiosink.cpp
 audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o -MF CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o.d -o CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o -c /home/racha/qTox/audio/src/iaudiosink.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o -MF CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o.d -o CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o -c /home/racha/qTox/audio/src/iaudiosink.cpp
 
 audio/CMakeFiles/audio_library.dir/src/iaudiosink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/iaudiosink.cpp.i"
@@ -131,7 +131,7 @@ audio/CMakeFiles/audio_library.dir/src/audio.cpp.o: audio/CMakeFiles/audio_libra
 audio/CMakeFiles/audio_library.dir/src/audio.cpp.o: /home/racha/qTox/audio/src/audio.cpp
 audio/CMakeFiles/audio_library.dir/src/audio.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object audio/CMakeFiles/audio_library.dir/src/audio.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/audio.cpp.o -MF CMakeFiles/audio_library.dir/src/audio.cpp.o.d -o CMakeFiles/audio_library.dir/src/audio.cpp.o -c /home/racha/qTox/audio/src/audio.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/audio.cpp.o -MF CMakeFiles/audio_library.dir/src/audio.cpp.o.d -o CMakeFiles/audio_library.dir/src/audio.cpp.o -c /home/racha/qTox/audio/src/audio.cpp
 
 audio/CMakeFiles/audio_library.dir/src/audio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/audio.cpp.i"
@@ -145,7 +145,7 @@ audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o: audio/CMakeFiles/au
 audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o: /home/racha/qTox/audio/src/backend/alsink.cpp
 audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o -c /home/racha/qTox/audio/src/backend/alsink.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o -c /home/racha/qTox/audio/src/backend/alsink.cpp
 
 audio/CMakeFiles/audio_library.dir/src/backend/alsink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/backend/alsink.cpp.i"
@@ -159,7 +159,7 @@ audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o: audio/CMakeFiles/
 audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o: /home/racha/qTox/audio/src/backend/alsource.cpp
 audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o -c /home/racha/qTox/audio/src/backend/alsource.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o -c /home/racha/qTox/audio/src/backend/alsource.cpp
 
 audio/CMakeFiles/audio_library.dir/src/backend/alsource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/backend/alsource.cpp.i"
@@ -173,7 +173,7 @@ audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o: audio/CMakeFiles/au
 audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o: /home/racha/qTox/audio/src/backend/openal.cpp
 audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/openal.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/openal.cpp.o -c /home/racha/qTox/audio/src/backend/openal.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.o -MF CMakeFiles/audio_library.dir/src/backend/openal.cpp.o.d -o CMakeFiles/audio_library.dir/src/backend/openal.cpp.o -c /home/racha/qTox/audio/src/backend/openal.cpp
 
 audio/CMakeFiles/audio_library.dir/src/backend/openal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/src/backend/openal.cpp.i"
@@ -187,7 +187,7 @@ audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_re
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o: audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o: audio/CMakeFiles/audio_library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o"
-	cd /home/racha/qTox/build-preview/audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o -MF CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o.d -o CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o -c /home/racha/qTox/build-preview/audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp
+	cd /home/racha/qTox/build-preview/audio && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o -MF CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o.d -o CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o -c /home/racha/qTox/build-preview/audio/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp
 
 audio/CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.i"

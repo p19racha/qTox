@@ -6,5 +6,5 @@ CXX_DEFINES = -DLOG_TO_FILE=1 -DQTOX_PLATFORM_EXT -DQT_MESSAGELOGCONTEXT=1 -DQT_
 
 CXX_INCLUDES = -I/home/racha/qTox/build-preview/translations/translations_library_autogen/include -I/home/racha/qTox/build-preview -I/home/racha/qTox -I/usr/include/sqlcipher -I/usr/include/opus -I/usr/include/AL
 
-CXX_FLAGS =  -fno-exceptions -fstack-protector-all -O3 -DNDEBUG -std=gnu++20 -fPIC
+CXX_FLAGS =  -fno-exceptions -fstack-protector-all -g -std=gnu++20 -fPIC
 

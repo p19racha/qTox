@@ -9,7 +9,7 @@
 #include "src/model/friend.h"
 #include "src/persistence/settings.h"
 #include "src/persistence/profile.h"
-#include "src/widget/widget.h"
+// Widget include removed - not needed for bridge
 #include "src/core/toxid.h"
 
 QmlBridge::QmlBridge(Core* core_, FriendList& friendList_, Settings& settings_, Profile& profile_,

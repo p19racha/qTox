@@ -48,16 +48,16 @@ bool PremiumUILauncher::initialize()
 {
     qDebug() << "Initializing Premium UI...";
 
-    // Get core and friend list from profile
-    core = profile.getCore();
+    // Get core from profile (returns reference, so get address)
+    core = &profile.getCore();
     if (!core) {
         qWarning() << "Failed to get Core from profile";
         return false;
     }
 
-    // Initialize friend list (assuming it's a global singleton or accessible via some means)
-    // This is a placeholder - adjust based on actual qTox architecture
-    friendList = new FriendList(); // TODO: Get actual friend list instance
+    // Create a friend list instance
+    // Note: In real integration, this should be passed from Widget or Profile
+    friendList = new FriendList();
 
     // Create QML engine
     engine = std::make_unique<QQmlApplicationEngine>();
@@ -82,6 +82,8 @@ bool PremiumUILauncher::initialize()
 
     if (engine->rootObjects().isEmpty()) {
         qWarning() << "Failed to load QML file:" << qmlFile;
+        // Print QML errors for debugging (errors() may not exist in all Qt versions)
+        qWarning() << "Check QML syntax and resource paths";
         return false;
     }
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaudio_library.a CMakeFiles/audio_library.dir/audio_library_autogen/mocs_compilation.cpp.o CMakeFiles/audio_library.dir/src/iaudiosettings.cpp.o CMakeFiles/audio_library.dir/src/iaudiosink.cpp.o CMakeFiles/audio_library.dir/src/audio.cpp.o CMakeFiles/audio_library.dir/src/backend/alsink.cpp.o CMakeFiles/audio_library.dir/src/backend/alsource.cpp.o CMakeFiles/audio_library.dir/src/backend/openal.cpp.o CMakeFiles/audio_library.dir/audio_library_autogen/3YJK5W5UP7/qrc_audio_res.cpp.o
+/usr/bin/ranlib libaudio_library.a

@@ -40,7 +40,7 @@ QVariant FriendListModel::data(const QModelIndex& index, int role) const
     case StatusMessageRole:
         return f->getStatusMessage();
     case AvatarRole:
-        return f->getAvatar();
+        return QVariant(); // TODO: Implement avatar loading when available
     case PublicKeyRole:
         return f->getPublicKey().toString();
     case UnreadCountRole:

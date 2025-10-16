@@ -1,53 +1,43 @@
 # qTox Premium QML UI - CMake Build Configuration
 
-cmake_minimum_required(VERSION 3.16)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Quick Qml Widgets Network)
 
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Quick Qml)
+# Create the QML library with C++ sources
+add_library(qtox_qml STATIC
+    QmlBridge.h
+    QmlBridge.cpp
+    models/FriendListModel.h
+    models/FriendListModel.cpp
+    PremiumUILauncher.h
+    PremiumUILauncher.cpp
+)
 
-# QML Module for Premium UI
-qt_add_qml_module(qtox_qml
-    URI qTox.Premium
-    VERSION 1.0
-    QML_FILES
-        # Main Application
-        PremiumMainWindow.qml
-        premium_chat.qml
-        
-        # Screens
-        screens/PremiumAddFriend.qml
-        screens/PremiumProfile.qml
-        screens/PremiumSettings.qml
-        screens/PremiumRequests.qml
-        screens/PremiumGroups.qml
-        
-        # Components
-        components/premium/PremiumMessageBubble.qml
-        components/premium/PremiumContactCard.qml
-        components/premium/PremiumShadow.qml
-        
-        # Themes
-        themes/PremiumTheme.qml
-        
-    SOURCES
-        # C++ Bridge Classes
-        QmlBridge.h
-        QmlBridge.cpp
-        models/FriendListModel.h
-        models/FriendListModel.cpp
-        
-    RESOURCES
-        qml.qrc
+# Add QML resources
+target_sources(qtox_qml PRIVATE
+    qml.qrc
+)
+
+# Enable Qt features
+set_target_properties(qtox_qml PROPERTIES
+    AUTOMOC ON
+    AUTORCC ON
 )
 
 # Link required Qt libraries
-target_link_libraries(qtox_qml PRIVATE
+target_link_libraries(qtox_qml PUBLIC
     Qt6::Core
     Qt6::Gui
     Qt6::Quick
     Qt6::Qml
+    Qt6::Widgets
+    Qt6::Network
 )
 
-# Export for use in main application
+# Export for use in main application - include parent directories
 target_include_directories(qtox_qml PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/..
+    ${CMAKE_SOURCE_DIR}
+    ${CMAKE_SOURCE_DIR}/util/include
+    ${CMAKE_SOURCE_DIR}/audio/include
 )

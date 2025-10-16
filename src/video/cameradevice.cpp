@@ -8,9 +8,15 @@
 #include "scopedavdictionary.h"
 
 #include "src/persistence/settings.h"
+#ifdef Q_OS_MACOS
 #include "src/platform/camera/avfoundation.h" // IWYU pragma: keep
+#endif
+#ifdef Q_OS_WIN
 #include "src/platform/camera/directshow.h"   // IWYU pragma: keep
+#endif
+#ifdef USING_V4L
 #include "src/platform/camera/v4l2.h"         // IWYU pragma: keep
+#endif
 
 #include <QApplication>
 #include <QDebug>

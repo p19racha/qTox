@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqtox_qml.a CMakeFiles/qtox_qml.dir/qtox_qml_autogen/mocs_compilation.cpp.o CMakeFiles/qtox_qml.dir/QmlBridge.cpp.o CMakeFiles/qtox_qml.dir/models/FriendListModel.cpp.o CMakeFiles/qtox_qml.dir/PremiumUILauncher.cpp.o CMakeFiles/qtox_qml.dir/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o
+/usr/bin/ranlib libqtox_qml.a

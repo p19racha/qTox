@@ -8,6 +8,7 @@
 
 #include "audio/audio.h"
 #include "persistence/settings.h"
+#include "qml/PremiumUILauncher.h"
 #include "src/core/core.h"
 #include "src/core/coreav.h"
 #include "src/ipc.h"
@@ -180,9 +181,44 @@ void Nexus::connectLoginScreen(const LoginScreen& loginScreen)
 
 void Nexus::showMainGUI()
 {
-    // TODO(kriby): Rewrite as view-model connect sequence only, add to a controller class object
     assert(profile);
 
+    // Try to use Premium QML UI first
+    bool usePremiumUI = true; // Set to true to always use Premium UI
+    
+    if (usePremiumUI) {
+        qDebug() << "Initializing Premium UI...";
+        
+        if (!premiumUI) {
+            premiumUI = std::make_unique<PremiumUILauncher>(
+                *profile,
+                settings,
+                *audioControl,
+                cameraSource,
+                *style,
+                messageBoxManager
+            );
+            
+            if (!premiumUI->initialize()) {
+                qWarning() << "Failed to initialize Premium UI, falling back to Widget";
+                usePremiumUI = false;
+            }
+        }
+        
+        if (usePremiumUI) {
+            // Start core before showing UI
+            profile->startCore();
+            
+            // Show Premium UI
+            premiumUI->show();
+            qDebug() << "Premium UI launched successfully!";
+            return;
+        }
+    }
+    
+    // Fallback to old Widget UI if Premium UI fails
+    qDebug() << "Using classic Widget UI";
+    
     // Create GUI
     widget =
         std::make_unique<Widget>(*profile, *audioControl, cameraSource, settings, *style, ipc, *this);

@@ -22,6 +22,7 @@ class CameraSource;
 class Style;
 class IMessageBoxManager;
 class IPC;
+class PremiumUILauncher;
 
 class Nexus : public QObject
 {
@@ -59,6 +60,7 @@ private:
     std::unique_ptr<Profile> profile;
     Settings& settings;
     std::unique_ptr<Widget> widget;
+    std::unique_ptr<PremiumUILauncher> premiumUI;
     std::unique_ptr<IAudioControl> audioControl;
     QCommandLineParser* parser = nullptr;
     CameraSource& cameraSource;

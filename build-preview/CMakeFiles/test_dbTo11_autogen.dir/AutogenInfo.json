@@ -455,6 +455,8 @@
 		"/usr/include/AL",
 		"/home/racha/qTox/util/include",
 		"/home/racha/qTox/audio/include",
+		"/home/racha/qTox/src/qml",
+		"/home/racha/qTox/src",
 		"/home/racha/qTox/test/dbutility/include",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
 		"/usr/include/x86_64-linux-gnu/qt6",

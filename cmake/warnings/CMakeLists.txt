@@ -60,4 +60,4 @@ target_compile_options(
     >
     # Linux-specific warnings
     -Wstack-protector;
-    >)
+    )

@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/racha/qTox/build-integrated/audio/audio_library_autogen",
+	"CMAKE_BINARY_DIR" : "/home/racha/qTox/build-integrated",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/racha/qTox/build-integrated/audio",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/racha/qTox/audio",
+	"CMAKE_SOURCE_DIR" : "/home/racha/qTox",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/racha/qTox/build-integrated/audio/audio_library_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/racha/qTox/audio/resources/call_end.s16le.pcm",
+		"/home/racha/qTox/audio/resources/call_incoming.s16le.pcm",
+		"/home/racha/qTox/audio/resources/call_outgoing.s16le.pcm",
+		"/home/racha/qTox/audio/resources/notification.s16le.pcm"
+	],
+	"LOCK_FILE" : "/home/racha/qTox/build-integrated/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-compress", "9", "-name", "audio_res" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_audio_res.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/racha/qTox/build-integrated/audio/CMakeFiles/audio_library_autogen.dir/AutoRcc_audio_res_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/racha/qTox/audio/resources/audio_res.qrc",
+	"VERBOSITY" : 0
+}

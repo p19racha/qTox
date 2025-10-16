@@ -3107,18 +3107,19 @@ qtox: /usr/lib/x86_64-linux-gnu/libQt6Svg.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6Xml.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6DBus.so.6.4.2
+qtox: audio/libaudio_library.a
+qtox: util/libutil_library.a
+qtox: translations/libtranslations_library.a
+qtox: src/qml/libqtox_qml.a
 qtox: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6QmlModels.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.4.2
+qtox: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+qtox: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 qtox: /usr/lib/x86_64-linux-gnu/libGLX.so
 qtox: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-qtox: audio/libaudio_library.a
-qtox: util/libutil_library.a
-qtox: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
-qtox: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
-qtox: translations/libtranslations_library.a
 qtox: CMakeFiles/qtox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/racha/qTox/build-preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable qtox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtox.dir/link.txt --verbose=$(VERBOSE)

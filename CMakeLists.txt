@@ -644,6 +644,7 @@ add_subdirectory(util)
 add_subdirectory(audio)
 add_subdirectory(translations)
 add_subdirectory(cmake/warnings)
+add_subdirectory(src/qml)
 
 add_library(${BINARY_NAME}_static STATIC ${${BINARY_NAME}_FORMS}
                                          ${${BINARY_NAME}_SOURCES})
@@ -654,6 +655,7 @@ target_link_libraries(${BINARY_NAME}_static qtox::warnings)
 target_link_libraries(${BINARY_NAME}_static util_library)
 target_link_libraries(${BINARY_NAME}_static audio_library)
 target_link_libraries(${BINARY_NAME}_static translations_library)
+target_link_libraries(${BINARY_NAME}_static qtox_qml)
 
 # Create the main executable (Linux only, no WIN32/MACOSX_BUNDLE flags)
 qt_add_executable(${BINARY_NAME}
@@ -661,6 +663,11 @@ qt_add_executable(${BINARY_NAME}
 target_link_libraries(
   ${BINARY_NAME} PRIVATE ${BINARY_NAME}_static ${CMAKE_REQUIRED_LIBRARIES}
                          ${ALL_LIBRARIES})
+
+# Link X11 on Linux for platform extensions
+if(UNIX AND NOT APPLE AND NOT ANDROID)
+  target_link_libraries(${BINARY_NAME} PRIVATE X11 Xss)
+endif()
 
 if(FULLY_STATIC)
   target_link_options(${BINARY_NAME} PRIVATE -static-pie)

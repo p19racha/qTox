@@ -10,6 +10,7 @@
 #include <QQmlEngine>
 #include "src/core/toxpk.h"
 #include "src/model/status.h"
+#include "models/FriendListModel.h"
 
 class Core;
 class Friend;
@@ -17,7 +18,6 @@ class FriendList;
 class Settings;
 class Profile;
 class Widget;
-class FriendListModel;
 
 class QmlBridge : public QObject
 {

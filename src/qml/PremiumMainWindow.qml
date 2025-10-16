@@ -9,13 +9,64 @@ import "components/premium"
 
 ApplicationWindow {
     id: mainWindow
-    visible: true
+    visible: false  // Start hidden, will be shown by C++ code
     width: 1400
     height: 900
     minimumWidth: 1200
     minimumHeight: 700
     title: "qTox - Secure Messaging"
-    color: PremiumTheme.background
+    
+    // Inline theme (fallback if singleton doesn't load)
+    readonly property var premiumTheme: QtObject {
+        // Telegram Dark Theme Colors
+        readonly property color background: "#0E1621"
+        readonly property color backgroundPrimary: "#0E1621"
+        readonly property color surface: "#1A2332"
+        readonly property color surfaceLight: "#232E3E"
+        readonly property color surfaceDark: "#151D28"
+        
+        readonly property color primary: "#2AABEE"
+        readonly property color primaryDark: "#2090D0"
+        readonly property color secondary: "#7F8C9C"
+        
+        readonly property color textPrimary: "#FFFFFF"
+        readonly property color textSecondary: "#8E9DB5"
+        readonly property color textTertiary: "#6B7888"
+        readonly property color textPlaceholder: "#4A5766"
+        
+        readonly property color border: "#2C3645"
+        readonly property color borderLight: "#3A4556"
+        
+        readonly property color hoverOverlay: "#232E3E"
+        readonly property color selectedOverlay: "#1E2836"
+        readonly property color activeOverlay: "#2A3849"
+        
+        readonly property color success: "#4CAF50"
+        readonly property color error: "#F44336"
+        readonly property color warning: "#FF9800"
+        readonly property color info: "#2196F3"
+        
+        // Spacing
+        readonly property int spacingXs: 4
+        readonly property int spacingSm: 8
+        readonly property int spacingMd: 12
+        readonly property int spacingLg: 16
+        readonly property int spacingXl: 24
+        
+        // Borders
+        readonly property int borderRadiusSm: 8
+        readonly property int borderRadiusMd: 12
+        readonly property int borderRadiusLg: 16
+        readonly property int borderRadiusXl: 20
+        readonly property int borderRadiusFull: 9999
+        
+        // Animation
+        readonly property int durationFast: 150
+        readonly property int durationNormal: 250
+        readonly property int durationSlow: 350
+    }
+    
+    color: premiumTheme.background
 
     // Properties for navigation
     property string currentView: "chat" // chat, addFriend, profile, settings, about
@@ -32,7 +83,7 @@ ApplicationWindow {
             id: sidebar
             Layout.fillHeight: true
             Layout.preferredWidth: sidebarCollapsed ? 80 : 360
-            color: PremiumTheme.surface
+            color: premiumTheme.surface
             
             Behavior on Layout.preferredWidth {
                 NumberAnimation { duration: 200; easing.type: Easing.OutCubic }
@@ -46,7 +97,7 @@ ApplicationWindow {
                 Rectangle {
                     Layout.fillWidth: true
                     Layout.preferredHeight: 100
-                    color: PremiumTheme.surfaceDark
+                    color: premiumTheme.surfaceDark
                     
                     RowLayout {
                         anchors.fill: parent
@@ -58,14 +109,14 @@ ApplicationWindow {
                             Layout.preferredWidth: 56
                             Layout.preferredHeight: 56
                             radius: 28
-                            color: PremiumTheme.primary
+                            color: premiumTheme.primary
                             
                             Text {
                                 anchors.centerIn: parent
                                 text: qmlBridge.username ? qmlBridge.username.charAt(0).toUpperCase() : "?"
                                 font.pixelSize: 24
                                 font.weight: Font.Medium
-                                color: PremiumTheme.textPrimary
+                                color: premiumTheme.textPrimary
                             }
                             
                             MouseArea {
@@ -85,7 +136,7 @@ ApplicationWindow {
                                 text: qmlBridge.username || "Loading..."
                                 font.pixelSize: 16
                                 font.weight: Font.DemiBold
-                                color: PremiumTheme.textPrimary
+                                color: premiumTheme.textPrimary
                                 elide: Text.ElideRight
                                 Layout.fillWidth: true
                             }
@@ -93,7 +144,7 @@ ApplicationWindow {
                             Text {
                                 text: qmlBridge.statusMessage || "No status message"
                                 font.pixelSize: 13
-                                color: PremiumTheme.textSecondary
+                                color: premiumTheme.textSecondary
                                 elide: Text.ElideRight
                                 Layout.fillWidth: true
                             }
@@ -104,9 +155,9 @@ ApplicationWindow {
                             Layout.preferredWidth: 12
                             Layout.preferredHeight: 12
                             radius: 6
-                            color: qmlBridge.isConnected ? PremiumTheme.success : PremiumTheme.error
+                            color: qmlBridge.isConnected ? premiumTheme.success : premiumTheme.error
                             border.width: 2
-                            border.color: PremiumTheme.surfaceDark
+                            border.color: premiumTheme.surfaceDark
                         }
                     }
                 }
@@ -122,9 +173,9 @@ ApplicationWindow {
                     Rectangle {
                         anchors.fill: parent
                         radius: 12
-                        color: PremiumTheme.surfaceLight
+                        color: premiumTheme.surfaceLight
                         border.width: 1
-                        border.color: searchField.activeFocus ? PremiumTheme.primary : "transparent"
+                        border.color: searchField.activeFocus ? premiumTheme.primary : "transparent"
                         
                         Behavior on border.color {
                             ColorAnimation { duration: 150 }
@@ -138,15 +189,15 @@ ApplicationWindow {
                             Text {
                                 text: "🔍"
                                 font.pixelSize: 18
-                                color: PremiumTheme.textSecondary
+                                color: premiumTheme.textSecondary
                             }
 
                             TextField {
                                 id: searchField
                                 Layout.fillWidth: true
                                 placeholderText: "Search contacts..."
-                                color: PremiumTheme.textPrimary
-                                placeholderTextColor: PremiumTheme.textSecondary
+                                color: premiumTheme.textPrimary
+                                placeholderTextColor: premiumTheme.textSecondary
                                 font.pixelSize: 14
                                 background: Item {}
                             }
@@ -196,7 +247,7 @@ ApplicationWindow {
                                         text: modelData.text
                                         font.pixelSize: 13
                                         font.weight: currentView === modelData.value ? Font.Medium : Font.Normal
-                                        color: currentView === modelData.value ? PremiumTheme.primary : PremiumTheme.textSecondary
+                                        color: currentView === modelData.value ? premiumTheme.primary : premiumTheme.textSecondary
                                     }
                                 }
 
@@ -222,7 +273,7 @@ ApplicationWindow {
                         anchors.margins: 8
                         spacing: 4
                         clip: true
-                        model: qmlBridge.friendListModel
+                        model: qmlBridge ? qmlBridge.friendListModel : null
 
                         ScrollBar.vertical: ScrollBar {
                             policy: ScrollBar.AsNeeded
@@ -230,24 +281,23 @@ ApplicationWindow {
                             
                             contentItem: Rectangle {
                                 radius: 3
-                                color: PremiumTheme.textSecondary
+                                color: premiumTheme.textSecondary
                                 opacity: parent.pressed ? 0.8 : 0.5
                             }
                         }
 
                         delegate: PremiumContactCard {
                             width: friendListView.width
-                            friendName: model.friendName
-                            statusMsg: model.statusMessage
-                            lastMsg: model.lastMessage || "No messages yet"
+                            name: model.friendName || ""
+                            lastMessage: model.lastMessage || "No messages yet"
                             timestamp: model.lastMessageTime || ""
                             unreadCount: model.unreadCount || 0
-                            isOnline: model.isOnline
-                            isSelected: selectedFriendPk === model.publicKey
-                            showCompact: sidebarCollapsed
+                            online: model.isOnline || false
+                            selected: selectedFriendPk === (model.publicKey || "")
+                            avatarText: model.friendName ? model.friendName.substring(0, 2).toUpperCase() : "??"
 
                             onClicked: {
-                                selectedFriendPk = model.publicKey
+                                selectedFriendPk = model.publicKey || ""
                                 currentView = "chat"
                             }
                         }
@@ -269,7 +319,7 @@ ApplicationWindow {
                         Text {
                             text: sidebarCollapsed ? "" : "No friends yet"
                             font.pixelSize: 16
-                            color: PremiumTheme.textSecondary
+                            color: premiumTheme.textSecondary
                             horizontalAlignment: Text.AlignHCenter
                             Layout.alignment: Qt.AlignHCenter
                         }
@@ -281,9 +331,9 @@ ApplicationWindow {
                             
                             background: Rectangle {
                                 radius: 8
-                                color: parent.down ? Qt.darker(PremiumTheme.primary, 1.1) : 
-                                       parent.hovered ? Qt.lighter(PremiumTheme.primary, 1.1) : 
-                                       PremiumTheme.primary
+                                color: parent.down ? Qt.darker(premiumTheme.primary, 1.1) : 
+                                       parent.hovered ? Qt.lighter(premiumTheme.primary, 1.1) : 
+                                       premiumTheme.primary
                                 
                                 Behavior on color {
                                     ColorAnimation { duration: 150 }
@@ -294,7 +344,7 @@ ApplicationWindow {
                                 text: parent.text
                                 font.pixelSize: 14
                                 font.weight: Font.Medium
-                                color: PremiumTheme.textPrimary
+                                color: premiumTheme.textPrimary
                                 horizontalAlignment: Text.AlignHCenter
                                 verticalAlignment: Text.AlignVCenter
                             }
@@ -308,7 +358,7 @@ ApplicationWindow {
                 Rectangle {
                     Layout.fillWidth: true
                     Layout.preferredHeight: 70
-                    color: PremiumTheme.surfaceDark
+                    color: premiumTheme.surfaceDark
 
                     RowLayout {
                         anchors.fill: parent
@@ -327,7 +377,7 @@ ApplicationWindow {
                                 Layout.preferredHeight: 46
                                 radius: 12
                                 color: currentView === modelData.action ? Qt.rgba(82/255, 136/255, 193/255, 0.2) : 
-                                       navButton.containsMouse ? PremiumTheme.surfaceLight : "transparent"
+                                       navButton.containsMouse ? premiumTheme.surfaceLight : "transparent"
                                 
                                 Behavior on color {
                                     ColorAnimation { duration: 150 }
@@ -337,7 +387,7 @@ ApplicationWindow {
                                     anchors.centerIn: parent
                                     text: modelData.icon
                                     font.pixelSize: sidebarCollapsed ? 24 : 20
-                                    color: PremiumTheme.textPrimary
+                                    color: premiumTheme.textPrimary
                                 }
 
                                 MouseArea {
@@ -359,7 +409,7 @@ ApplicationWindow {
                             Layout.preferredWidth: 46
                             Layout.preferredHeight: 46
                             radius: 12
-                            color: collapseButton.containsMouse ? PremiumTheme.surfaceLight : "transparent"
+                            color: collapseButton.containsMouse ? premiumTheme.surfaceLight : "transparent"
                             
                             Behavior on color {
                                 ColorAnimation { duration: 150 }
@@ -369,7 +419,7 @@ ApplicationWindow {
                                 anchors.centerIn: parent
                                 text: sidebarCollapsed ? "→" : "←"
                                 font.pixelSize: 18
-                                color: PremiumTheme.textSecondary
+                                color: premiumTheme.textSecondary
                                 
                                 Behavior on text {
                                     SequentialAnimation {
@@ -397,14 +447,14 @@ ApplicationWindow {
         Rectangle {
             Layout.fillHeight: true
             Layout.preferredWidth: 1
-            color: PremiumTheme.border
+            color: premiumTheme.border
         }
 
         // Main Content Area
         Rectangle {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            color: PremiumTheme.background
+            color: premiumTheme.background
 
             Loader {
                 id: contentLoader
@@ -424,7 +474,8 @@ ApplicationWindow {
                 onLoaded: {
                     // Pass necessary properties to loaded component
                     if (item && currentView === "chat") {
-                        item.selectedFriendPk = selectedFriendPk
+                        // TODO: Pass selectedFriendPk to chat component when implemented
+                        // item.selectedFriendPk = selectedFriendPk
                     }
                 }
             }

@@ -66,8 +66,8 @@ include test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps.dir/c
 # Include the progress variables for this target.
 include test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps.dir/progress.make
 
-test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Test.so.6.4.2
 test/dbutility/CMakeFiles/dbutility_library_autogen_timestamp_deps: util/libutil_library.a
 

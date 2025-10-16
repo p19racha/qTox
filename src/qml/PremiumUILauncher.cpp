@@ -14,6 +14,7 @@
 
 #include <QQmlContext>
 #include <QQuickWindow>
+#include <QDirIterator>
 #include <QDebug>
 
 PremiumUILauncher::PremiumUILauncher(Profile& profile_,
@@ -78,16 +79,21 @@ bool PremiumUILauncher::initialize()
 
     // Load main QML file
     const QString qmlFile = QStringLiteral("qrc:/qml/PremiumMainWindow.qml");
+    qDebug() << "Loading QML file:" << qmlFile;
     engine->load(qmlFile);
 
     if (engine->rootObjects().isEmpty()) {
-        qWarning() << "Failed to load QML file:" << qmlFile;
-        // Print QML errors for debugging (errors() may not exist in all Qt versions)
-        qWarning() << "Check QML syntax and resource paths";
+        qCritical() << "CRITICAL: Failed to load QML file:" << qmlFile;
+        qCritical() << "Check QML syntax and resource paths";
+        qCritical() << "Available resources:";
+        QDirIterator it(":", QDirIterator::Subdirectories);
+        while (it.hasNext()) {
+            qDebug() << "  Resource:" << it.next();
+        }
         return false;
     }
 
-    qDebug() << "Premium UI initialized successfully";
+    qDebug() << "Premium UI initialized successfully! Root objects:" << engine->rootObjects().count();
     return true;
 }
 
@@ -130,18 +136,32 @@ void PremiumUILauncher::setQmlContextProperties()
 
 void PremiumUILauncher::show()
 {
+    qDebug() << "PremiumUILauncher::show() called";
+    
     if (!engine) {
+        qWarning() << "Engine is null in show()";
         return;
     }
 
     const auto objects = engine->rootObjects();
+    qDebug() << "Root objects count:" << objects.count();
+    
     for (QObject* obj : objects) {
+        qDebug() << "Processing object:" << obj;
         if (QQuickWindow* window = qobject_cast<QQuickWindow*>(obj)) {
+            qDebug() << "Found QQuickWindow, calling show()";
             window->show();
+            qDebug() << "Called window->show()";
             window->raise();
+            qDebug() << "Called window->raise()";
             window->requestActivate();
+            qDebug() << "Called window->requestActivate()";
+        } else {
+            qDebug() << "Object is not a QQuickWindow";
         }
     }
+    
+    qDebug() << "PremiumUILauncher::show() completed";
 }
 
 void PremiumUILauncher::hide()

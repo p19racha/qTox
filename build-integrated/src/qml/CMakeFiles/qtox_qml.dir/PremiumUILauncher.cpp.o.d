@@ -609,5 +609,14 @@ src/qml/CMakeFiles/qtox_qml.dir/PremiumUILauncher.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlcontext.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQuick/QQuickWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtQuick/qquickwindow.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QDirIterator \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qdiriterator.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qdir.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfile.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfiledevice.h \
+ /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
+ /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/codecvt \
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h

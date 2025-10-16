@@ -181,6 +181,7 @@ void Nexus::connectLoginScreen(const LoginScreen& loginScreen)
 
 void Nexus::showMainGUI()
 {
+    qDebug() << "===== Nexus::showMainGUI() called =====";
     assert(profile);
 
     // Try to use Premium QML UI first
@@ -300,12 +301,21 @@ void Nexus::setParser(QCommandLineParser* parser_)
 
 void Nexus::registerIpcHandlers()
 {
-    widget->registerIpcHandlers();
+    if (widget) {
+        widget->registerIpcHandlers();
+    } else {
+        qDebug() << "registerIpcHandlers(): widget is null (using Premium UI)";
+        // TODO: Implement IPC handlers for Premium UI
+    }
 }
 
 bool Nexus::handleToxSave(const QString& path)
 {
-    assert(widget);
+    if (!widget) {
+        qWarning() << "handleToxSave(): widget is null (using Premium UI), ignoring tox save";
+        // TODO: Implement tox save handling for Premium UI
+        return false;
+    }
     return widget->handleToxSave(path);
 }
 

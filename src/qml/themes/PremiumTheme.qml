@@ -2,7 +2,7 @@
 // Copyright © 2025 qTox Project - Premium UI Theme System
 
 pragma Singleton
-import QtQuick 2.15
+import QtQuick
 
 QtObject {
     id: theme

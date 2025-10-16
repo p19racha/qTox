@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright © 2025 qTox Ubuntu Modernization Project
 
-import QtQuick 2.15
+import QtQuick
+import QtQuick.Controls
 import QtQuick.Controls 2.15
 import "../themes"
 

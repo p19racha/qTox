@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright © 2025 qTox Project - Premium Contact Card (Refined)
 
-import QtQuick 2.15
+import QtQuick
+import QtQuick.Controls
 import "../../themes"
 
 Rectangle {

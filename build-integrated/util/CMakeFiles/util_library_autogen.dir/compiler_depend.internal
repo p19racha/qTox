@@ -16,4 +16,32 @@
  /home/racha/qTox/util/src/ranges.cpp
  /home/racha/qTox/util/src/toxcoreerrorparser.cpp
  /usr/bin/cmake
+ /home/racha/qTox/util/CMakeLists.txt
+ /home/racha/qTox/util/include/util/algorithm.h
+ /home/racha/qTox/util/include/util/display.h
+ /home/racha/qTox/util/include/util/interface.h
+ /home/racha/qTox/util/include/util/network.h
+ /home/racha/qTox/util/include/util/ranges.h
+ /home/racha/qTox/util/include/util/strongtype.h
+ /home/racha/qTox/util/include/util/toxcoreerrorparser.h
+ /home/racha/qTox/util/src/algorithm.cpp
+ /home/racha/qTox/util/src/display.cpp
+ /home/racha/qTox/util/src/network.cpp
+ /home/racha/qTox/util/src/ranges.cpp
+ /home/racha/qTox/util/src/toxcoreerrorparser.cpp
+ /usr/bin/cmake
+ /home/racha/qTox/util/CMakeLists.txt
+ /home/racha/qTox/util/include/util/algorithm.h
+ /home/racha/qTox/util/include/util/display.h
+ /home/racha/qTox/util/include/util/interface.h
+ /home/racha/qTox/util/include/util/network.h
+ /home/racha/qTox/util/include/util/ranges.h
+ /home/racha/qTox/util/include/util/strongtype.h
+ /home/racha/qTox/util/include/util/toxcoreerrorparser.h
+ /home/racha/qTox/util/src/algorithm.cpp
+ /home/racha/qTox/util/src/display.cpp
+ /home/racha/qTox/util/src/network.cpp
+ /home/racha/qTox/util/src/ranges.cpp
+ /home/racha/qTox/util/src/toxcoreerrorparser.cpp
+ /usr/bin/cmake
 

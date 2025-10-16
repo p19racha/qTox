@@ -9,6 +9,7 @@
 	"INPUTS" : 
 	[
 		"/home/racha/qTox/src/qml/settings_test.qml",
+		"/home/racha/qTox/src/qml/MinimalTest.qml",
 		"/home/racha/qTox/src/qml/dialogs_demo.qml",
 		"/home/racha/qTox/src/qml/PremiumMainWindow.qml",
 		"/home/racha/qTox/src/qml/settings_demo.qml",

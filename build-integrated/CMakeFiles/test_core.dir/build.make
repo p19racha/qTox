@@ -261,6 +261,7 @@ test_core_autogen/EWIEGA46WW/qrc_res.cpp: /usr/lib/qt6/libexec/rcc
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: CMakeFiles/test_core_autogen.dir/AutoRcc_qml_VLDSMZLXNG_Info.json
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
+test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/MinimalTest.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
 test_core_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml

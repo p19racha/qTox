@@ -78,6 +78,7 @@ src/qml/qtox_qml_autogen/timestamp: src/qml/CMakeFiles/qtox_qml.dir/compiler_dep
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/qml.qrc
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: src/qml/CMakeFiles/qtox_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
+src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/MinimalTest.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml

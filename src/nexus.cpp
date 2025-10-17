@@ -190,6 +190,12 @@ void Nexus::showMainGUI()
     if (usePremiumUI) {
         qDebug() << "Initializing Premium UI...";
         
+        // Destroy any existing widget to prevent double UI
+        if (widget) {
+            qDebug() << "Destroying old Widget to use Premium UI";
+            widget.reset();
+        }
+        
         if (!premiumUI) {
             premiumUI = std::make_unique<PremiumUILauncher>(
                 *profile,

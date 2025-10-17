@@ -264,7 +264,9 @@ qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_test.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/MinimalTest.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/Theme.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/qmldir
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/pages/SettingsPage.qml
@@ -283,6 +285,7 @@ qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumReq
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/Icon.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumShadow.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml

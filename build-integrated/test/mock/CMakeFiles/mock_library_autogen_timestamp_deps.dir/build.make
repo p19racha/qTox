@@ -66,10 +66,10 @@ include test/mock/CMakeFiles/mock_library_autogen_timestamp_deps.dir/compiler_de
 # Include the progress variables for this target.
 include test/mock/CMakeFiles/mock_library_autogen_timestamp_deps.dir/progress.make
 
-test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
-test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 test/mock/CMakeFiles/mock_library_autogen_timestamp_deps: util/libutil_library.a
 
 mock_library_autogen_timestamp_deps: test/mock/CMakeFiles/mock_library_autogen_timestamp_deps

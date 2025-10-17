@@ -81,7 +81,9 @@ src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/settin
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/MinimalTest.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/dialogs_demo.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/PremiumMainWindow.qml
+src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/Theme.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/settings_demo.qml
+src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/qmldir
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/main.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/premium_chat.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/pages/SettingsPage.qml
@@ -100,6 +102,7 @@ src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screen
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml
+src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/Icon.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumShadow.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumContactCard.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/premium/PremiumMessageBubble.qml

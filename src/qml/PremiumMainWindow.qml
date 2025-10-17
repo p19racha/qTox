@@ -4,6 +4,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import "components"
 import "themes"
 import "components/premium"
 
@@ -184,11 +185,11 @@ ApplicationWindow {
                         RowLayout {
                             anchors.fill: parent
                             anchors.margins: 12
-                            spacing: 8
+                            spacing: 10
 
-                            Text {
-                                text: "🔍"
-                                font.pixelSize: 18
+                            Icon {
+                                name: "search"
+                                size: 18
                                 color: premiumTheme.textSecondary
                             }
 
@@ -219,9 +220,9 @@ ApplicationWindow {
 
                         Repeater {
                             model: [
-                                {text: "Chats", value: "chat", icon: "💬"},
-                                {text: "Requests", value: "requests", icon: "📩"},
-                                {text: "Groups", value: "groups", icon: "👥"}
+                                {text: "Chats", value: "chat", iconName: "chat"},
+                                {text: "Requests", value: "requests", iconName: "requests"},
+                                {text: "Groups", value: "groups", iconName: "groups"}
                             ]
 
                             Rectangle {
@@ -236,11 +237,12 @@ ApplicationWindow {
 
                                 RowLayout {
                                     anchors.centerIn: parent
-                                    spacing: 6
+                                    spacing: 8
 
-                                    Text {
-                                        text: modelData.icon
-                                        font.pixelSize: 16
+                                    Icon {
+                                        name: modelData.iconName
+                                        size: 18
+                                        color: currentView === modelData.value ? premiumTheme.primary : premiumTheme.textSecondary
                                     }
 
                                     Text {
@@ -367,9 +369,9 @@ ApplicationWindow {
 
                         Repeater {
                             model: [
-                                {icon: "➕", tooltip: "Add Friend", action: "addFriend"},
-                                {icon: "👤", tooltip: "Profile", action: "profile"},
-                                {icon: "⚙️", tooltip: "Settings", action: "settings"}
+                                {iconName: "add", tooltip: "Add Friend", action: "addFriend"},
+                                {iconName: "profile", tooltip: "Profile", action: "profile"},
+                                {iconName: "settings", tooltip: "Settings", action: "settings"}
                             ]
 
                             Rectangle {
@@ -383,10 +385,10 @@ ApplicationWindow {
                                     ColorAnimation { duration: 150 }
                                 }
 
-                                Text {
+                                Icon {
                                     anchors.centerIn: parent
-                                    text: modelData.icon
-                                    font.pixelSize: sidebarCollapsed ? 24 : 20
+                                    name: modelData.iconName
+                                    size: sidebarCollapsed ? 24 : 22
                                     color: premiumTheme.textPrimary
                                 }
 

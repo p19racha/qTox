@@ -28,6 +28,10 @@ translations/translations_library_autogen/timestamp: translations/translations.q
   translations/translations.qrc \
   translations/translations.qrc.in \
   /home/racha/qTox/translations/CMakeLists.txt \
+  /usr/bin/cmake \
+  translations/translations.qrc \
+  translations/translations.qrc.in \
+  /home/racha/qTox/translations/CMakeLists.txt \
   /usr/bin/cmake
 
 

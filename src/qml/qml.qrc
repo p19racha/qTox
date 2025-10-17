@@ -6,6 +6,10 @@
         <file>MinimalTest.qml</file>
         <file>premium_chat.qml</file>
         
+        <!-- Centralized Theme -->
+        <file>Theme.qml</file>
+        <file>qmldir</file>
+        
         <!-- Screens -->
         <file>screens/PremiumAddFriend.qml</file>
         <file>screens/PremiumProfile.qml</file>
@@ -19,6 +23,7 @@
         <file>themes/qmldir</file>
         
         <!-- Components -->
+        <file>components/Icon.qml</file>
         <file>components/ModernButton.qml</file>
         <file>components/MessageBubble.qml</file>
         <file>components/ContactListItem.qml</file>

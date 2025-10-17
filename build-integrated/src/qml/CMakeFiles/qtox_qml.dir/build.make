@@ -99,6 +99,7 @@ src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screen
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumGroups.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumAddFriend.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumRequests.qml
+src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumChatView.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 src/qml/qtox_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml

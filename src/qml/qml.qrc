@@ -11,6 +11,7 @@
         <file>qmldir</file>
         
         <!-- Screens -->
+        <file>screens/PremiumChatView.qml</file>
         <file>screens/PremiumAddFriend.qml</file>
         <file>screens/PremiumProfile.qml</file>
         <file>screens/PremiumSettings.qml</file>

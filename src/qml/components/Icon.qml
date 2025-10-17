@@ -1,57 +1,48 @@
-// Simple icon component using Text with geometric characters
+// Simple visible icon component
 import QtQuick
 
-Text {
+Rectangle {
     id: root
     
     property string name: "chat"
     property int size: 24
+    property color iconColor: "#FFFFFF"
     
-    font.pixelSize: size
-    font.family: "DejaVu Sans"
+    width: size
+    height: size
+    color: "transparent"
     
-    // Use simple geometric Unicode characters that are widely supported
-    text: {
-        switch(name) {
-            case "chat": return "💬"  // Try emoji first
-            case "requests": return "📩"
-            case "groups": return "👥"
-            case "add": return "+"
-            case "profile": return "👤"
-            case "settings": return "⚙"
-            case "search": return "🔍"
-            default: return "●"
-        }
+    // Debug: show colored square if icon doesn't render (placed behind the glyph)
+    Rectangle {
+        anchors.centerIn: parent
+        width: root.size * 0.6
+        height: root.size * 0.6
+        radius: width / 2
+        // Match the Text color/fallback
+        color: (root.color && root.color !== "transparent") ? root.color : root.iconColor
+        opacity: 0.3
+        visible: parent.visible
     }
-    
-    // Fallback to simple symbols if emojis don't render
-    Component.onCompleted: {
-        // Check if font supports emoji by testing rendering
-        if (font.pixelSize > 0) {
-            // If emoji doesn't render well, use ASCII fallbacks
-            var needsFallback = false
-            switch(name) {
-                case "chat":
-                    if (needsFallback) text = "💬";
-                    break;
-                case "requests":
-                    if (needsFallback) text = "✉";
-                    break;
-                case "groups":
-                    if (needsFallback) text = "≡";
-                    break;
-                case "add":
-                    text = "+";
-                    break;
-                case "profile":
-                    if (needsFallback) text = "◉";
-                    break;
-                case "settings":
-                    if (needsFallback) text = "⚙";
-                    break;
-                case "search":
-                    if (needsFallback) text = "⌕";
-                    break;
+
+
+    Text {
+        anchors.centerIn: parent
+        font.pixelSize: root.size
+        font.bold: true
+        // Use Rectangle's color if explicitly set on the component, otherwise fall back to iconColor
+        color: (root.color && root.color !== "transparent") ? root.color : root.iconColor
+
+        // Use simple visible characters that always render
+        text: {
+            switch(root.name) {
+                case "chat": return "💬"
+                case "requests": return "📩"
+                case "groups": return "👥"
+                case "add": return "✚"
+                case "profile": return "👤"
+                case "settings": return "⚙"
+                case "search": return "🔍"
+                default: return "●"
             }
         }
     }

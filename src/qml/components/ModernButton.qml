@@ -4,7 +4,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls 2.15
-import "../themes"
+import themes
 
 Button {
     id: control

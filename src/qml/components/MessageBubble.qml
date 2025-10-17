@@ -5,7 +5,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts 1.15
 import Qt5Compat.GraphicalEffects
-import "../themes"
+import themes
 
 Rectangle {
     id: messageBubble

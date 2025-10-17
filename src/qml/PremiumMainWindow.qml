@@ -463,13 +463,13 @@ ApplicationWindow {
                 anchors.fill: parent
                 source: {
                     switch(currentView) {
-                        case "chat": return "premium_chat.qml"
+                        case "chat": return "screens/PremiumChatView.qml"
                         case "addFriend": return "screens/PremiumAddFriend.qml"
                         case "profile": return "screens/PremiumProfile.qml"
                         case "settings": return "screens/PremiumSettings.qml"
                         case "requests": return "screens/PremiumRequests.qml"
                         case "groups": return "screens/PremiumGroups.qml"
-                        default: return "premium_chat.qml"
+                        default: return "screens/PremiumChatView.qml"
                     }
                 }
 

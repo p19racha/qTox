@@ -30,6 +30,7 @@
 		"/home/racha/qTox/src/qml/screens/PremiumGroups.qml",
 		"/home/racha/qTox/src/qml/screens/PremiumAddFriend.qml",
 		"/home/racha/qTox/src/qml/screens/PremiumRequests.qml",
+		"/home/racha/qTox/src/qml/screens/PremiumChatView.qml",
 		"/home/racha/qTox/src/qml/components/MessageBubble.qml",
 		"/home/racha/qTox/src/qml/components/ContactListItem.qml",
 		"/home/racha/qTox/src/qml/components/ModernButton.qml",

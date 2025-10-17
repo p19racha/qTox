@@ -282,6 +282,7 @@ qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumPro
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumGroups.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumAddFriend.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumRequests.qml
+qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/screens/PremiumChatView.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/MessageBubble.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ContactListItem.qml
 qtox_autogen/VLDSMZLXNG/qrc_qml.cpp: /home/racha/qTox/src/qml/components/ModernButton.qml

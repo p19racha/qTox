@@ -2,7 +2,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import "../themes"
+import themes
 
 Rectangle {
     id: root

@@ -37,6 +37,14 @@ QtObject {
     property color secondaryTextColor: isDark ? "#b0b0b0" : "#7f8c8d"
     property color tertiaryTextColor: isDark ? "#808080" : "#95a5a6"
     property color invertedTextColor: isDark ? "#2c3e50" : "#ffffff"
+
+    // Compatibility aliases used by older QML files
+    property alias textPrimaryColor: theme.textColor
+    property alias textSecondaryColor: theme.secondaryTextColor
+    property alias textTertiaryColor: theme.tertiaryTextColor
+    property alias accentColor: theme.primaryColor
+    property alias fontSizeNormal: theme.fontSizeBody
+    property alias fontSizeMedium: theme.fontSizeTitle
     
     // UI element colors
     property color borderColor: isDark ? "#404040" : "#e0e0e0"

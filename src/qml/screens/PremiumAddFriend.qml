@@ -298,11 +298,8 @@ Rectangle {
         radius: 12
         color: PremiumTheme.surface
         border.width: 1
-        border.color: PremiumTheme.success
+        border.color: "#4CAF50"
         visible: false
-        
-        layer.enabled: true
-        layer.effect: PremiumShadow {}
 
         RowLayout {
             anchors.fill: parent

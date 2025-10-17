@@ -66,9 +66,9 @@ include util/CMakeFiles/util_library_autogen_timestamp_deps.dir/compiler_depend.
 # Include the progress variables for this target.
 include util/CMakeFiles/util_library_autogen_timestamp_deps.dir/progress.make
 
+util/CMakeFiles/util_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 util/CMakeFiles/util_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 util/CMakeFiles/util_library_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-util/CMakeFiles/util_library_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
 
 util_library_autogen_timestamp_deps: util/CMakeFiles/util_library_autogen_timestamp_deps
 util_library_autogen_timestamp_deps: util/CMakeFiles/util_library_autogen_timestamp_deps.dir/build.make

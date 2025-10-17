@@ -45,15 +45,9 @@ Rectangle {
                         width: 160
                         height: 160
                         radius: 80
-                        color: PremiumTheme.surface
+                        color: "#1A2332"
                         border.width: 4
-                        border.color: PremiumTheme.background
-
-                        layer.enabled: true
-                        layer.effect: PremiumShadow {
-                            shadowOpacity: 0.3
-                            shadowBlur: 30
-                        }
+                        border.color: "#0E1621"
 
                         Rectangle {
                             anchors.fill: parent

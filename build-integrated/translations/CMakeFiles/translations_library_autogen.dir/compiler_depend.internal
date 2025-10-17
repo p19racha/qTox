@@ -26,4 +26,8 @@
  /home/racha/qTox/build-integrated/translations/translations.qrc.in
  /home/racha/qTox/translations/CMakeLists.txt
  /usr/bin/cmake
+ /home/racha/qTox/build-integrated/translations/translations.qrc
+ /home/racha/qTox/build-integrated/translations/translations.qrc.in
+ /home/racha/qTox/translations/CMakeLists.txt
+ /usr/bin/cmake
 

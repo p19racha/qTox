@@ -1,0 +1,5 @@
+dbutility_library_autogen/timestamp: \
+	/home/racha/qTox/test/dbutility/CMakeLists.txt \
+	/home/racha/qTox/test/dbutility/include/dbutility/dbutility.h \
+	/home/racha/qTox/test/dbutility/src/dbutility.cpp \
+	/usr/bin/cmake
